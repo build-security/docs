@@ -1,11 +1,11 @@
 # Table of contents
 
 * [About build.security](README.md)
+* [Architecture](architecture.md)
 
 ## About build.security
 
-* [Getting Started](about-build.security/getting-started/README.md)
-  * [Architecture](about-build.security/getting-started/architecture.md)
+* [Getting Started](about-build.security/getting-started.md)
 
 ---
 
