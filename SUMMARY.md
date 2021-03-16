@@ -4,8 +4,8 @@
 
 ## About build.security
 
-* [test](about-build.security/test/README.md)
-  * [Architecture](about-build.security/test/architecture.md)
+* [Getting Started](about-build.security/getting-started/README.md)
+  * [Architecture](about-build.security/getting-started/architecture.md)
 
 ---
 
