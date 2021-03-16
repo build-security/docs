@@ -14,7 +14,7 @@ build.security’s authorization policy management platform takes minutes to int
 
 Leveraging the [Open Policy Agent](https://www.openpolicyagent.org/) project and the power of open-sourcing, build.security uses API-based data sources to inform enterprise-grade access controls across application portfolios. With build.security, development teams can ensure that their applications meet critical standards and compliance requirements in just a matter of minutes.
 
-## External Sources in Real-Time
+## External Data Sources in Real-Time
 
 Recognizing that every application must account for its own unique set of authorization rules, build.security offers a catalogue of data source connectors to further shorten development cycles. The platform architecture leverages optional caching mechanisms to avoid performance impact.
 
