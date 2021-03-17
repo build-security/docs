@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About build.security](README.md)
+* [build.security's mission](README.md)
 
 ## Documentation <a id="about-build.security"></a>
 
