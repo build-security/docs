@@ -28,7 +28,7 @@ The control plane is offered as a managed service in build.security’s cloud or
 ### Policy Decision Points \(PDP\)
 
 **The Policy Decision Points \(PDP\)** are OPA-based docker containers that serve the purpose of getting a JSON request, running a policy on it along with the data at hand, and producing a JSON decision with sub-millisecond latency.  
-The PDPs can be deployed as sidecar containers or as a service, in the cloud or on-prem.  
+The [PDPs](../../policy-decision-points-pdp/pdp-deployments.md) can be deployed as sidecar containers or as a service, in the cloud or on-prem.  
 The PDPs come with built-in connectors to a wide range of data sources, enabling the use of external information as part of the policy evaluation phase. To minimize latency and increase performance, an in-memory caching layer is also part of the PDP.
 
 ![Policy Decision Points in build.security](https://files.readme.io/41612c7-pdps.PNG)
@@ -39,7 +39,7 @@ The PDPs come with built-in connectors to a wide range of data sources, enabling
 
 ### Policy Enforcement Points \(PEP\)
 
-**The Policy Enforcement Points \(PEP\)** are those who are responsible for enforcing the decision given by the PDPs. The enforcement points could be in the form of API gateways, reverse proxies, middlewares, SDKs, and more.
+**The Policy Enforcement Points \(PEP\)** are those who are responsible for enforcing the decision given by the PDPs. The[ enforcement points](../../pep-integrations.md) could be in the form of API gateways, reverse proxies, middlewares, SDKs, and more.
 
 ![Policy Enforcement Points integration options](https://files.readme.io/68ee5c3-pep.PNG)
 
