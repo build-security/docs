@@ -1,16 +1,13 @@
 # Table of contents
 
 * [About build.security](README.md)
-* [Architecture](architecture.md)
 
-## About build.security
+## Documentation <a id="about-build.security"></a>
 
-* [Getting Started](about-build.security/getting-started.md)
-
----
-
-* [Untitled](untitled/README.md)
-  * [Untitled](untitled/untitled-1/README.md)
-    * [Untitled](untitled/untitled-1/untitled-2/README.md)
-      * [Untitled](untitled/untitled-1/untitled-2/untitled.md)
+* [About build.security](about-build.security/about-build.security-1/README.md)
+  * [Architecture](about-build.security/about-build.security-1/getting-started.md)
+  * [Using OPA for Applications Authorization](about-build.security/about-build.security-1/using-opa-for-applications-authorization.md)
+* [Getting Started](about-build.security/getting-started/README.md)
+  * [Logging In](about-build.security/getting-started/logging-in.md)
+  * [Control Plane Overview](about-build.security/getting-started/control-plane-overview.md)
 
