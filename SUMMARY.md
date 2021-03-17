@@ -82,3 +82,14 @@
 * [Standalone Docker](pdp-deployment-methods/standalone-docker-1.md)
 * [Kubernetes](pdp-deployment-methods/kubernetes.md)
 
+## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
+
+* [Docker Authorization Plugin](pep-integrations-1/docker-authorization-plugin.md)
+* [Envoy Proxy Plugin](pep-integrations-1/envoy-proxy-plugin.md)
+
+---
+
+* [Node.js](https://github.com/build-security/opa-express-middleware)
+* [PHP Symfony](https://github.com/build-security/opa-symfony-middleware)
+* [ASP.Net](https://github.com/build-security/OPA-AspDotNetCore-Middleware)
+
