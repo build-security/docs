@@ -49,4 +49,36 @@
 * [Decision Logs](untitled-2/README.md)
   * [Decision Log Filters](untitled-2/decision-log-filters.md)
   * [Decision Details](untitled-2/decision-details.md)
+* [Impact Analysis](impact-analysis/README.md)
+  * [Rule Tracing](impact-analysis/rule-tracing.md)
+* [PEP Integrations](pep-integrations.md)
+* [Policies](policies/README.md)
+  * [Policies Screen](policies/policies-screen.md)
+  * [Policy Toolbar](policies/policy-toolbar.md)
+  * [Policy Evaluation Playground](policies/policy-evaluation-playground.md)
+  * [Policy Code Panel](policies/policy-code-panel.md)
+  * [Creating a New Policy](policies/creating-a-new-policy.md)
+  * [Editing Policy Settings](policies/editing-policy-settings.md)
+  * [Deleting a Policy](policies/deleting-a-policy.md)
+  * [Policy Item Status](policies/policy-item-status.md)
+* [Policy Items](policy-items/README.md)
+  * [Managing Policy Items](policy-items/managing-policy-items.md)
+  * [Predefined Rules \(Templates\)](policy-items/predefined-rules-templates.md)
+  * [Empty Rules](policy-items/empty-rules.md)
+  * [Custom Blocks](policy-items/custom-blocks.md)
+
+## BUILT-IN FUNCTIONS
+
+* [Built-In Functions](built-in-functions/built-in-functions/README.md)
+  * [build.geo\_from\_ip](built-in-functions/built-in-functions/build.geo_from_ip.md)
+  * [build.query\_raw](built-in-functions/built-in-functions/build.query_raw/README.md)
+    * [DynamoDB](built-in-functions/built-in-functions/build.query_raw/dynamodb.md)
+    * [MySQL](built-in-functions/built-in-functions/build.query_raw/mysql.md)
+    * [Elasticsearch](built-in-functions/built-in-functions/build.query_raw/elasticsearch.md)
+    * [PostgreSQL](built-in-functions/built-in-functions/build.query_raw/postgresql.md)
+
+## PDP DEPLOYMENT METHODS
+
+* [Standalone Docker](pdp-deployment-methods/standalone-docker-1.md)
+* [Kubernetes](pdp-deployment-methods/kubernetes.md)
 
