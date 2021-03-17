@@ -49,6 +49,7 @@
 * [Decision Logs](decision-logs/README.md)
   * [Decision Log Filters](decision-logs/decision-log-filters.md)
   * [Decision Details](decision-logs/decision-details.md)
+  * [Decision Log Masking](decision-logs/decision-log-masking.md)
 * [Impact Analysis](impact-analysis/README.md)
   * [Rule Tracing](impact-analysis/rule-tracing.md)
 * [PEP Integrations](pep-integrations.md)
