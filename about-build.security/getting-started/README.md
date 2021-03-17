@@ -13,7 +13,7 @@ After you [log into the platform](control-plane-overview.md), you will need to c
 * [Selecting or creating a project](../../projects/project-selection-screen.md)
 * [Defining one or more data sources](../../data-sources/)
 * [Defining one or more Policy Decision Points \(PDPs\)](../../policy-decision-points-pdp/creating-a-new-pdp-configuration.md)
-* Deploying a Decison engin 
+* Deploying a Decision engine 
 * [Integrating Policy Enforcement Points \(PEPs\)](../../pep-integrations.md)
 
 {% hint style="info" %}
