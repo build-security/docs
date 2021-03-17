@@ -26,7 +26,7 @@ In certain scenarios, upon logging in, a user might automatically enter directly
 * Building an authorization policy
 * Publishing an authorization policy
 
-At any time, you may decide to add additional policies or change existing ones. Finally, build.security enables you to log authorization decisions in the [build.security decision log](https://docs.build.security/docs/docs/decision-log) table.
+At any time, you may decide to add additional policies or change existing ones. Finally, build.security enables you to log authorization decisions, centrally collect them and then view / forward them.
 
-In addition, using the Monitored status option for a policy item, you can [analyze the impact ](https://docs.build.security/docs/docs/impact-analysis-1)that a policy item would have on the authorization decision, without actually activating it.
+In addition, using the `Monitored` status option for a policy item, you can [analyze the impact](../../impact-analysis/) that a policy item would have on the authorization decision, without actually activating it.
 

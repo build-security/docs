@@ -37,7 +37,7 @@ Note: If your organization does not require SSO login and you still select this 
 If you are unable to log in, contact your administrator to reset your password or contact- [support@build.security](mailto:support@build.security).
 {% endhint %}
 
-More details on User Management can be found In [System Settings](https://docs.build.security/docs/system-settings-1).
+More details on User Management can be found In [System Settings](../../system-settings/).
 
 ### First Login
 
