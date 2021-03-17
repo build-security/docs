@@ -30,8 +30,10 @@ More information regarding decisions log masking can be found in the [OPA docume
 {% hint style="info" %}
 **Note**
 
-Any time that you change the input/output masking section, you should click the **PUBLISH** button to ensure that your updates are applied to the configuration settings included in the next bundle.
+Since log masking is done on the PDP side, after changing any one of the settings - a **PUBLISH** operation is required.
 {% endhint %}
+
+
 
 ![Decision log settings](https://files.readme.io/a9ff648-ruletracingprojsettings.PNG)
 
