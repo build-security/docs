@@ -16,9 +16,11 @@ Leveraging the [Open Policy Agent](https://www.openpolicyagent.org/) project and
 
 ## External Data Sources in Real-Time
 
-Recognizing that every application must account for its own unique set of authorization rules, build.security offers a catalogue of data source connectors to further shorten development cycles. The platform architecture leverages optional caching mechanisms to avoid performance impact.
+Recognizing that every application must account for its own unique set of authorization rules, build.security offers a catalog of data source connectors to further shorten development cycles. The platform architecture leverages optional caching mechanisms to avoid performance impact.
 
-build.security allows organizations to bring information from external data sources to the policy engine in **real-time**. Current external data-source integrations include PostgreSQL, Elasticsearch, and DynamoDB. Additional integrations are already planned for ticketing systems such as JIRA and ServiceNow, and source code repositories such as git and Bitbucket, and more. This means that developers can now leverage information from all the above-mentioned data sources in their policy decisions with just a few clicks.
+build.security allows organizations to bring information from external data sources to the policy engine in **real-time**. Current external data-source integrations include PostgreSQL, Elasticsearch, DynamoDB and MySQL. 
+
+Additional integrations are already planned for ticketing systems such as JIRA and ServiceNow, and source code repositories such as git and Bitbucket, and more. This means that developers can now leverage information from all the above-mentioned data sources in their policy decisions with just a few clicks.
 
 ![Data sources](../../.gitbook/assets/image%20%282%29.png)
 
@@ -26,7 +28,7 @@ build.security allows organizations to bring information from external data sour
 
 The platform’s key features include:
 
-* A unified "single pane of glass" approach that enables developers to easily author, evaluate, distribute and monitor policies at scale.
+* A unified "single pane of glass" approach enables developers to easily author, evaluate, distribute and monitor policies at scale.
 * Policy-as-code, allowing developers to express authorization policies with a no-code policy building process or through a low-code declarative language.
 * Seamless integrations with identity providers, databases and other API-based services.
 * Automatic policy suggestions based on runtime interactions between services.
