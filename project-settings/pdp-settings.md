@@ -7,7 +7,7 @@ The PDP settings, located under the [Project Settings](https://docs.build.securi
 * Bundle settings
 * Envoy integration settings
 
-![PDP Screen](https://files.readme.io/3430b5e-pdp-old.PNG)
+![PDP Settings](../.gitbook/assets/image.png)
 
 ### Bundle Settings
 
