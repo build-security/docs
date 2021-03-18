@@ -30,8 +30,6 @@ In the Policies area of the navigation panel, you can:
 * [Delete a policy](https://docs.build.security/docs/policy-settings)
 * [Managing policy items](https://docs.build.security/docs/policy-rules)
 * [Publish a policy](https://docs.build.security/docs/policy-deployment)
-* Switch between policy versions
-* Access an archived policy version
 
 ![Policy screen](https://files.readme.io/4bc2597-policy2.PNG)
 
