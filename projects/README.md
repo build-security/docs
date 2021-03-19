@@ -25,7 +25,7 @@ The main details defined when creating a new project are:
 * Project name
 * Description of the project \(optional\)
 
-These values are defined when the project is created and can be accessed and edited later on the [Project Settings](https://docs.build.security/docs/manage-your-projects) screen.
+These values are defined when the project is created and can be accessed and edited later on the [Project Settings](../project-settings/) screen.
 
 ![Project screen](https://files.readme.io/872aba7-newproject.PNG)
 

@@ -27,7 +27,7 @@ Once you have created at least one log shipping integration, you can apply log s
 
 ### Deleting a Log Shipping Integration
 
-Before you can delete a log shipping integration from the build.security control plane, you must first remove any connections you have created between that integration and any projects you have configured to use it \(see [Disabling Log Shipping](https://docs.build.security/docs/disabling-log-shipping) for more information\). If you do not first remove this connection, the following error message will appear:
+Before you can delete a log shipping integration from the build.security control plane, you must first remove any connections you have created between that integration and any projects you have configured to use it \(see [Disabling Log Shipping](../project-settings/log-shipping.md) for more information\). If you do not first remove this connection, the following error message will appear:
 
 ![Error message](https://files.readme.io/94500e7-lserror.PNG)
 
@@ -37,7 +37,7 @@ Before you can delete a log shipping integration from the build.security control
 2. Locate the integration you wish to delete and press the kebab \(three vertical dots\) on the right side.
 3. Select **Delete** and then **Confirm**.
 
-The integration is removed. Note that if you wish to enable this integration again, you will have to recreate it \(see [Log Shipping Integration](https://docs.build.security/docs/log-shipping)\), including entering the API key again.
+The integration is removed. Note that if you wish to enable this integration again, you will have to recreate it, including entering the API key again.
 
 ![Removing a log shipping integration](https://files.readme.io/e0b1cff-removinglsintegration.PNG)
 
