@@ -18,6 +18,6 @@ To deploy your PDP correctly, use the relevant installation instructions for you
 
 ### Supported Environments
 
-[Standalone Docker](https://docs.build.security/docs/docker)  
-[Kubernetes](https://docs.build.security/docs/k8s-deployment)
+[Standalone Docker](../pdp-deployment-methods/standalone-docker-1.md)  
+[Kubernetes](../pdp-deployment-methods/kubernetes.md)
 
