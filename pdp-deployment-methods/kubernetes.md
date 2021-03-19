@@ -25,7 +25,7 @@ Once this has been created, you can:
 kubectl create secret generic pdp-secret --from-literal=<API_KEY>='<API_SECRET>'
 ```
 
-Create a file named `pdp-deployment.yaml` with the content:YAML
+Create a file named `pdp-deployment.yaml` with the content:
 
 ```text
 apiVersion: apps/v1
@@ -92,15 +92,13 @@ spec:
 
 ### Create the pod
 
-Shell
-
 ```text
 kubectl apply -f pdp-deployment.yaml
 ```
 
 ### Create Service Specification
 
-Create a file named `pdp-service.yaml` with the content:YAML
+Create a file named `pdp-service.yaml` with the content:
 
 ```text
 apiVersion: v1
