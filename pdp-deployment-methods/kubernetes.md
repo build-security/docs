@@ -2,7 +2,7 @@
 
 ### Getting started
 
-To deploy a new PDP with Kubernetes, the first step is to create the PDP within build.security - see [Creating a new PDP](https://docs.build.security/docs/define-new-pdp-configuration).
+To deploy a new PDP with Kubernetes, the first step is to create the PDP within build.security - see [Creating a new PDP](../policy-decision-points-pdp/creating-a-new-pdp-configuration.md).
 
 Once this has been created, you can:
 
@@ -62,6 +62,8 @@ spec:
                 secretKeyRef:
                   name: pdp-secret
                   key: <API_KEY>
+            - name: PDP_LOG_LEVEL
+              value: error
           startupProbe:
             httpGet:
               path: /health
