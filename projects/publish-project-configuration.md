@@ -14,8 +14,8 @@ Bundle polling settings are configured by clicking the PDP Settings option on th
 
 The bundle includes:
 
-* All the updated policies within the project at the moment
-* Data source details
+* All the updated policies within the project at the moment.
+* Data source details.
 
 ### Publish to PDPs
 
@@ -32,12 +32,14 @@ To complete the publish process, click **Publish**.
 {% hint style="info" %}
 **Note**
 
-You can click the PUBLISH button at any time. When you do, the Publish Project Configurations panel appears. If there are no updates, the Publish Project Configurations panel will indicate that there have been no updates. You can press **Cancel** to return to the previous screen.
+You can click the **PUBLISH** button at any time. When you do, the Publish Project Configurations panel appears. If there are no updates, the Publish Project Configurations panel will indicate that there have been no updates. You can press **Cancel** to return to the previous screen.
 {% endhint %}
 
 Each time you click Publish, you will receive a confirmation message as soon as it is completed successfully. Typically, this is only a few seconds, at most.
 
 ![Publish success message](https://files.readme.io/d4f500e-pdppublishsucess.PNG)
 
-
+{% hint style="success" %}
+Comming Soon - intgrate your git repositry and commit your policies for continuase deplyomet  
+{% endhint %}
 
