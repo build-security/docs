@@ -22,10 +22,12 @@ The datasource is available and [created](https://docs.build.security/docs/defin
 * `query string`: string. The SQL/PartiQL query string is applicable for the specific data source.
 * `query params`: Array of objects. Optional parameters for the command.
 
-```text
+{% code title="build.query\_rew" %}
+```sql
 user := build.query_raw(data.datasources["my_datasource"],
   "SELECT * FROM users WHERE userId = ?", [input.userId])
 ```
+{% endcode %}
 
 ### Function Usage Example
 
