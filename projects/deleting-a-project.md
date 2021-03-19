@@ -1,6 +1,6 @@
 # Deleting a project
 
-You can delete a project from the [Project Settings](https://docs.build.security/docs/manage-your-projects) screen.
+You can delete a project from the [Project Settings](../project-settings/) screen.
 
 **To delete a project:**
 

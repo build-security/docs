@@ -9,12 +9,12 @@ When changes are made to your data sources \(creating new ones, modifying config
 {% hint style="info" %}
 **Note**
 
-Bundle polling settings are configured by clicking the PDP Settings option on the [Project Settings screen](https://docs.build.security/docs/manage-your-projects).
+Bundle polling settings are configured by clicking the PDP Settings option on the [Project Settings screen](../project-settings/pdp-settings.md).
 {% endhint %}
 
 The bundle includes:
 
-* All the policy versions that were marked as "Ready"
+* All the updated policies within the project at the moment
 * Data source details
 
 ### Publish to PDPs

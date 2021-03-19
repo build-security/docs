@@ -6,7 +6,7 @@ A project can be considered your workspace, the place where you will create, man
 
 **To create a new project:**
 
-1. On the [project selection screen](https://docs.build.security/docs/project-management-screen), scroll below existing projects to locate the blank project box.
+1. On the [project selection screen](project-selection-screen.md), scroll below existing projects to locate the blank project box.
 2. Click in the box and in the **Project name** field, enter the name of the new project.
 3. In the **Project description** field, enter a short description \(optional\).
 4. Click **Create.** A confirmation message will appear, confirming that the project was successfully created.
@@ -19,11 +19,12 @@ Every project must have a unique name. If you attempt to create a new project wi
 
 Once you have created the project itself, you can begin to configure the project by defining the following:
 
-* [Define data sources](https://docs.build.security/docs/defining-a-new-data-source)
-* [Define Policy Decision Points](https://docs.build.security/docs/define-new-pdp-configuration)
-* [Integrate Policy Enforcement Points](https://docs.build.security/docs/policy-enforcement-points-peps)
-* [Configure project settings](https://docs.build.security/docs/manage-your-projects)
-* [Build a policy](https://docs.build.security/docs/building-policies)
+* [Define Data sources](../data-sources/)
+* [Build a policy](../policies/)
+* [Define and deploy Policy Decision Points](../policy-decision-points-pdp/)
+* [Configure project settings](../project-settings/)
+
+
 
 ![](https://files.readme.io/c96c60b-projsuccess.PNG)
 

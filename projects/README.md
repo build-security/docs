@@ -12,11 +12,11 @@ After logging in and entering the control plane, all that you see when clicking 
 
 Within the project, you can create and manage:
 
-* \*\*\*\*[**Policies**](../policies/): a policy defines the organization's authorization requirements, essentially what resources users will be allowed or denied access to.
-* \*\*\*\*[**Data sources**](../data-sources/): an internal or external data source \(for example an internal database, a PostgreSQL database, etc.\) responsible for supplying relevant data in real-time.
-* \*\*\*\*[**Policy Decision Points**](../policy-decision-points-pdp/): PDPs are responsible for making authorization decisions based on the organization's authorization policy. build.security's PDP screen enables you to configure
-* \*\*\*\*[**Policy Enforcement Points**](../pep-integrations.md): PEPs are responsible for enforcing the authorization decisions they receive from the organization's PDPs. PEPs are integrated with build.security.
-* \*\*\*\*[**Decision logs**](../decision-logs/): an ongoing log of all authorization decisions that were made with additional drill-down options to view decision metrics, input, results and more.
+* **Policies**: a policy defines the organization's authorization requirements, essentially what resources users will be allowed or denied access to.
+* **Data sources**: an internal or external data source \(for example an internal database, a PostgreSQL database, etc.\) responsible for supplying relevant data in real-time.
+* **Policy Decision Points**: PDPs are responsible for making authorization decisions based on the organization's authorization policy. build.security's PDP screen enables you to configure
+* **Policy Enforcement Points**: PEPs are responsible for enforcing the authorization decisions they receive from the organization's PDPs. PEPs are integrated with build.security.
+* **Decision logs**: an ongoing log of all authorization decisions that were made with additional drill-down options to view decision metrics, input, results and more.
 
 ### Project Details
 
