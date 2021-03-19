@@ -10,7 +10,7 @@ In order for the decision engine to work, it is required:
 * Send decision logs.
 
 1. Communicate with your organizational databases on which the decisions rely.
-2. Communicate with the applications which are based on the decision engine in enforcing permissions \(detailed in the [PEP](https://docs.build.security/docs/policy-enforcement-points-peps-1) section\).
+2. Communicate with the applications which are based on the decision engine in enforcing permissions \(detailed in the [PEP](../pep-integrations.md) section\).
 
 ![Policy Decision Points](https://files.readme.io/981bdf2-Policy_Decision_Points.jpg)
 

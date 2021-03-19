@@ -10,7 +10,7 @@ On the Policy Decision Point screen, you can define new PDP configurations. Note
 4. In the **Description** field, enter a description for the new PDP \(optional\).
 5. Click **Save** to create the new PDP.
 
-Once you create the PDP configuration, you should [generate a PDP key and secret ](https://docs.build.security/docs/generate-keys-for-a-pdp-instance)for it.
+Once you create the PDP configuration, you should [generate a PDP key and secret ](generating-api-keys-for-a-pdp.md)for it.
 
 ![New Policy Decision Point screen](https://files.readme.io/ff655c2-newpdp-nogen.PNG)
 

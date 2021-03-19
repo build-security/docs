@@ -20,7 +20,7 @@ Once you have created the integration, you can then assign whether or not log sh
 {% hint style="info" %}
 **Note**
 
-Once you have created at least one log shipping integration, you can apply log shipping to your project in the [Project Settings screen](https://docs.build.security/docs/decision-log-settings).
+Once you have created at least one log shipping integration, you can apply log shipping to your project in the [Project Settings screen](../projects/project-selection-screen.md).
 {% endhint %}
 
 ![New log shipping integration](https://files.readme.io/7104a4f-new_log_shipping_integration.PNG)
