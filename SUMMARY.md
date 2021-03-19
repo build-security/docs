@@ -37,6 +37,7 @@
   * [Deleting a PDP](policy-decision-points-pdp/deleting-a-pdp.md)
   * [PDP Hardening](policy-decision-points-pdp/pdp-hardening.md)
   * [Caching Mechanism](policy-decision-points-pdp/caching-mechanism.md)
+  * [PDP debugging](policy-decision-points-pdp/pdp-debugging.md)
 * [Data Sources](data-sources/README.md)
   * [Defining a New Data Source](data-sources/defining-a-new-data-source.md)
   * [New Internal Data Source](data-sources/new-internal-data-source.md)
