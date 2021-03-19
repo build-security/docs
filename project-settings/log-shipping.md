@@ -2,7 +2,7 @@
 
 Using build.security's log shipping feature, you can automatically send decision log backups from the control plane to one or more databases within your organization. Typically, organizations use log shipping to enable them to maintain one unified logging infrastructure. Implementing log shipping can be done easily and quickly by:
 
-1. Creating a [log shipping integration](https://docs.build.security/docs/log-shipping)
+1. Creating a [log shipping integration](../system-settings/log-shipping-integration.md)
 2. Enabling the log shipping integration on a project-by-project basis.
 
 ### Enabling a Log Shipping Integration

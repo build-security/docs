@@ -1,9 +1,9 @@
 # Decision Log Settings
 
-The decision log screen displays an up-to-date listing of all authorization decisions received in the field. You can configure the decision log on the project settings screen. Select _Decision Log_ to see the settings options. These include:
+The [decision log screen](../decision-logs/) displays an up-to-date listing of all authorization decisions received in the field. You can configure some of the decision log settings on the project settings screen. Select _Decision Log_ to see the settings options. These include:
 
 * Configuring whether the PDP should collect and store decision logs
-* Setting the the frequency for when the decision log will be updated
+* Setting the frequency for when the decision log will be updated
 * Setting **Input / Output** to mask any sensitive data before it gets sent from the PDP
 
 After you complete the fields, or in the future if you change any values in these fields, click **UPDATE** to save the new settings.
@@ -18,7 +18,7 @@ After you complete the fields, or in the future if you change any values in thes
 
 ### Decision Log Masking
 
-In the decision log, the full input and result content of the authorization request / response are stored. To hide sensitive information from the decision log, you can specify which fields will be hidden \(or masked\) in the decision log.
+In the decision log, the full input and result content of the authorization request/response are stored. To hide sensitive information from the decision log, you can specify which fields will be hidden \(or masked\) in the decision log.
 
 There are a few restrictions on the JSON Pointers that the PDP will mask:
 
@@ -31,7 +31,7 @@ More information regarding decisions log masking can be found in the [OPA docume
 {% hint style="info" %}
 **Note**
 
-Since log masking is done on the PDP side, after changing any one of the settings - a **PUBLISH** operation is required.
+Since log masking is a policy like any other authorization policy it needs to be published in order to submit changes on the PDP, after changing any one of the settings - a [**PUBLISH**](../projects/publish-project-configuration.md) operation is required.
 {% endhint %}
 
 
