@@ -17,6 +17,7 @@ docker run \
   -e API_KEY="..." \
   -e API_SECRET="..." \
   -e CONTROL_PLANE_ADDR="https://api.dev.build.security/v1/api/pdp" \
+  -e PDP_LOG_LEVEL=error \
   --mount type=bind,source="$(pwd)"/https,target=/app/https \
   buildsecurity/pdp sh -c "./opa_plus run --server --log-level error --skip-version-check --config-file config.yaml --tls-cert-file https/public.crt --tls-private-key-file https/private.key"
 ```
@@ -32,6 +33,7 @@ docker run \
   -d \
   -e API_KEY="..." \
   -e API_SECRET="..." \
+  -e PDP_LOG_LEVEL=error \
   -e CONTROL_PLANE_ADDR="https://api.dev.build.security/v1/api/pdp" \
   --mount type=bind,source="$(pwd)"/https,target=/app/https \
   buildsecurity/pdp sh -c "./opa_plus run --server --log-level error --skip-version-check --config-file config.yaml --tls-cert-file https/public.crt --tls-private-key-file https/private.key --addr https://0.0.0.0:8181 --addr http://0.0.0.0:8282"
