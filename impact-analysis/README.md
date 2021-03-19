@@ -6,7 +6,7 @@ Using this feature, you can quickly and confidently explore different policy str
 
 In build.security, a policy is built with one or more items. Each item is given a status as it is created. By default, the initial status is **Inactive**. Once you have completed the task of creating the item and are ready to have it included in the policy decision process, you will likely change the status to **Active**. When the policy item's status is Active, it is part of the policy and part of the authorization decision returned by the PDP.
 
-A third status option is Monitored. When combined with the [rule tracing](https://docs.build.security/docs/policy-rule-tracing) feature, you can perform extensive impact analysis evaluations on various potential policy adjustments without impacting your current authorization policy in any way.
+A third status option is Monitored. When combined with the [rule tracing](rule-tracing.md) feature, you can perform extensive impact analysis evaluations on various potential policy adjustments without impacting your current authorization policy in any way.
 
 ### Monitored Status Enables Evaluating each Policy Item
 

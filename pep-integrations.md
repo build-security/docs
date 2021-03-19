@@ -12,9 +12,9 @@ The PEP can be your application implementing one of build.security middlewares, 
 
 build.security supports multiple framework, plugins, and middlewares. To integrate build.security with your PEPs, you can access the following detailed tutorials:
 
-* **Docker Authorization** [guide](https://docs.build.security/docs/docker-authorization) \| [github](https://github.com/build-security/pdp-docker-authz)
-* **Envoy proxy configuration** [guide](https://docs.build.security/docs/envoy-integration-quick-start) \| [github](https://github.com/build-security/opa-envoy-plugin)
-* **Java Spring** [guide](https://docs.build.security/docs/quickstart-java) \| [github](https://github.com/build-security/opa-java-spring-client/tree/main/example)
+* **Docker Authorization** [guide](docker-authorization-policy.md) \| [github](https://github.com/build-security/pdp-docker-authz)
+* **Envoy proxy configuration** [guide](pep-integrations-1/envoy-proxy-plugin.md) \| [github](https://github.com/build-security/opa-envoy-plugin)
+* **Java Spring** [github](https://github.com/build-security/opa-java-spring-client/tree/main/example)
 * **Node.js** [github](https://github.com/build-security/pdp-docker-authz)
 * **PHP-Symfony** [github](https://github.com/build-security/opa-symfony-middleware)
 * **ASP.Net** [github](https://github.com/build-security/OPA-AspDotNetCore-Middleware)

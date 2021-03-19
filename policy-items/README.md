@@ -4,9 +4,9 @@ A policy is built by defining one or more policy items. Some policies can be ade
 
 Policy items are basically snippets of code written in Rego combined to create OPA-based policies. There are three types of policy items that can be defined and customized in the control plane. These include:
 
-* Rules from templates
-* Empty rules
-* Custom blocks
+* [Rules from templates](predefined-rules-templates.md)
+* [Empty rules](empty-rules.md)
+* [Custom blocks](custom-blocks.md)
 
 ![Policy item types](https://files.readme.io/4be19c2-Policy_Items_types.png)
 

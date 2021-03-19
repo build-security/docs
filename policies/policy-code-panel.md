@@ -1,6 +1,6 @@
 # Policy Code Panel
 
-The policy code panel offers you the ability to view and copy the compiled Rego code that is sent to your PDP for the current policy being displayed. The panel is located in a shared space with the [Policy Evaluation Playground](https://docs.build.security/docs/policy-evaluation-playground) panel.
+The policy code panel offers you the ability to view and copy the compiled Rego code that is sent to your PDP for the current policy being displayed. The panel is located in a shared space with the [Policy Evaluation Playground](policy-evaluation-playground.md) panel.
 
 When you click on the expand icon, the Policy Code panel opens on the right side of the policies screen.
 

@@ -57,7 +57,7 @@ $ kill -HUP $(pidof dockerd)
 
 ### Step \#2: Install a PDP using the build.security control plane
 
-See instructions here: [Creating a New PDP Configuration](https://docs.build.security/docs/define-new-pdp-configuration)  
+See instructions here: [Creating a New PDP Configuration](policy-decision-points-pdp/creating-a-new-pdp-configuration.md)  
 Make sure to run the PDP on the same host that is running the plugged Docker Engine.
 
 ### Step \#3: Create a Docker authorization policy
@@ -84,7 +84,7 @@ You can change the rule behavior or create a new rule and adjust it for your nee
 
 Mark the new policy as "ready" and publish it to the PDP from the previous step using the Publish button \(upper right corner\)
 
-For more information on- [Publish process](https://docs.build.security/docs/policy-deployment)
+For more information on- [Publish process](projects/publish-project-configuration.md)
 
 ### Step \#5: That's it!
 

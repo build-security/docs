@@ -106,7 +106,7 @@ static_resources:
 
 **To enable the Envoy proxy to access the external authorization:**
 
-* 1. [Enable the PDP to listen to envoy requests](https://docs.build.security/docs/pdp-settings).
+* 1. [Enable the PDP to listen to envoy requests](../project-settings/pdp-settings.md#envoy-integration-settings).
 * 1. Replace &lt;EXT\_AUTHZ\_TARGET\_URI&gt; from line 45 with your PDP address and port.
 
 Note: The gRPC port that the PDP listens on is 9191. For example :"10.10.0.1:9191"

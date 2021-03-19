@@ -6,7 +6,7 @@ The following will demonstrate building a policy using a simple Role Based Acces
 
 First, we'll define a very basic roles and permissions mapping. We'll do so using the internal data source.
 
-1. Create a new internal data source \(see [here](https://docs.build.security/docs/creating-an-internal-data-source) for more instructions\)
+1. Create a new internal data source \(see [here](data-sources/new-internal-data-source.md) for more instructions\)
 2. Use the following json object:
 
 ```text
@@ -104,7 +104,7 @@ Policy is ready, next - test the policy.
 
 ### Testing the Policy
 
-One way to test the policy is to [deploy a PDP](https://docs.build.security/docs/pdp-implementation) and querying it using cURL or straight from your application.  
+One way to test the policy is to [deploy a PDP](policy-decision-points-pdp/creating-a-new-pdp-configuration.md) and querying it using cURL or straight from your application.  
 Another option is to use build.security's policy evaluator.  
 For the following input, where `alice` is trying to do `overview.edit`, the request will get allowed:
 

@@ -13,7 +13,7 @@ The simplicity of testing in one click aside of the policy rules will help under
 {% hint style="warning" %}
 #### **Active** PDP is required
 
-The evaluation calculation is done on an active real PDP instance you can [verify](https://docs.build.security/docs/policy-decision-points) that you have an active instance, if not simply [deploy](https://docs.build.security/docs/pdp-implementation) a new Decision point.
+The evaluation calculation is done on an active real PDP instance you can [verify](../../policy-decision-points-pdp/) that you have an active instance, if not simply [deploy](../../policy-decision-points-pdp/creating-a-new-pdp-configuration.md) a new Decision point.
 {% endhint %}
 
 ### Our Policy

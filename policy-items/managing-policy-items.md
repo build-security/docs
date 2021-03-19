@@ -8,21 +8,21 @@ Policy items can be created by using the new policy item wizards. There are thre
 
 ![Existing policy items](https://files.readme.io/52f6ef6-policyitems.PNG)
 
-Below the [policy toolbar](https://docs.build.security/docs/policy-toolbar), click the **NEW POLICY ITEM** button. The New Policy Item panel opens on the right. Depending on the integration that was selected when you created the policy, you will have the option to select one of the following:
+Below the [policy toolbar](../policies/policy-toolbar.md), click the **NEW POLICY ITEM** button. The New Policy Item panel opens on the right. Depending on the integration that was selected when you created the policy, you will have the option to select one of the following:
 
 * A predefined rule from common build.security templates: The options for these common rules vary from integration to integration. You can use the scroll bar to scroll through the available options.
 * Custom block option to create your own custom block using Rego language
 * Empty rule to create your own rule using Rego language.
 
-1. Select the desired option and click **ADD**.
+Select the desired option and click **ADD**.
 
-A new Policy Item will be added to the table of existing items \(for more information, see [Policy Items](https://docs.build.security/docs/policy-items). You can now edit the item by clicking on it. It will expand to display more information about the policy item. To learn more, see:
+A new Policy Item will be added to the table of existing items \(for more information, see [Policy Items](./). You can now edit the item by clicking on it. It will expand to display more information about the policy item. To learn more, see:
 
-* [Predefined common rule example](https://docs.build.security/docs/common-rule-example)
-* [Custom block rule example](https://docs.build.security/docs/common-rule-example)
-* [Empty rule example](https://docs.build.security/docs/empty-rule-example)
+* [Predefined common rule example](predefined-rules-templates.md)
+* [Custom rule example](custom-blocks.md)
+* [Empty rule example](empty-rules.md)
 
-If an error in code occurs while you are creating a policy item, the control plane will indicate this error with an error icon and a error window at the bottom of the policy code panel will appear. For more information see [Errors in Code](https://docs.build.security/docs/policy-items#errors-in-code).
+If an error in code occurs while you are creating a policy item, the control plane will indicate this error with an error icon and a error window at the bottom of the policy code panel will appear. For more information see [Errors in Code](./#errors-in-policy-items).
 
 ### Deleting a Policy Item
 

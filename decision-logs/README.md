@@ -4,7 +4,7 @@
 
 The decision logs table enables you to view all decisions made by the PDPs managed in the project. By viewing what the authorization decision was, you can analyze how effectively your authorization policy is being implemented and determine whether or not it is necessary to "tweak" the policy.
 
-To help you find a specific decision or group of decisions, it is possible to filter the data displayed in the table by using several built-in build.security [filters](https://docs.build.security/docs/decision-logs2).
+To help you find a specific decision or group of decisions, it is possible to filter the data displayed in the table by using several built-in build.security [filters](decision-log-filters.md).
 
 ![Decision log screen](https://files.readme.io/28a73e0-decisionlog2.PNG)
 

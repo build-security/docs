@@ -10,8 +10,8 @@ build.security's PDPs support all the built-in functions documented in the Open 
 
 In addition, build.security's PDP also supports built-in functions that are not part of the vanilla OPA project \(though we're working on getting them out there!\).
 
-* [build.query\_raw](https://docs.build.security/docs/buildquery_raw)
-* [build.geo\_from\_ip](https://docs.build.security/docs/buildgeo_from_ip)
+* [build.query\_raw](build.query_raw/)
+* [build.geo\_from\_ip](build.geo_from_ip.md)
 
 {% hint style="info" %}
 **Need more help?**

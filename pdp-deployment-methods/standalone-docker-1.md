@@ -6,7 +6,7 @@ For each PDP configuration, you can simply copy the docker run command and paste
 
 ![PDP instaltion instractions](https://files.readme.io/9bd680e-Screen_Shot_2021-02-18_at_11.07.01.png)
 
-If you didn't create an API key and secret for your PDP yet please do that before - for more information: [Generate Keys for your PDP](https://docs.build.security/docs/generate-keys-for-a-pdp-instance).
+If you didn't create an API key and secret for your PDP yet please do that before - for more information: [Generate Keys for your PDP](../policy-decision-points-pdp/generating-api-keys-for-a-pdp.md).
 
 {% hint style="info" %}
 **Reminder**

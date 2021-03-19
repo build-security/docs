@@ -2,9 +2,9 @@
 
 An organization's policies determine what permissions and restrictions it wants to place on its users as they relate to accessing resources. A policy in build.security contains one or more rules that combine to define the organization's authorization policy.
 
-Before creating a policy, it is helpful to configure some of the elements that are likely to be used in the policy. For example, you may want a policy to be applied to specific users. This could be all employees from a department within your organization, all visitors that try to access an organizational resource on specific days or during certain hours. Your policy could use IP addresses to determine access rights, or verify accessibility based on being part of a user list. In some cases, the policy will have to point to this information in your database. To enable build.security to do this, you will want to define at least one [data source](https://docs.build.security/docs/defining-a-new-data-source).
+Before creating a policy, it is helpful to configure some of the elements that are likely to be used in the policy. For example, you may want a policy to be applied to specific users. This could be all employees from a department within your organization, all visitors that try to access an organizational resource on specific days or during certain hours. Your policy could use IP addresses to determine access rights, or verify accessibility based on being part of a user list. In some cases, the policy will have to point to this information in your database. To enable build.security to do this, you will want to define at least one [data source](../data-sources/).
 
-Once the policy is defined, you will want build.security to connect to your organization's Policy Decision Points \(PDPs\) and Policy Enforcement Points \(PEPS\), so integration with these must be configured in build.security as well \(see [Creating a New PDP Configuration](https://docs.build.security/docs/define-new-pdp-configuration) and [PEP Integrations](https://docs.build.security/docs/policy-enforcement-points-peps-1)\).
+Once the policy is defined, you will want build.security to connect to your organization's Policy Decision Points \(PDPs\) and Policy Enforcement Points \(PEPS\), so integration with these must be configured in build.security as well \(see [Creating a New PDP Configuration](../policy-decision-points-pdp/creating-a-new-pdp-configuration.md) and [PEP Integrations](../pep-integrations.md)\).
 
 To help you quickly build your policies, each time you create a policy, you can use predefined common rules that can be included in a policy to define or customize what you wish to implement in your organization.
 
@@ -25,11 +25,11 @@ When an authorization request is received \(for example: can this user be grante
 
 In the Policies area of the navigation panel, you can:
 
-* [Create a policy](https://docs.build.security/docs/creating-a-new-policy)
-* [Edit an existing policy](https://docs.build.security/docs/policy-settings)
-* [Delete a policy](https://docs.build.security/docs/policy-settings)
-* [Managing policy items](https://docs.build.security/docs/policy-rules)
-* [Publish a policy](https://docs.build.security/docs/policy-deployment)
+* [Create a policy](creating-a-new-policy.md)
+* [Edit an existing policy](editing-policy-settings.md)
+* [Delete a policy](deleting-a-policy.md)
+* [Managing policy items](../policy-items/managing-policy-items.md)
+* [Publish a policy](../projects/publish-project-configuration.md)
 
 ![Policy screen](https://files.readme.io/4bc2597-policy2.PNG)
 
@@ -38,9 +38,9 @@ In the Policies area of the navigation panel, you can:
 A policy is built by defining one or more policy items. Some policies can be adequately expressed with a single rule or policy item. Others may require a combination of several policy items. There are three types of policy items that can be defined and customized in the control plane.  
 These include:
 
-* [Predefined rules created from build.security templates](https://docs.build.security/docs/common-rule-example)
-* [Custom blocks](https://docs.build.security/docs/custom-block-rule-example)
-* [Empty rules](https://docs.build.security/docs/empty-rule-example)
+* [Predefined rules created from build.security templates](../policy-items/predefined-rules-templates.md)
+* [Custom blocks](../policy-items/custom-blocks.md)
+* [Empty rules](../policy-items/empty-rules.md)
 
 ![Policy item types](https://files.readme.io/1c2e7c0-Policy_Items_types.png)
 

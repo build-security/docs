@@ -87,7 +87,7 @@ spec:
 `<API_SECRET>`  
 `CONTROL_PLANE_ADDR`
 
-**All of those provided to you in build.security control plane when** [**creating keys to your PDP**](https://docs.build.security/docs/generate-keys-for-a-pdp-instance) **configuration.**
+**All of those provided to you in build.security control plane when** [**creating keys to your PDP**](../policy-decision-points-pdp/generating-api-keys-for-a-pdp.md) **configuration.**
 {% endhint %}
 
 

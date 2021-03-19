@@ -18,7 +18,7 @@ The new internal data source will now appear in the list of existing data source
 {% hint style="info" %}
 **Note**
 
-After creating a new data source, you will need to navigate to the Policy Deployment Point screen to [publish the new data source settings](https://docs.build.security/docs/policy-deployment) to the PDP.
+After creating a new data source, you will need to navigate to the Policy Deployment Point screen to [publish the new data source settings](../projects/publish-project-configuration.md) to the PDP.
 {% endhint %}
 
 ![New Internal Data Source](https://files.readme.io/483f99e-newinternal.PNG)

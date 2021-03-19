@@ -4,7 +4,7 @@ This is a short example of how to add build an internal data source as one of yo
 
 ### Before you begin: Install a PDP using the build.security control plane
 
-See instructions here: [Creating a New PDP Configuration](https://docs.build.security/docs/define-new-pdp-configuration)  
+See instructions here: [Creating a New PDP Configuration](policy-decision-points-pdp/creating-a-new-pdp-configuration.md)  
 Make sure to run the PDP on the same host that is running the plugged Docker Engine.
 
 ### Step \#1 - Defining your data source
