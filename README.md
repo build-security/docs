@@ -8,3 +8,7 @@ It’s time to bring maturity and simplicity to authorization, and we’re leadi
 
 We believe that the best security is powered by community. This largely inspired us to [open-source](https://github.com/build-security) our core technology and keep it accessible to all developers. Join us as we build the next generation of authorization.
 
+
+
+[https://vimeo.com/479476358](https://vimeo.com/479476358)
+
