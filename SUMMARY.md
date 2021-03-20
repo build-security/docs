@@ -69,7 +69,7 @@
   * [Empty Rules](policy-items/empty-rules.md)
   * [Custom Blocks](policy-items/custom-blocks.md)
 
-## BUILT-IN FUNCTIONS
+## LIBRARY <a id="built-in-functions"></a>
 
 * [Built-In Functions](built-in-functions/built-in-functions/README.md)
   * [build.geo\_from\_ip](built-in-functions/built-in-functions/build.geo_from_ip.md)
@@ -78,6 +78,7 @@
     * [MySQL](built-in-functions/built-in-functions/build.query_raw/mysql.md)
     * [Elasticsearch](built-in-functions/built-in-functions/build.query_raw/elasticsearch.md)
     * [PostgreSQL](built-in-functions/built-in-functions/build.query_raw/postgresql.md)
+* [Library Rules](https://library.build.security)
 
 ## PDP DEPLOYMENT METHODS
 
@@ -115,10 +116,4 @@
 ---
 
 * [Performance Benchmark](https://build.security/whitepaper-performance/)
-
-## Library Rules
-
----
-
-* [Library Rules](https://library.build.security)
 
