@@ -10,9 +10,5 @@ We believe that the best security is powered by community. This largely inspired
 
 
 
-[https://www.youtube.com/watch?v=61RYlosGJGM](https://www.youtube.com/watch?v=61RYlosGJGM)
-
-
-
 
 
