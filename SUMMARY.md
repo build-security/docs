@@ -76,6 +76,7 @@
   * [cache](built-in-functions/built-in-functions/cache.md)
   * [build.json\_partial\_compare](built-in-functions/built-in-functions/build.json_partial_compare.md)
   * [build.geo\_from\_ip](built-in-functions/built-in-functions/build.geo_from_ip.md)
+  * [build.rate\_limit](built-in-functions/built-in-functions/build.rate_limit.md)
   * [build.query\_raw](built-in-functions/built-in-functions/build.query_raw/README.md)
     * [DynamoDB](built-in-functions/built-in-functions/build.query_raw/dynamodb.md)
     * [MySQL](built-in-functions/built-in-functions/build.query_raw/mysql.md)

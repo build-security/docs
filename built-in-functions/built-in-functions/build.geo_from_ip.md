@@ -13,7 +13,7 @@
 
 ### Function Usage Example
 
-```text
+```scala
 geo := build.geo_from_ip("27.7.199.7")
 geo.Subdivisions[_].IsoCode == user_ctx.subdivisions[_]
 ```
@@ -22,7 +22,7 @@ geo.Subdivisions[_].IsoCode == user_ctx.subdivisions[_]
 
 The function we use returns the data to an object named `geo` that will contain:JSON
 
-```text
+```javascript
 {
   "City": {
     "Names": {
