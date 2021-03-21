@@ -13,6 +13,10 @@ In addition, build.security's PDP also supports built-in functions that are not 
 * [build.query\_raw](build.query_raw/)
 * [build.geo\_from\_ip](build.geo_from_ip.md)
 * [build.json\_partial\_compare](build.json_partial_compare.md)
+* [build.rate\_limit](build.rate_limit.md)
+* [cache.insert](cache.md)
+* [cache.get](cache.md)
+* [cache.delete](cache.md)
 
 {% hint style="info" %}
 **Need more help?**
