@@ -14,6 +14,7 @@
 
 * Supporting non-English characters in policy names
 * More debug logs in the PDP
+* Policy playground now auto-populates with the user's last input
 * ['Strict mode' is now turned on by default within the playground. read more here.](../policies/policy-evaluation-playground.md#strict-mode)
 * PDP version is now displayed in the PDP screen right beside each pdp instance
 * Text areas can now be copied via easy "copy to clipboard" button
