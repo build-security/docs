@@ -6,7 +6,7 @@
 
 build.security's PDPs support all the built-in functions documented in the Open Policy Agent [wiki](https://www.openpolicyagent.org/docs/latest/policy-reference/#built-in-functions).
 
-### build.security Built-in functions
+### build.security's builtin functions
 
 In addition, build.security's PDP also supports built-in functions that are not part of the vanilla OPA project \(though we're working on getting them out there!\).
 
