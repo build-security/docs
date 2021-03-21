@@ -1,6 +1,6 @@
 # Changelog
 
-## Version 0.2
+## Version 0.2 - March 21, 2021
 
 **Major features**
 
@@ -8,6 +8,7 @@
 * Additional ****filters in the decision logs \(input / result\)
 * [MySQL support](../data-sources/new-mysql-data-source.md)
 * New look and feel
+* Log shipping support for datadog, Elasticsearch
 
 **Minor enhancements**
 
@@ -39,4 +40,19 @@
 **Behavioural changes**
 
 * Removal of versioning per policy \(in favour of future git integration\)
+
+## Version 0.1 - November 18, 2020
+
+**Major features**
+
+* JIT compilation for policies while authoring
+* New policy components
+* Envoy integration
+
+**Minor enhancements**
+
+* Decision log filter by decision ID
+* UX improvements
+
+
 
