@@ -15,21 +15,54 @@ Recursively compares two json objects and returns `true` if all of the fields in
 
 ### Function Usage Example
 
+#### Example \#1
+
+Evaluates to `false` since `"doctor" != "admin"`
+
 ```scala
 actual := {
-    "a": {
-        "b": "c"
-    },
-    "d": "e"
-}
-
-expected := {
-    "a": {
-        "b": "c"
+    "allow": true,
+    "user": {
+        "role": "doctor"
     }
 }
 
-# Evaluates to true
+expected := {
+    "allow": true,
+    "user": {
+        "role": "admin"
+    }
+}
+
+build.json_partial_compare(expected, actual)
+```
+
+
+
+#### Example \#2
+
+Evaluates to `false` since `"4" != 4`
+
+```scala
+actual := {
+    "allow": true,
+    "output": {
+        "input": {
+            "foo": 4,
+            "role": "admin"
+        }
+    }
+}
+
+expected := {
+    "allow": true,
+    "output": {
+        "input": {
+            "foo": "4",
+        }
+    }
+}
+
 build.json_partial_compare(expected, actual)
 ```
 
