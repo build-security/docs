@@ -16,7 +16,7 @@ The datasource is available and [created](https://docs.build.security/docs/defin
 2. In your policy screen, create a new policy item that is "Custom code" type.
 3. Copy and paste the following code snippet:
 
-```text
+```scala
 moviesdata := build.query_raw(data.datasources["MyDynamo"], "SELECT * FROM imdb WHERE titleType = ?", ["movie"])
 ```
 

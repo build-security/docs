@@ -27,7 +27,7 @@ For more information on external authorization filter - [click here](https://www
 **Configuration Example:**  
 Between the comments in the YAML file below, you can view the relevant section that specifies the start and end of the HTTP filter code that needs to be configured. In this example, it directs requests to Google and uses the build.security PDP as an external authorization server.
 
-```text
+```yaml
 admin:
   access_log_path: /tmp/admin_access.log
   address:

@@ -23,7 +23,7 @@ Once you tun the docker command you can view the PDP instance status and additio
 
 you can also test by sending POST cURL command to your PDP and view the response retrieve from the PDP in your terminal or in the decision log.
 
-```text
+```bash
 curl -X POST -d '{"input":{}}' http://<pdp_hostname>:8181/v1/data/<policy_path>
 ```
 

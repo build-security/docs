@@ -9,7 +9,7 @@ First, we'll define a very basic roles and permissions mapping. We'll do so usin
 1. Create a new internal data source \(see [here](data-sources/new-internal-data-source.md) for more instructions\)
 2. Use the following json object:
 
-```text
+```javascript
 {
     "roles": {
         "admin": {
@@ -55,7 +55,7 @@ Now that we have a data source that represents the users, the roles and their pe
 1. Create a new policy
 2. Add a new custom rule with the following code snippet:
 
-```text
+```scala
 # Use the data in hand to create a graph of the roles and the attached permissions
 roles_graph[entity_name] = descendants {
     data.datasources.roles2permissions.roles[entity_name]
@@ -88,7 +88,7 @@ rbac {
 
 So the generated code of it will look like this:
 
-```text
+```scala
 # RBAC
 active[decision] {
     rule_type := "allow"
@@ -108,7 +108,7 @@ One way to test the policy is to [deploy a PDP](policy-decision-points-pdp/creat
 Another option is to use build.security's policy evaluator.  
 For the following input, where `alice` is trying to do `overview.edit`, the request will get allowed:
 
-```text
+```javascript
 {
   "user": "alice",
   "required_permissions": [
@@ -119,7 +119,7 @@ For the following input, where `alice` is trying to do `overview.edit`, the requ
 
 But for this same request for `bob` \(who is a `developer`\) the request will get denied:
 
-```text
+```javascript
 {
   "user": "bob",
   "required_permissions": [

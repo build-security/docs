@@ -24,7 +24,7 @@ You are responsible for registering your plugin as part of the Docker daemon sta
 
 Just run the following to get started quickly:
 
-```text
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/build-security/pdp-docker-authz/master/install.sh)" -s -p "http://localhost:9000/v1/data/policy/docker/authz"
 ```
 
@@ -40,7 +40,7 @@ For commands that can potentially hijack the HTTP connection \(HTTP Upgrade\), s
 
 Below you can find an example of the JSON that is sent from the authorization plugin and into the Policy Decision Point for the simple command:
 
-```text
+```bash
 docker run python:3.7
 ```
 
@@ -52,7 +52,7 @@ POST /containers/create
 
 With the following body as payload:
 
-```text
+```javascript
 {
   "Hostname": "",
   "Domainname": "",

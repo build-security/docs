@@ -51,7 +51,7 @@ After having all of this information in hand we can simply add rules to our - ho
 
 For the **first rule** that enables **POST** methods **only** to identities that as part of the JWT claims carries **payload.role == "admin"** we will create an **empty rule** and paste the following code:
 
-```text
+```scala
 claims.role == "admin"
 input.request.http.method == "POST"
 ```

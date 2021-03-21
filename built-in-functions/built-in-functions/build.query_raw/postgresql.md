@@ -18,7 +18,7 @@ The datasource is available and [created](https://docs.build.security/docs/defin
 
 Rego
 
-```text
+```scala
 emails := build.query_raw(data.datasources["MyPostgresDB"], "SELECT \"email\" FROM public.\"users\" where \"name\" = $1", [input.name])
 ```
 

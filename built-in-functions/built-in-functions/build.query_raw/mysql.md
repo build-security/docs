@@ -16,7 +16,7 @@ The datasource is available and [created](https://docs.build.security/docs/defin
 2. In your policy screen, create a new policy item from the type "Custome code".
 3. Copy and paste the following code snippet:
 
-```text
+```scala
 mysqldata := build.query_raw(data.datasources["mysql"], "SELECT * FROM employee WHERE age BETWEEN 25 to 45 ", [])
 ```
 

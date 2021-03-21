@@ -16,14 +16,14 @@ The Docker Plugin is currently available only on Linux-based machines \(host\) t
 
 **Create a folder for the configuration:**
 
-```text
+```bash
 $ mkdir -p /etc/docker
 ```
 
 **Create the config file:  
 \*** /etc/docker/pdp\_config.json with the following content:
 
-```text
+```javascript
 {
   "pdp_addr": "http://localhost:8181/v1/data/docker/authz",
   "allow_on_failure": true
@@ -35,13 +35,13 @@ Also note the `allow_on_failure` flag which you might want to set to `false` whe
 
 **Install the Docker Plugin:**
 
-```text
+```bash
 docker plugin install buildsecurity/pdp-docker-authz:v0.3 pdp-args="-config-file /pdp/pdp_config.json -debug false"
 ```
 
 **Add the configuration for the Docker Plugin:**
 
-```text
+```bash
 $ cat > /etc/docker/daemon.json <<EOF
 {
     "authorization-plugins": ["buildsecurity/pdp-docker-authz:v0.3"]
@@ -51,7 +51,7 @@ EOF
 
 **Signal the Docker daemon to reload the config:**
 
-```text
+```bash
 $ kill -HUP $(pidof dockerd)
 ```
 
@@ -90,7 +90,7 @@ For more information on- [Publish process](projects/publish-project-configuratio
 
 Open a terminal, try running the following commands:
 
-```text
+```bash
 docker ps
 docker run python:3.8
 docker run python:latest

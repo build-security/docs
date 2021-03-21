@@ -21,13 +21,13 @@ Once this has been created, you can:
 
 ### Define the Environment Variables
 
-```text
+```bash
 kubectl create secret generic pdp-secret --from-literal=<API_KEY>='<API_SECRET>'
 ```
 
 Create a file named `pdp-deployment.yaml` with the content:
 
-```text
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -94,7 +94,7 @@ spec:
 
 ### Create the pod
 
-```text
+```bash
 kubectl apply -f pdp-deployment.yaml
 ```
 
@@ -102,7 +102,7 @@ kubectl apply -f pdp-deployment.yaml
 
 Create a file named `pdp-service.yaml` with the content:
 
-```text
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
