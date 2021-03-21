@@ -70,18 +70,18 @@
   * [Empty Rules](policy-items/empty-rules.md)
   * [Custom Blocks](policy-items/custom-blocks.md)
 
-## LIBRARY <a id="built-in-functions"></a>
+## LIBRARY
 
-* [Built-In Functions](built-in-functions/built-in-functions/README.md)
-  * [cache](built-in-functions/built-in-functions/cache.md)
-  * [build.json\_partial\_compare](built-in-functions/built-in-functions/build.json_partial_compare.md)
-  * [build.geo\_from\_ip](built-in-functions/built-in-functions/build.geo_from_ip.md)
-  * [build.rate\_limit](built-in-functions/built-in-functions/build.rate_limit.md)
-  * [build.query\_raw](built-in-functions/built-in-functions/build.query_raw/README.md)
-    * [DynamoDB](built-in-functions/built-in-functions/build.query_raw/dynamodb.md)
-    * [MySQL](built-in-functions/built-in-functions/build.query_raw/mysql.md)
-    * [Elasticsearch](built-in-functions/built-in-functions/build.query_raw/elasticsearch.md)
-    * [PostgreSQL](built-in-functions/built-in-functions/build.query_raw/postgresql.md)
+* [Built-In Functions](library/built-in-functions/README.md)
+  * [cache](library/built-in-functions/cache.md)
+  * [build.json\_partial\_compare](library/built-in-functions/build.json_partial_compare.md)
+  * [build.geo\_from\_ip](library/built-in-functions/build.geo_from_ip.md)
+  * [build.rate\_limit](library/built-in-functions/build.rate_limit.md)
+  * [build.query\_raw](library/built-in-functions/build.query_raw/README.md)
+    * [DynamoDB](library/built-in-functions/build.query_raw/dynamodb.md)
+    * [MySQL](library/built-in-functions/build.query_raw/mysql.md)
+    * [Elasticsearch](library/built-in-functions/build.query_raw/elasticsearch.md)
+    * [PostgreSQL](library/built-in-functions/build.query_raw/postgresql.md)
 * [Library Rules](https://library.build.security)
 
 ## PDP DEPLOYMENT METHODS

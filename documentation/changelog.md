@@ -22,11 +22,11 @@
 * Ability to re-order policy rules within the policy tab
 * Support of [library rules](https://library.build.security/) + first JIRA search library rule
 * new builtin functions
-  * [build.json\_partial\_compare](../built-in-functions/built-in-functions/build.json_partial_compare.md)
-  * [build.rate\_limit](../built-in-functions/built-in-functions/build.rate_limit.md)
-  * [cache.insert](../built-in-functions/built-in-functions/cache.md)
-  * [cache.get](../built-in-functions/built-in-functions/cache.md)
-  * [cache.delete](../built-in-functions/built-in-functions/cache.md)
+  * [build.json\_partial\_compare](../library/built-in-functions/build.json_partial_compare.md)
+  * [build.rate\_limit](../library/built-in-functions/build.rate_limit.md)
+  * [cache.insert](../library/built-in-functions/cache.md)
+  * [cache.get](../library/built-in-functions/cache.md)
+  * [cache.delete](../library/built-in-functions/cache.md)
 * JAVA SDK for non-middleware usage
 
 **Fixes**
