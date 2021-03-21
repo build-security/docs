@@ -6,26 +6,26 @@
 
 *  Policy Testing
 * Additional ****filters in the decision logs \(input / result\)
-* MySQL support
+* [MySQL support](../data-sources/new-mysql-data-source.md)
 * New look and feel
 
 **Minor enhancements**
 
 * Supporting non-English characters in policy names
 * More debug logs in the PDP
-* 'Strict mode' is now turned on by default within the playground. read more here.
+* ['Strict mode' is now turned on by default within the playground. read more here.](../policies/policy-evaluation-playground.md#strict-mode)
 * PDP version is now displayed in the PDP screen right beside each pdp instance
 * Text areas can now be copied via easy "copy to clipboard" button
 * Text areas can now be expandable
-* Cache control in the policy playground
+* [Cache control in the policy playground](../policies/policy-evaluation-playground.md#use-cache-setting)
 * Ability to re-order policy rules within the policy tab
 * Support of [library rules](https://library.build.security/) + first JIRA search library rule
 * new builtin functions
-  * build.json\_partial\_compare
-  * build.rate\_limit
-  * cache.insert
-  * cache.get
-  * cache.delete
+  * [build.json\_partial\_compare](../built-in-functions/built-in-functions/build.json_partial_compare.md)
+  * [build.rate\_limit](../built-in-functions/built-in-functions/build.rate_limit.md)
+  * [cache.insert](../built-in-functions/built-in-functions/cache.md)
+  * [cache.get](../built-in-functions/built-in-functions/cache.md)
+  * [cache.delete](../built-in-functions/built-in-functions/cache.md)
 * JAVA SDK for non-middleware usage
 
 **Fixes**
