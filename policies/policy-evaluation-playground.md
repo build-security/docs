@@ -12,9 +12,19 @@ The policy evaluation playground enables you to initiate a dry run authorization
 
 ![Policy evaluation playground icon](https://files.readme.io/b234d69-polevaluicon.PNG)
 
-After entering the code you wish to evaluate in the Input window, you can select the PDP that you'd like to use for this evaluation, and then click **EVALUATE**. The "_Use Cache_" checkbox specifies whether the data-source's cache option should be enabled for the evaluation attempt. For more information, see [Data Sources](../data-sources/) and review the data sources which support the caching option.
+After entering the code you wish to evaluate in the Input window, you can select the PDP that you'd like to use for this evaluation, and then click **EVALUATE**. 
 
-The policy evalutation playground can help reduce the time it takes you to author a policy by enabling you to "test-as-you-go." The evaluation calculation is performed with an active PDP instance, so before attempting to use this feature, you should first [verify](../project-settings/pdp-settings.md) that you have an active PDP configured.
+## Use cache setting
+
+The "_Use Cache_" checkbox specifies whether the data-source's cache option should be enabled for the evaluation attempt. For more information, see [Data Sources](../data-sources/) and review the data sources which support the caching option.
+
+## Strict mode
+
+As of OPA version 0.25.0 - builtin functions that encounter errors are "silently" evaluate to false, instead of halting the policy evaluation process. Release notes about this change can be found [here](https://github.com/open-policy-agent/opa/releases/tag/v0.25.0). In build.security's playground, "strict mode" is turned ON in order to identify and "throw" possible errors as soon as possible, much before these policies get deployed to production.
+
+## Benefits
+
+The policy evaluation playground can help reduce the time it takes you to author a policy by enabling you to "test-as-you-go." The evaluation calculation is performed with an active PDP instance, so before attempting to use this feature, you should first [verify](../project-settings/pdp-settings.md) that you have an active PDP configured.
 
 {% hint style="info" %}
 **Note**
