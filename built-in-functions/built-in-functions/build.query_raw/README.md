@@ -33,8 +33,10 @@ user := build.query_raw(data.datasources["my_datasource"],
 
 In the following section you will be able to find useful examples around how to use build.query\_raw built-in function according to the database you want to query :
 
-1. [DynamoDB](https://docs.build.security/docs/policy-example-using-dynamodb)
-2. [MySQL](https://docs.build.security/docs/policy-example-using-mysql)
-3. [Elasticsearch](https://docs.build.security/docs/policy-using-elasticsearch)
-4. [PostgreSQL](https://docs.build.security/docs/policy-using-postgresql)
+1. [DynamoDB](dynamodb.md)
+2. [MySQL](mysql.md)
+3. [Elasticsearch](elasticsearch.md)
+4. [PostgreSQL](postgresql.md)
+
+
 
