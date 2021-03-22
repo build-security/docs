@@ -113,6 +113,7 @@
 ## QUICKSTARTS
 
 * [Testing Your Policy](quickstarts/testing-your-policy/README.md)
+  * [Policy unit testing](quickstarts/testing-your-policy/policy-unit-testing.md)
   * [Dry Run Evaluation](quickstarts/testing-your-policy/dry-run-evaluation.md)
 
 ## WHITE PAPERS <a id="whitepapers"></a>
