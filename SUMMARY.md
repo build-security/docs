@@ -117,7 +117,5 @@
 
 ## WHITE PAPERS <a id="whitepapers"></a>
 
----
-
 * [Performance Benchmark](https://build.security/whitepaper-performance/)
 

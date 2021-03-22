@@ -5,7 +5,7 @@
 **Major Features**
 
 * Policy Testing
-* Additional ****filters in the decision logs \(input / result\)
+* Additional filters in the decision logs \(input / result\)
 * [MySQL support](../data-sources/new-mysql-data-source.md)
 * New look and feel
 * Log shipping support for datadog, Elasticsearch
@@ -54,6 +54,4 @@
 
 * Decision log filter by decision ID
 * UX improvements
-
-
 
