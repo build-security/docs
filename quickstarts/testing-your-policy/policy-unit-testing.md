@@ -2,21 +2,17 @@
 
 ## Introduction
 
-The policy evaluation panel enables you to perform a dry-run of an authorization request on an active Policy Decision Point point at any time during policy authoring.
-
-Using this feature you can reduce the policy authoring working time and approve your policy is tested according to your needs.
-
-The simplicity of testing in one click aside of the policy rules will help understand each change you do on the policy immediately.
+The policy testing truly considers your policy-as-code and enables you to write tests for your policies. These tests shall cover common input and results and more importantly - edge cases within your policy that you want to make sure that are never get broken.
 
 **So let's get started...**
 
 {% hint style="warning" %}
-The evaluation calculation is done on an active real PDP instance you can [verify](doc:policy-decision-points) that you have an active instance, if not simply [deploy](doc:pdp-implementation) a new Decision point.
+The tests evaluation is done on an active real PDP instance. You can [verify](doc:policy-decision-points) that you have an active instance, if not simply [deploy](doc:pdp-implementation) a new Decision point.
 {% endhint %}
 
 ## Our Policy
 
-We will use a simple basic policy which DENYs access by default and ALLOWs access to requests where `input.role == "admin"`
+We will use a simple basic policy which `DENY` access by default and `ALLOW` access to requests where `input.role == "admin"`
 
 ![Policy example ](../../.gitbook/assets/screen-shot-2021-03-22-at-18.38.48.png)
 
@@ -24,23 +20,17 @@ We will use a simple basic policy which DENYs access by default and ALLOWs acces
 
 We will create 3 tests 
 
-1. a
-2. b
-3. c
+1. A test that that verifies requests on behalf of `user` role get denied
+2. A test that that verifies requests on behalf of `admin` role get approved
+3. A test that that verifies requests w/o a specific role get denied
 
 ![Policy tests](../../.gitbook/assets/screen-shot-2021-03-22-at-18.45.03.png)
 
-By clicking ....
-
-
+By clicking the "run tests" button at the top left, a side panel will get opened on the right hand side - providing a preview of all tests that pass / fail.
 
 ![Policy test resultion ](../../.gitbook/assets/screen-shot-2021-03-22-at-18.45.17.png)
 
-
-
-Upon the policy behivor changes - for example, the default behavior of the policy we set above changes to ALLOW
-
- The next time that we will run the tests, we will get this resolution
+Upon  policy behaviour changes - for example, changing the default behaviour of the policy to be `ALLOW` - tests results change as well as couple of the tests above fail.
 
 ![](../../.gitbook/assets/screen-shot-2021-03-22-at-18.45.54.png)
 
@@ -49,14 +39,8 @@ Upon the policy behivor changes - for example, the default behavior of the polic
 {% hint style="info" %}
 **Coming soon** 
 
-\*\*\*\*
+Tests will run upon every publish request, refusing an option to publish with failing tests
 {% endhint %}
-
-
-
-
-
-
 
 {% hint style="success" %}
 **Congratulations**
