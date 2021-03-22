@@ -8,7 +8,7 @@
 * Additional filters in the decision logs \(input / result\)
 * [MySQL support](../data-sources/new-mysql-data-source.md)
 * New look and feel
-* Log shipping support for datadog, Elasticsearch
+* [Log shipping](../system-settings/log-shipping-integration.md) support for datadog, Elasticsearch
 
 **Minor Enhancements**
 
