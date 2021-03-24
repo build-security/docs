@@ -14,7 +14,7 @@ One of the most common use cases is
 
 \*\*\*\*
 
-### For example:
+###  Authorization use cases examples
 
 * Is Bob, a new employee in our coffee store, allowed to sell to business customers?
 * Is Laura, the head of the IT team, allowed to enter the server room? If so, is she allowed to change the door password in the organization's security management console?
@@ -30,7 +30,7 @@ You can even add another dimension to this general authorization problem descrip
 
 ![Request context dimension](https://files.readme.io/658f7a6-Bob-authorization_night.jpg)
 
-### Let's extend the examples we set above:
+### Let's extended the Authorization use cases we set above
 
 * If Bob, the new employee in our coffee store is allowed to sell coffee to business customers, do we need to first check if the item is available and we can supply it to the customer?
 * If Laura, the head of the IT team can access our secured and valuable server room, can she access it on weekends?
