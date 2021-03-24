@@ -10,7 +10,11 @@ One of the most common use cases is
 
 \*\*\*\*
 
-For example:
+![Authorization request infrastructure](https://files.readme.io/88d4953-Bob-authorization.jpg)
+
+\*\*\*\*
+
+### For example:
 
 * Is Bob, a new employee in our coffee store, allowed to sell to business customers?
 * Is Laura, the head of the IT team, allowed to enter the server room? If so, is she allowed to change the door password in the organization's security management console?
@@ -24,11 +28,9 @@ You can even add another dimension to this general authorization problem descrip
 
 \*\*\*\*
 
-\*\*\*\*
+![Request context dimension](https://files.readme.io/658f7a6-Bob-authorization_night.jpg)
 
-\*\*\*\*
-
-Let's extend the examples we set above:
+### Let's extend the examples we set above:
 
 * If Bob, the new employee in our coffee store is allowed to sell coffee to business customers, do we need to first check if the item is available and we can supply it to the customer?
 * If Laura, the head of the IT team can access our secured and valuable server room, can she access it on weekends?
@@ -58,6 +60,10 @@ A few examples of identity attributes that could be sent to the PDP are: 1. JWT 
 
 Sometimes, these attributes will include everything the PDP needs to make a wide authorization decision. However, in some cases, the PDP will use the given input to enrich the context it has leveraging external data sources.
 
+
+
+![Identify the identity](https://files.readme.io/92610b3-policy_authorization_examples-01.png)
+
 ## Identify the Resource and Action
 
 First, let's give some examples of actions and resources that are in common use and maybe suits your use case.
@@ -74,13 +80,23 @@ Common examples of attributes for an action or a resource could be:
 
  2. HTTP request path \(query parameters, path components etc.\`\)
 
+
+
+![](https://files.readme.io/93b8351-policy_authorization_examples-02.png)
+
 ## Determining the Authorization Decision
 
 After the PDP has all the information it needs on the identity, resource, and action, we can build a policy that the PDP will evaluate to enable it to make a decision.
 
-The first step is to decide what the **Default behavior** of the policy should be. If the request doesn't match any of the rules that we are set, do you want the PDP to **Allow** OR **Deny** the action execution?
+The first step is to decide what the **Default behavior** of the policy should be.
+
+If the request doesn't match any of the rules that we are set, do you want the PDP to
+
+                                                            **Allow** OR **Deny** the action execution?
 
 
+
+![Default behavior](https://files.readme.io/9d7d0e7-policy_authorization_examples-03.png)
 
 
 
