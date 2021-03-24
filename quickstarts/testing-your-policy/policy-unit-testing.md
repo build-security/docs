@@ -26,7 +26,7 @@ We will create 3 tests
 
 ![Policy tests](../../.gitbook/assets/screen-shot-2021-03-22-at-18.45.03.png)
 
-By clicking the "run tests" button at the top left, a side panel will get opened on the right hand side - providing a preview of all tests that pass / fail.
+By clicking the "RUN TESTS" button at the top left, a side panel will get opened on the right hand side - providing a preview of all tests that pass / fail.
 
 ![Policy test resultion ](../../.gitbook/assets/screen-shot-2021-03-22-at-18.45.17.png)
 
@@ -47,7 +47,7 @@ Tests will run upon every publish request, refusing an option to publish with fa
 
 You are ready to start writing tests.
 
-If you will need more information - feel free to contact us on our [support portal ](https://build-security.atlassian.net/servicedesk/customer/portals)
+If you will need more help with building your policy tests - feel free to contact us on our [support portal ](https://build-security.atlassian.net/servicedesk/customer/portals)
 {% endhint %}
 
 
