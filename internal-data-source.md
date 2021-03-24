@@ -23,7 +23,7 @@ The new internal data source will now appear in the list of existing data source
 ### Step \#3 - Add new rule to your PDP
 
 1. Create or use an already existed policy
-2. In your policy screen, create a rule that uses the your new data source. In order to access the data from your build internal data source your query should start with "data.datasources\[\]". Then you can manipulate the data as you wish using the Rego language .
+2. In your policy screen, create a rule that uses the your new data source. In order to access the data from your build internal data source your query should start with `data.datasources[]`. Then you can manipulate the data as you wish using the Rego language .
 
 ```scala
 buildData := data.datasources["My internal data source"]
