@@ -28,3 +28,11 @@ cache.get("key") # will return "value"
 cache.get("key") # will return false
 ```
 
+{% hint style="info" %}
+**Supported PDP version**
+
+This built-in function supported from version V0.2.0 and above 
+{% endhint %}
+
+\*\*\*\*
+
