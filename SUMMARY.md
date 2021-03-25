@@ -10,7 +10,8 @@
 * [Getting Started](documentation/getting-started/README.md)
   * [Logging In](documentation/getting-started/control-plane-overview.md)
   * [Control Plane Overview](documentation/getting-started/logging-in.md)
-* [Changelog](documentation/changelog.md)
+* [Changelog - Control Plane](documentation/changelog.md)
+* [Changelog - PDP](documentation/changelog-pdp.md)
 
 ---
 

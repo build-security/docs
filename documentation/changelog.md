@@ -1,4 +1,10 @@
-# Changelog
+---
+description: >-
+  Description of all major changes and enhancement in build.security's control
+  plane
+---
+
+# Changelog - Control Plane
 
 ## Version 0.2.7751 - March 21, 2021
 
