@@ -117,5 +117,13 @@ Using `build.geo_from_ip` return JSON object \(`geo.attribute`\) will allow you 
 
 * `geo.city.Names` and `go.Country.Names`- Allows comparison made on a city or country basis, thereby restricting access of employees in international organizations to data that is not related to their base country /branch.
 * `geo.IsInEuropeanUnion` - by using this attribute you can know if the request source or address is within a European country and create GDPR authorization rules.
-* `geo.Traits.IsAnonymousProxy` can assist you in building rules that deny requests from anonymous proxies that are marked as a suspicious source.
+* `geo.Traits.IsAnonymousProxy` can assist you in building rules that deny requests from anonymous proxies that are marked as suspicious sources.
+
+{% hint style="info" %}
+**Supported PDP version** 
+
+This built-in function supported from version V0.1.0 and above 
+{% endhint %}
+
+
 
