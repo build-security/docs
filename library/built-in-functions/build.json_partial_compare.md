@@ -66,3 +66,11 @@ expected := {
 build.json_partial_compare(expected, actual)
 ```
 
+{% hint style="info" %}
+
+
+**Supported PDP version** 
+
+This built-in function supported from version V0.3.0 and above 
+{% endhint %}
+
