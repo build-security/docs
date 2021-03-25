@@ -107,11 +107,10 @@ Now once we defined all the required preparatory steps, we can easily write our 
 
 {% hint style="success" %}
 Well done
-{% endhint %}
-
-
 
 When you have your authorization rules defined, you can start implanting the authorization policy in the build.security control plane and deploy it within seconds to build.security OPA-based Policy Decision Point.
+{% endhint %}
+
 
 **What use case are you facing?** 
 
@@ -125,19 +124,6 @@ We will be happy to assist your onboarding
 
 Feel free to open a support technical assistant ticket to build.security support team in our [support portal](https://build-security.atlassian.net/servicedesk/customer/user/login?destination=portals) and we'll guide you on how to use those examples and customize them to your use case.
 {% endhint %}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
