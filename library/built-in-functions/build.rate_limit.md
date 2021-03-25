@@ -48,3 +48,13 @@ docker run \
     buildsecurity/api-gw-pdp
 ```
 
+{% hint style="info" %}
+
+
+**Supported PDP version** 
+
+This built-in function supported from version V0.2.0 and above.
+{% endhint %}
+
+
+
