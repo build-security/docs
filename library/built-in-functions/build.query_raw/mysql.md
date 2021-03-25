@@ -28,3 +28,9 @@ mysqldata := build.query_raw(data.datasources["mysql"], "SELECT * FROM employee 
 
 Once finished you can simply use the data in any other place in the policy by using the variable name- in our case `mysqldata`.
 
+{% hint style="info" %}
+**Supported PDP version** 
+
+This built-in function supported from version V0.0.1 and above 
+{% endhint %}
+
