@@ -29,3 +29,13 @@ moviesdata := build.query_raw(data.datasources["MyDynamo"], "SELECT * FROM imdb 
 
 Once finished you can simply use the data in any other place in the policy by using the variable name- in our case `moviesdata`.
 
+{% hint style="info" %}
+**Supported PDP version** 
+
+This built-in function supported from version V0.0.1 and above 
+{% endhint %}
+
+\*\*\*\*
+
+
+
