@@ -103,6 +103,7 @@
 * [ASP.Net](https://github.com/build-security/OPA-AspDotNetCore-Middleware)
 * [JAVA](https://github.com/build-security/opa-java-client)
 * [JAVA-Spring](https://github.com/build-security/opa-java-spring-client)
+* [AWS API Gateway](https://github.com/build-security/aws-api-gateway-authz)
 
 ## TUTORIALS <a id="policy-examples"></a>
 
