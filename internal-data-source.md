@@ -1,4 +1,4 @@
-# Internal Data Source
+# Using Internal Data Source
 
 This is a short example of how to add build an internal data source as one of your PDP data sources.
 

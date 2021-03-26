@@ -110,9 +110,9 @@
 
 ---
 
-* [Full RBAC Policy](full-rbac-policy.md)
+* [RBAC Policy](full-rbac-policy.md)
 * [Docker Authorization Policy](docker-authorization-policy.md)
-* [Internal Data Source](internal-data-source.md)
+* [Using Internal Data Source](internal-data-source.md)
 
 ## QUICKSTARTS
 

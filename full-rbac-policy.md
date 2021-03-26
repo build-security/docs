@@ -1,4 +1,4 @@
-# Full RBAC Policy
+# RBAC Policy
 
 The following will demonstrate building a policy using a simple Role Based Access Control in the build.security's system.
 
