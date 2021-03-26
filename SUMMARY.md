@@ -101,8 +101,10 @@
 * [Node.js](https://github.com/build-security/opa-express-middleware)
 * [PHP Symfony](https://github.com/build-security/opa-symfony-middleware)
 * [ASP.Net](https://github.com/build-security/OPA-AspDotNetCore-Middleware)
+* [JAVA](https://github.com/build-security/opa-java-client)
+* [JAVA-Spring](https://github.com/build-security/opa-java-spring-client)
 
-## POLICY EXAMPLES
+## TUTORIALS <a id="policy-examples"></a>
 
 * [Full API Authorization Policy](policy-examples/full-api-authorization-policy.md)
 
