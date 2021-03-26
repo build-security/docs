@@ -20,5 +20,7 @@ The new PostreSQL data source will now appear in the list of existing data sourc
 
 ![New PostgreSQL data source](https://files.readme.io/ce23f99-new_postgres.PNG)
 
-
+{% hint style="success" %}
+For usage example, see [here](../library/built-in-functions/build.query_raw/postgresql.md).
+{% endhint %}
 

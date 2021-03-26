@@ -20,5 +20,7 @@ The new MySQL data source will now appear in the list of existing data sources o
 
 ![New MySQL data source](https://files.readme.io/1c3c0a3-Screen_Shot_2021-03-08_at_11.47.34.png)
 
-
+{% hint style="success" %}
+For usage example, see [here](../library/built-in-functions/build.query_raw/mysql.md).
+{% endhint %}
 

@@ -24,8 +24,6 @@ After creating a new data source, you will need to navigate to the Policy Deploy
 ![New Internal Data Source](https://files.readme.io/483f99e-newinternal.PNG)
 
 {% hint style="success" %}
-**Example**
-
-See [here](../internal-data-source.md)
+For usage example, see [here](../internal-data-source.md).
 {% endhint %}
 

@@ -18,5 +18,7 @@ The new Elasticsearch data source will now appear in the list of existing data s
 
 ![New Elasticsearch data source](https://files.readme.io/58c4baa-new_elastic.PNG)
 
-
+{% hint style="success" %}
+For usage example, see [here](../library/built-in-functions/build.query_raw/elasticsearch.md).
+{% endhint %}
 

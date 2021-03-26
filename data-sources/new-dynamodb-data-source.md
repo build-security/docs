@@ -19,5 +19,7 @@ The new DynamoDB data source will now appear in the list of existing data source
 
 ![New DynamoDB data source](https://files.readme.io/14c236a-newdynamodb.PNG)
 
-
+{% hint style="success" %}
+For usage example, see [here](../library/built-in-functions/build.query_raw/dynamodb.md).
+{% endhint %}
 
