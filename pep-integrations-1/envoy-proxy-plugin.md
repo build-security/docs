@@ -153,13 +153,21 @@ execute `docker-compose up` , output shall be:
 In the build.security control plane:
 
 1. Observe your just new PDP in the Policy Decision Points screen
-2. Create an Envoy policy
+2. Create a new Envoy policy
 3. Change the default behaviour of the policy to be `ALLOW`
 4. [Publish](../projects/publish-project-configuration.md) changes to the PDP
 5. Open a browser and go to `localhost:10000`
 6. Observe the newly created [decision logs](../decision-logs/)
 
 ![Envoy decision logs](../.gitbook/assets/image%20%283%29.png)
+
+### 7. Change the default policy and test again...
+
+1. Change the default behaviour of the policy to `DENY`
+2. Browse again
+3. This time - the access shall be denied
+
+
 
 {% hint style="info" %}
 #### Additional information
