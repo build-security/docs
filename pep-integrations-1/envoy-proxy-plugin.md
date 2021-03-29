@@ -1,4 +1,4 @@
-# Envoy Proxy Plugin
+# Envoy Proxy Integration
 
 ### Introduction
 
@@ -16,14 +16,21 @@ The following sequence diagram describes the full authorization request flow usi
 For more information on external authorization filter - [click here](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/security/ext_authz_filter.html?highlight=authorization#)
 {% endhint %}
 
-###  Envoy HTTP Filter Configuration
+###  Prerequisites
 
-* Open the envoy.yaml file.
-* Navigate to: filter\_chains &gt; filters &gt; http\_filters.
-* Add new ext\_authz filter or create a new one if it is the first filter.
+This tutorial requires docker-compose \(tested on 1.27.4\)
 
-**Configuration Example:**  
-Between the comments in the YAML file below, you can view the relevant section that specifies the start and end of the HTTP filter code that needs to be configured. In this example, it directs requests to Google and uses the build.security PDP as an external authorization server.
+### 1. Enable gRPC on the PDP settings
+
+In the [PDP settings screen](../project-settings/pdp-settings.md#envoy-integration-settings), make sure gRPC is enabled.
+
+### 2. Grab API Key and Secret for your PDP
+
+In the Policy Decision Points screen, grab an [API and secret](../policy-decision-points-pdp/generating-api-keys-for-a-pdp.md).
+
+### 3. Create Envoy config file
+
+Create the following `config.yaml` file. The configuration instructs the proxy to listen on port `10000` and to behave as a reverse proxy to `google.com`. Envoy would also delegate all incoming requests to the sidecar PDP in order to allow / deny the access
 
 ```yaml
 admin:
@@ -58,8 +65,7 @@ static_resources:
                 route:
                   host_rewrite: www.google.com
                   cluster: service_google
-          # The relevant part for configuration in YAML
-                    http_filters:
+          http_filters:
           - name: envoy.ext_authz
             typed_config:
               "@type": type.googleapis.com/envoy.config.filter.http.ext_authz.v2.ExtAuthz
@@ -69,18 +75,15 @@ static_resources:
               failure_mode_allow: false
               grpc_service:
                 google_grpc:
-                # next line is a place holder for the PDP Address
-                  target_uri: <EXT_AUTHZ_TARGET_URI>  
+                  target_uri: pdp:9191
                   stat_prefix: ext_authz
-                timeout: 120s                      
-          # End of the relevant part for configuration in YAML
+                timeout: 120s
           - name: envoy.filters.http.router
             typed_config: {}
   clusters:
   - name: service_google
     connect_timeout: 0.25s
     type: LOGICAL_DNS
-    # Comment out the following line to test on v6 networks
     dns_lookup_family: V4_ONLY
     lb_policy: ROUND_ROBIN
     load_assignment:
@@ -99,16 +102,64 @@ static_resources:
         sni: www.google.com
 ```
 
+### 4. Create docker-compose file
+
+In order to quickly spin up the Envoy and the PDP dockers and their common network, create the following docker-compose file, **while using the API key and secret from step 1**:
+
+```yaml
+version: "3.8"
+services:
+  envoy:
+    image: envoyproxy/envoy:v1.16.0
+    ports:
+      - "9901:9901"
+      - "10000:10000"
+    networks:
+      - dev
+    volumes:
+      - "./config.yaml:/etc/envoy/envoy.yaml"
+    command:
+      - --log-level error
+      - --component-log-level ext_authz:trace,connection:trace,grpc:trace
+      - --config-path /etc/envoy/envoy.yaml
+  pdp:
+    image: buildsecurity/pdp:latest
+    networks:
+      - dev
+    environment:
+      - API_KEY=rHlKxxnyb45AVkhGtXLQQmiAZLHie3FH
+      - API_SECRET=****
+      - CONTROL_PLANE_ADDR=https://api.dev.build.security/v1/api/pdp
+      - MYSQL_PASSWORD=""
+networks:
+  dev:
+
+```
+
 {% hint style="warning" %}
-#### Remember
+**Remember**
 
-**To enable the Envoy proxy to access the external authorization:**
-
-* 1. [Enable the PDP to listen to envoy requests](../project-settings/pdp-settings.md#envoy-integration-settings).
-* 1. Replace &lt;EXT\_AUTHZ\_TARGET\_URI&gt; from line 45 with your PDP address and port.
-
-Note: The gRPC port that the PDP listens on is 9191. For example :"10.10.0.1:9191"
+Do not forget to to replace **API\_KEY** and **API\_SECRET** with your own
 {% endhint %}
+
+### 5. Start the proxy and the PDP
+
+execute `docker-compose up` , output shall be:
+
+![docker-compose for envoy + pdp](../.gitbook/assets/image%20%284%29.png)
+
+### 6. Test it!
+
+In the build.security control plane:
+
+1. Observe your just new PDP in the Policy Decision Points screen
+2. Create an Envoy policy
+3. Change the default behaviour of the policy to be `ALLOW`
+4. [Publish](../projects/publish-project-configuration.md) changes to the PDP
+5. Open a browser and go to `localhost:10000`
+6. Observe the newly created [decision logs](../decision-logs/)
+
+![Envoy decision logs](../.gitbook/assets/image%20%283%29.png)
 
 {% hint style="info" %}
 #### Additional information

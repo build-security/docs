@@ -94,7 +94,7 @@
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 
 * [Docker Authorization Plugin](pep-integrations-1/docker-authorization-plugin.md)
-* [Envoy Proxy Plugin](pep-integrations-1/envoy-proxy-plugin.md)
+* [Envoy Proxy Integration](pep-integrations-1/envoy-proxy-plugin.md)
 
 ---
 
