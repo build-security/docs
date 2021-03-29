@@ -1,7 +1,5 @@
 # Envoy Proxy Plugin
 
-
-
 ### Introduction
 
 Envoy is an open-source edge and service proxy, designed for cloud-native applications.
