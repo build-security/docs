@@ -20,11 +20,17 @@ The datasource is available and [created](https://docs.build.security/docs/defin
 mysqldata := build.query_raw(data.datasources["mysql"], "SELECT * FROM employee WHERE age BETWEEN 25 to 45 ", [])
 ```
 
-4.Change the variables according to your needs
+4. Change the variables according to your needs
 
 * `mysqldata` - The variable that will contain the DB query result, you will use during the policy rules authoring.
 * `mysql`: The data source name within your project.
 * `SELECT * FROM employee WHERE age BETWEEN 25 to 45` - The query that the PDP will send to the data source in order to retrieve the data.
+
+Another example that uses variables will look similar to this:
+
+```scala
+mysqldata := build.query_raw(data.datasources["mysql"], "SELECT * FROM users WHERE Name = ?", [input.user])
+```
 
 Once finished you can simply use the data in any other place in the policy by using the variable name- in our case `mysqldata`.
 
