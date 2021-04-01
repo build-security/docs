@@ -14,7 +14,7 @@ To see a list of the predefined rules for an integration, you can create a polic
 
 With this option enabled, the New Policy Panel will appear when you click Save. The predefined rules for the integration you selected will be listed on this panel.
 
-![Predefined rules](https://files.readme.io/aae1a75-predefined.PNG)
+![](../.gitbook/assets/predefined-rules.png)
 
 You can then select the predefined rules that best expresses the policy item you would like to add. Once this is added to the policy items table, you can add additional predefined rules \(or empty rules or custom blocks\) to further define your policy.
 
