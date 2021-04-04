@@ -17,6 +17,12 @@ You can edit the Policy Name and/or the Policy Description fields.
 * **Decision Path**: defines the JSON path separating the decision results from the full results returned for each decision. This is the decision that will be reflected in the decision log table \(for example: deny, allow\).
 * **Package name**: the name of the policy that should be used when querying the PDP for an authorization decision.
 
+{% hint style="success" %}
+For example, if package name is `envoy.auth` as shows in the example below, in order to query this policy in runtime, the endpoint shall be: `http://<hostname>:8181/v1/data/envoy/authz`
+{% endhint %}
+
+As all policies in the project are sent to all the PDPs in the same project, two different policies cannot share the same package name.
+
 {% hint style="info" %}
 **Note**
 
