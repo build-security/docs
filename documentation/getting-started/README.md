@@ -8,7 +8,7 @@ The build.security workflow is based on a few basic steps including:
 
 ### Configuration
 
-After you [log into the platform](control-plane-overview.md), you will need to configure some basic elements in the build.security interface, including:
+After you [log into the platform](logging-in-1.md), you will need to configure some basic elements in the build.security interface, including:
 
 * [Selecting or creating a project](../../projects/project-selection-screen.md)
 * [Defining one or more data sources](../../data-sources/)

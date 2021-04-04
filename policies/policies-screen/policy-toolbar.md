@@ -2,9 +2,7 @@
 
 The policy toolbar, located just below the main toolbar and above the list of existing policy items, contains the following options:
 
-![Policy toolbar](../.gitbook/assets/image%20%281%29.png)
-
-
+![](../../.gitbook/assets/policytoolbar.png)
 
 <table>
   <thead>
@@ -16,8 +14,8 @@ The policy toolbar, located just below the main toolbar and above the list of ex
   <tbody>
     <tr>
       <td style="text-align:left">Policy name</td>
-      <td style="text-align:left">Indicates the name of the policy currently being displayed in the rule
-        building area.</td>
+      <td style="text-align:left">Indicates the name of the policy currently being displayed as well as
+        the last time (date and time) that the policy was updated.</td>
     </tr>
     <tr>
       <td style="text-align:left">Default policy type</td>
@@ -29,10 +27,9 @@ The policy toolbar, located just below the main toolbar and above the list of ex
       <td style="text-align:left">
         <p>Offers you access to the <b>cURL Example</b> button.</p>
         <p>Click to display a cURL example that can help you easily test your policy
-          by querying an active PDP that this policy deployed to click the copy icon
-          to copy the command for further use, paste it in your terminal for any
-          other help - <a href="https://app.gitbook.com/@build-security/policy-decision-points-pdp/tls-configuration#validation-using-curl">click here  </a>
-        </p>
+          by querying an active PDP. Use the copy icon to copy the cURL to the clipboard.
+          You can save this for future use or paste it into your terminal to validate
+          the configuration. For more information, see <a href="../../policy-decision-points-pdp/tls-configuration.md#validation-using-curl">Validation using cURL</a>.</p>
       </td>
     </tr>
   </tbody>

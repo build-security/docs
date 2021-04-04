@@ -8,7 +8,7 @@ Policy items can be created by using the new policy item wizards. There are thre
 
 ![Existing policy items](https://files.readme.io/52f6ef6-policyitems.PNG)
 
-Below the [policy toolbar](../policies/policy-toolbar.md), click the **NEW POLICY ITEM** button. The New Policy Item panel opens on the right. Depending on the integration that was selected when you created the policy, you will have the option to select one of the following:
+Below the [policy toolbar](../policies-screen/policy-toolbar.md), click the **NEW POLICY ITEM** button. The New Policy Item panel opens on the right. Depending on the integration that was selected when you created the policy, you will have the option to select one of the following:
 
 * A predefined rule from common build.security templates: The options for these common rules vary from integration to integration. You can use the scroll bar to scroll through the available options.
 * Custom block option to create your own custom block using Rego language

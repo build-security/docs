@@ -8,16 +8,18 @@
   * [Architecture](documentation/about-build.security-1/getting-started.md)
   * [Using OPA for Applications Authorization](documentation/about-build.security-1/using-opa-for-applications-authorization.md)
 * [Getting Started](documentation/getting-started/README.md)
-  * [Logging In](documentation/getting-started/control-plane-overview.md)
-  * [Control Plane Overview](documentation/getting-started/logging-in.md)
+  * [Logging In](documentation/getting-started/logging-in-1.md)
+  * [Control Plane Overview](documentation/getting-started/control-plane-overview.md)
+  * [Main Toolbar](documentation/getting-started/main-toolbar.md)
+  * [Navigation Panel Options](documentation/getting-started/navigation-panel-options.md)
 * [Changelog - Control Plane](documentation/changelog.md)
 * [Changelog - PDP](documentation/changelog-pdp.md)
 
 ---
 
 * [System Settings](system-settings/README.md)
-  * [Managing Users](system-settings/managing-users.md)
-  * [Roles](system-settings/roles.md)
+  * [Managing Users](system-settings/managing-users/README.md)
+    * [About Roles](system-settings/managing-users/roles.md)
   * [User API Key Management](system-settings/user-api-key-management.md)
   * [Internal Audit](system-settings/internal-audit.md)
   * [Log Shipping Integration](system-settings/log-shipping-integration.md)
@@ -51,6 +53,7 @@
   * [Deleting a Data Source](data-sources/deleting-a-data-source.md)
 * [Decision Logs](decision-logs/README.md)
   * [Decision Log Filters](decision-logs/decision-log-filters.md)
+  * [Decision Logs Toolbar](decision-logs/decision-logs-toolbar.md)
   * [Decision Details](decision-logs/decision-details.md)
   * [Decision Log Masking](decision-logs/decision-log-masking.md)
 * [Impact Analysis](impact-analysis/README.md)
@@ -58,19 +61,21 @@
 * [PEP Integrations](pep-integrations.md)
 * [Policies](policies/README.md)
   * [Creating a New Policy](policies/creating-a-new-policy.md)
-  * [Editing Policy Settings](policies/editing-policy-settings.md)
   * [Building a Policy](policies/building-a-policy.md)
-  * [Policies Screen](policies/policies-screen.md)
-  * [Policy Toolbar](policies/policy-toolbar.md)
+  * [Policy Testing](policies/policy-testing/README.md)
+    * [Creating and Running Tests](policies/policy-testing/creating-and-running-tests.md)
+  * [Policies Screen](policies/policies-screen/README.md)
+    * [Policy Toolbar](policies/policies-screen/policy-toolbar.md)
   * [Policy Evaluation Playground](policies/policy-evaluation-playground.md)
   * [Policy Code Panel](policies/policy-code-panel.md)
   * [Deleting a Policy](policies/deleting-a-policy.md)
-  * [Policy Item Status](policies/policy-item-status.md)
-* [Policy Items](policy-items/README.md)
-  * [Managing Policy Items](policy-items/managing-policy-items.md)
-  * [Predefined Rules \(Templates\)](policy-items/predefined-rules-templates.md)
-  * [Empty Rules](policy-items/empty-rules.md)
-  * [Custom Blocks](policy-items/custom-blocks.md)
+  * [Editing Policy Settings](policies/editing-policy-settings.md)
+  * [Policy Items](policies/policy-items/README.md)
+    * [Policy Item Status](policies/policy-items/policy-item-status.md)
+    * [Managing Policy Items](policies/policy-items/managing-policy-items.md)
+    * [Predefined Rules \(Templates\)](policies/policy-items/predefined-rules-templates.md)
+    * [Empty Rules](policies/policy-items/empty-rules.md)
+    * [Custom Blocks](policies/policy-items/custom-blocks.md)
 
 ## LIBRARY
 
@@ -118,7 +123,7 @@
 ## QUICKSTARTS
 
 * [Testing Your Policy](quickstarts/testing-your-policy/README.md)
-  * [Policy unit testing](quickstarts/testing-your-policy/policy-unit-testing.md)
+  * [Policy Unit Testing](quickstarts/testing-your-policy/policy-unit-testing.md)
   * [Dry Run Evaluation](quickstarts/testing-your-policy/dry-run-evaluation.md)
 
 ## WHITE PAPERS <a id="whitepapers"></a>

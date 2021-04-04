@@ -25,8 +25,9 @@ For each PDP configuration, the following information is displayed:
           <br />
           <br />When you click on<b> (&gt;) </b>next to the name of a configuration, the
           view expands to offer additional details about the PDP including information
-          about the API key and a list of all instances authenticated with build.securtiy
-          using this configuration API key and secret</p>
+          about the API key and a list of all instances authenticated with build.security
+          using this configuration API key and secret. For more information about
+          what is displayed in the expanded view, see the following section.</p>
       </td>
     </tr>
     <tr>
@@ -65,16 +66,28 @@ For each PDP configuration, the following information is displayed:
 
 You can also access additional information about each PDP by clicking **&gt;**. The row expands to display the following information:
 
+#### Keys Management Section
+
 * API key
-* Creation date and last update of the API key.
+* Creation date and last update of the API key \(in UTC\).
 * Deployment instructions \(see [Deploying a build.security PDP](pdp-deployments.md)\).
+
+![Copying deployment command](../.gitbook/assets/deploycopy.png)
+
+{% hint style="info" %}
+Use the **copy** icon to copy the deployment instructions and then paste them into the command line to deploy the PDP.
+{% endhint %}
+
+#### PDP Instances Section
+
 * IP address \(the internal IP address of the machine running the configuration\).
-* Status of the connection between the PDP and the build.security control plane \(green confirms communication between the two\).
+* Status of the connection between the PDP and the build.security control plane \(green confirms communication between the two; red indicates build.security is currently not in communication with the PDP\).
 * Last seen \(UTC time\).
 * Policies: a list of policies that have been published to the PDP for evaluation of authorization requests.
+* Version number of the PDP instance.
 * Remove from list option: deletes old records that are inactive. A new record will be added when the PDP authenticates with the control plane.
 
-![Information displayed when expanding a PDP](https://files.readme.io/5cd6f8e-expanded_pdpconfig_line-blur.PNG)
+![Expanded area for an existing PDP](../.gitbook/assets/expandedpdp.png)
 
 ### PDP Use Case Example
 

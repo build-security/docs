@@ -1,8 +1,8 @@
 # Decision Details
 
+For each authorization decision reported back to build.security, an entry is logged to the decision logs table. Although the basic details of the decision are visible in the unexpanded view of the table, additional, more in-depth details can be viewed by expanded any line in the [decision logs table](./) to show more about each decision.
 
-
-For each decision reported back to build.security, an entry is logged to the decision logs table. Although the basic details of the decision are visible in the table, additional, more in-depth details can be viewed in the expanded details section for each decision.
+### Expanded Decision Details View
 
 These details include information elements in the internal processes needed to evaluate and reach a decision. The expanded view is divided into the following areas:
 
