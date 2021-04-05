@@ -1,6 +1,10 @@
 # Policy Testing
 
-As you build or make changes to your policies, it is likely that you will want to test them to ensure they are working properly and as expected. build.security enables you to test your policies in three different ways:
+build.security enables you to create your authorization policies as code. One of the major benefits of doing this is the ability to unit test each section of the code to ensure that it behaves as you would expect. As you build or make changes to your policies, it is likely that you will want to test them to ensure they are working properly. 
+
+You can also test edge cases that are unlikely to be tested in "normal" scenarios but might show up in extreme or unusual cases easily in build.security. And finally, yet another benefit of the policy-as-code method in build.security is that future policy changes can also be verified quickly to avoid any opportunity for broken code to introduce the effectiveness of the policies you have created for your organization.
+
+build.security enables you to test your policies in three different ways:
 
 * The **policy evaluation playground** enables you to input the text of an authorization request and see what the output would be. This is a simulation, a dry run, and is not treated as an actual request, is not enforced, and does not appear in the decision log. Upon seeing the output, you can decide whether this policy is behaving as you would expect. For more information, see [Policy Evaluation Playground](../policy-evaluation-playground.md).
 * The **policy unit testing** option enables you to enter the input and output of an authorization request to confirm the full lifecycle of the request. As with the policy evaluation playground, it does not impact on the decision logs or present any enforcement issues. For more information, see [Policy Unit Testing](../../quickstarts/testing-your-policy/policy-unit-testing.md).
