@@ -14,3 +14,15 @@ build.security enables you to test your policies in three different ways:
 You can perform policy unit testing by clicking on the test icon beside the policy name in the navigation panel. For more information, see [Creating and Running Tests](creating-and-running-tests.md).
 {% endhint %}
 
+#### Policy Testing Screen <a id="policy-testing-screen"></a>
+
+The policy unit testing screen features two buttons: **Run Tests** and **New Test**. The table below the buttons displays a list of currently defined tests, including the following information for each test:‌
+
+* Test name
+* Last run \(UTC\)
+* Last resolution
+* Task duration \(msec\)
+* Status
+
+![Policy unit testing screen](../../.gitbook/assets/image%20%285%29.png)
+
