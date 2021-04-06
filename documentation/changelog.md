@@ -39,14 +39,14 @@ description: >-
 **Fixes**
 
 * Bug displaying policy compilation errors when one policy referenced another policy via `import` 
-* Bug where not all policy packages were sent to the PDP as part of the policy playground
-* PHP symfony middleware fixes
-* Minor fixes in the "View Schema" of the DynamoDB data-source
-* An audit log was missing when publishing to PDPs
+* All policy packages are now sent to the PDP as part of the policy playground.
+* Symfony PHP middleware fixes.
+* Minor fixes in the "View Schema" of the DynamoDB data source.
+* An audit log was missing when publishing to PDPs.
 
 **Behavioural Changes**
 
-* Removal of versioning per policy \(in favour of future Git integration\)
+* Removal of versioning per policy \(in favor of future Git integration\)
 
 ## Version 0.1 - November 18, 2020
 
