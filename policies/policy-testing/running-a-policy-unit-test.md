@@ -1,8 +1,8 @@
 # Running a Policy Unit Test
 
-To run a policy unit test, you can access the test screen by clicking on the test icon next to the policy name you wish to test. This will open up a list of all currently defined tests for this policy. If no tests have been created, 
+To run a policy unit test, you can access the test screen by clicking on the test icon next to the policy name you wish to test. This will open up a list of all currently defined tests for this policy. If no tests have been created.
 
-![Beside the policy name: test icon and project settings icon](../../.gitbook/assets/policytestingicon.png)
+![Policy unit testing icon](../../.gitbook/assets/image%20%288%29.png)
 
 {% hint style="info" %}
 To run a test, you must have an online PDP instance. For more information, see [Policy Decision Points \(PDP\)](../../policy-decision-points-pdp/).
