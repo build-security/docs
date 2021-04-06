@@ -21,6 +21,6 @@ In addition, build.security's PDP also supports built-in functions that are not 
 {% hint style="info" %}
 **Need more help?**
 
-Feel free to open a support technical assistant ticket to build.security support team in our [support portal](https://build-security.atlassian.net/servicedesk/customer/user/login?destination=portals) and we'll guide you on how to use those examples and make them tailor-made to your use case. If the function you are looking for is not found- you can also open a feature request and we'll update you when it's ready.
+Feel free to open a support technical assistant ticket for the build.security support team in our [support portal](https://build-security.atlassian.net/servicedesk/customer/user/login?destination=portals) and we'll guide you on how to use those examples and make them tailor-made to your use case. If the function you are looking for is not found, open a feature request and we'll update you when it's ready.
 {% endhint %}
 
