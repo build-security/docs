@@ -12,7 +12,7 @@ If you didn't create an API key and secret for your PDP yet please do that befor
 **Reminder**
 
 _Add to the command any environment variable that relevant to the PDP work such as data source connection details._  
-Set the relevant post \(or ports if using both HTTP and HTTPS\) - default is 8181
+Set the relevant port \(or ports if using both HTTP and HTTPS\) - default is 8181
 {% endhint %}
 
 ### Verify your PDP runs properly
