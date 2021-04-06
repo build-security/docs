@@ -14,6 +14,10 @@ The policy evaluation playground enables you to initiate a dry run authorization
 
 After entering the code you wish to evaluate in the Input window, you can select the PDP that you'd like to use for this evaluation, and then click **EVALUATE**. 
 
+The authorization decision that would be returned if an authorization request using this policy were initiated, will be displayed in the results area. In the policy evaluation playground you enter the input and see what the output \(result\) will be.
+
+Alternatively, another invaluable way to test your policy is by using the build.security's policy unit testing capabilities, which enables you to enter both the input and expected output, and the platform will confirm whether the test passed \(the two code units match\) or fail \(they do not match\). For more information, see [Policy Testing](policy-testing/).
+
 ## Use cache setting
 
 The "_Use Cache_" checkbox specifies whether the data-source's cache option should be enabled for the evaluation attempt. For more information, see [Data Sources](../data-sources/) and review the data sources which support the caching option.

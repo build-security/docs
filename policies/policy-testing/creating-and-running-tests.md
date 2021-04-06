@@ -50,7 +50,5 @@ You can an additional test by simply clicking on the **+ NEW TEST** button. A ne
 
 Once you have finished creating the test, you can [run the test ](running-a-policy-unit-test.md)at this time, or at any time in the future.
 
-![Policy unit testing](../../.gitbook/assets/test.png)
-
-### 
+![Policy testing screen \(showing 3 tests\)](../../.gitbook/assets/image%20%285%29.png)
 
