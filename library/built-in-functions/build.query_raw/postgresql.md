@@ -36,6 +36,6 @@ Once finished you can simply use the data elsewhere in the policy by using refer
 {% hint style="info" %}
 **Supported PDP version** 
 
-This built-in function supported from version V0.0.1 and above 
+This built-in function supported from version V0.1.16 and above 
 {% endhint %}
 
