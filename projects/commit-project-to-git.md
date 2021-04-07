@@ -11,7 +11,9 @@ At any point of time, an operator can choose to commit the project settings and 
 {% hint style="warning" %}
 **Important - use only build.security to modify policies**
 
-It is highly recommended to author and change configuration settings from within the build.security's control plane, and use the git integration for review and auditing perspectives. In certain environments, the project's artifacts in git can be used as source of truth.
+It is highly recommended to author and change configuration settings from within the build.security's control plane, and use the git integration for review and auditing perspectives only. 
+
+In certain environments, the project's artifacts in git can be used as source of truth.
 {% endhint %}
 
 ### .buildsecurity git YAML file
