@@ -12,7 +12,7 @@ You may run any query, from within the policy, to extract any data that is requi
 4. In the **Type** area, select **DynamoDB**.
 5. In the **AWS Region** field, you can either select a region or leave the default value of "Auto discovery," allowing build.security to automatically determine the relevant region.
 6. In the **Access Key Environment Variable** field, enter the environmental variable that will hold the access key for the DynamoDB data source, or leave it blank for auto-discovery.
-7. In the **Secret Access Key Environment Variable** field, enter the environment variable that iwll hold the secret access key, or leave it blank for auto-discovery. After creating the Dynamo data source, you will need to declare this variable when [deploying the PDP](../policy-decision-points-pdp/pdp-deployments.md).
+7. In the **Secret Access Key Environment Variable** field, enter the environment variable that iwll hold the secret access key, or leave it blank for auto-discovery. After creating the Dynamo data source, you will need to declare this variable when [deploying the PDP](../policy-decision-points-pdp/pdp-deployments/).
 8. In the **Consistent Read** field, choose whether to enable consistent read. When enabled, the DynamoDB will return a response with the most up-to-date data. The default value is disabled. To read more about this DynamoDB feature, see [AWS documentation on Read Consistency](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html).
 9. In the **Cache TTL** field, enter the amount of time the cache memory of queries retrieved from the databases to the PDP will be cached and available for the PDP. Acceptable values \(in seconds\) is 0-600.
 10. Click **SAVE** to create the new data source.

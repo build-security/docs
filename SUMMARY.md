@@ -27,15 +27,19 @@
   * [Project Selection Screen](projects/project-selection-screen.md)
   * [Creating a project](projects/creating-a-project.md)
   * [Deleting a project](projects/deleting-a-project.md)
-  * [Publish Project Configuration](projects/publish-project-configuration.md)
+  * [Publish Project to PDPs](projects/publish-project-configuration.md)
+  * [Commit Project to Git](projects/commit-project-to-git.md)
 * [Project Settings](project-settings/README.md)
   * [PDP Settings](project-settings/pdp-settings.md)
   * [Decision Log Settings](project-settings/decision-log-settings.md)
   * [Log Shipping](project-settings/log-shipping.md)
+  * [Git Integration Settings](project-settings/git-integration-settings.md)
 * [Policy Decision Points \(PDP\)](policy-decision-points-pdp/README.md)
   * [Creating a New PDP Configuration](policy-decision-points-pdp/creating-a-new-pdp-configuration.md)
   * [Generating API Keys for a PDP](policy-decision-points-pdp/generating-api-keys-for-a-pdp.md)
-  * [PDP Deployments](policy-decision-points-pdp/pdp-deployments.md)
+  * [PDP Deployments](policy-decision-points-pdp/pdp-deployments/README.md)
+    * [Kubernetes](policy-decision-points-pdp/pdp-deployments/kubernetes.md)
+    * [Standalone Docker](policy-decision-points-pdp/pdp-deployments/standalone-docker-1.md)
   * [PDP Hardening](policy-decision-points-pdp/pdp-hardening.md)
   * [Editing a PDP Configuration](policy-decision-points-pdp/editing-a-pdp-configuration.md)
   * [Deleting a PDP](policy-decision-points-pdp/deleting-a-pdp.md)
@@ -91,11 +95,6 @@
     * [Elasticsearch](library/built-in-functions/build.query_raw/elasticsearch.md)
     * [PostgreSQL](library/built-in-functions/build.query_raw/postgresql.md)
 * [Library Rules](https://library.build.security)
-
-## PDP DEPLOYMENT METHODS
-
-* [Standalone Docker](pdp-deployment-methods/standalone-docker-1.md)
-* [Kubernetes](pdp-deployment-methods/kubernetes.md)
 
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 

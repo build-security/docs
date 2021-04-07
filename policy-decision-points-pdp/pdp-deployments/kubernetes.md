@@ -2,7 +2,7 @@
 
 ### Getting started
 
-To deploy a new PDP with Kubernetes, the first step is to create the PDP within build.security - see [Creating a new PDP](../policy-decision-points-pdp/creating-a-new-pdp-configuration.md).
+To deploy a new PDP with Kubernetes, the first step is to create the PDP within build.security - see [Creating a new PDP](../creating-a-new-pdp-configuration.md).
 
 Once this has been created, you can:
 
@@ -87,7 +87,7 @@ spec:
 `<API_SECRET>`  
 `CONTROL_PLANE_ADDR`
 
-**All of those provided to you in build.security control plane when** [**creating keys to your PDP**](../policy-decision-points-pdp/generating-api-keys-for-a-pdp.md) **configuration.**
+**All of those provided to you in build.security control plane when** [**creating keys to your PDP**](../generating-api-keys-for-a-pdp.md) **configuration.**
 {% endhint %}
 
 

@@ -1,4 +1,4 @@
-# Publish Project Configuration
+# Publish Project to PDPs
 
 Policies are passed at run time to your Policy Decision Points \(PDPs\). Therefore, it is important that the PDPs have access to the most recently updated configuration and policies in your organization. The process of ensuring that the most recent configuration and policies are considered is called publishing and is initiated when you press the Publish button on the build.security toolbar.
 

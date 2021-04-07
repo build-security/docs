@@ -2,7 +2,7 @@
 
 Policy Decision Points are responsible for making authorization decisions based on the organization's authorization policy. After evaluating the authorization request against the policies created within build.security, the PDP determines whether or not access to the resource will be allowed or denied.
 
-Within the build.security project, you can manage multiple PDP configurations. Each PDP configuration defines the necessary details to [deploy](pdp-deployments.md) a PDP in your organizational environment whice pull the authorization policies that will determine the authorization decision.
+Within the build.security project, you can manage multiple PDP configurations. Each PDP configuration defines the necessary details to [deploy](pdp-deployments/) a PDP in your organizational environment whice pull the authorization policies that will determine the authorization decision.
 
 When you open the PDP navigation option, all currently defined PDPs are listed in the table in the main display area.
 
@@ -70,7 +70,7 @@ You can also access additional information about each PDP by clicking **&gt;**. 
 
 * API key
 * Creation date and last update of the API key \(in UTC\).
-* Deployment instructions \(see [Deploying a build.security PDP](pdp-deployments.md)\).
+* Deployment instructions \(see [Deploying a build.security PDP](pdp-deployments/)\).
 
 ![Copying deployment command](../.gitbook/assets/deploycopy.png)
 
