@@ -1,11 +1,6 @@
 # Project Settings
 
-The project settings option enables you configure parameters related to your project. The project settings screen is divided into three sections:
-
-* General \(default display\)
-* [PDP](pdp-settings.md)
-* [Decision Log](decision-log-settings.md)
-* [Log Shippin](log-shipping.md)[g](log-shipping.md)
+The project settings option enables you configure parameters related to your project. The project settings screen is divided into these sections:
 
 | Option | Explanation | For more information, see: |
 | :--- | :--- | :--- |
