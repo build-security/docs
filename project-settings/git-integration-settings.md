@@ -11,11 +11,7 @@ After you complete the fields, or in the future if you change any values in thes
 | Git Access Token | The git access token. Can be generated here: [https://github.com/settings/tokens](https://github.com/settings/tokens). Like any other tokens and secrets in the build.security platform, this value is kept encrypted in our database with an AWS KMS key. |
 | Git repository | The target git repository. Only http and https protocols are supported at this point. SSH support is coming soon. |
 
-![Git integration settings screen](../.gitbook/assets/image%20%2810%29.png)
-
-
-
-
+![git integration settings form](../.gitbook/assets/image%20%2811%29.png)
 
 
 
