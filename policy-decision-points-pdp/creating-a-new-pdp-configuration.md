@@ -12,7 +12,7 @@ On the Policy Decision Point screen, you can define new PDP configurations. Note
 
 Once you create the PDP configuration, you should [generate a PDP key and secret ](generating-api-keys-for-a-pdp.md)for it.
 
-![New Policy Decision Point screen](https://files.readme.io/ff655c2-newpdp-nogen.PNG)
+![New PDP panel](../.gitbook/assets/newpdp.png)
 
 
 

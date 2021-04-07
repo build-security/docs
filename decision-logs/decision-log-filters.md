@@ -6,7 +6,7 @@ Where you leave the filter option as **Any**, this filter will not be a factor i
 
 Filtering the table can help you focus on and break down the entire process latency of the authorization request. You can use the **CLEAR ALL** button to clear all filters.
 
-![Decision logs table filters](../.gitbook/assets/filters.png)
+![Decision log filters](../.gitbook/assets/filters%20%281%29.png)
 
 ### About the Filters
 
@@ -16,7 +16,7 @@ The filters above the decision logs table include the following:
 
 | Filter name | Filter description |
 | :--- | :--- |
-| **Timestamp \(UTC\)** | Filter decisions based on the date and time when the decision was made. You can enter a specific **Start** and **End** time, or you can use predefined filters \(for example, last-minute, 5 minutes, last hour, last week, last month, etc.\). |
+| **Timestamp \(UTC\)** | Filter decisions based on the date and time when the decision was made. You can enter a specific **Start** and **End** times to filter for a range of times, or you can use predefined filters \(for example, last minute, 5 minutes, 15 minutes, hour, 24 hours, week, or month\). |
 | **Policy** | Filter the display according to which policy the decision was related. The list of currently defined policies will be displayed and you can select one, all or none. |
 | **PDP Name** | Filter the results to show decisions that were returned by one or more of the currently defined PDPs. Click in the checkbox of the PDP\(s\) you wish to include in the display. You can select more than one. You can use the search box to find a PDP, for example one that is not currently displayed. |
 | **PEP Address** | Filter by the IP address of the PEP \(Policy Enforcement Point\) that will be tasked with enforcing the PDP's decision. |
