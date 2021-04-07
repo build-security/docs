@@ -9,7 +9,7 @@ At any point of time, an operator can choose to commit the project settings and 
 3. If the branch do not exist in the remote repository, build.security's git client will create a new branch with the same name under the repository's `default` branch, and then will follow stop \#2 above.
 
 {% hint style="warning" %}
-**Important**
+**Important - use only build.security to modify policies**
 
 It is highly recommended to author and change configuration settings from within the build.security's control plane, and use the git integration for review and auditing perspectives. In certain environments, the project's artifacts in git can be used as source of truth.
 {% endhint %}
