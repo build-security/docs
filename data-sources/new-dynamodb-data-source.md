@@ -1,8 +1,10 @@
 # New DynamoDB Data Source
 
-DynamoDB is an Amazon Web Services \(AWS\) database system that can be integrated easily with build.security as a data source for implementing your authorization policies. Based on the policies defined in build.security and the information provided by the data source, the PDP can determine the authorization decision.
+DynamoDB is a widely used NoSQL database that can be used as a data-source in _build.security_
 
-**To create a DynamoDB data source in the control plane:**
+You may run any query, from within the policy, to extract any data that is required for making an authorization decision.
+
+**To create a new DynamoDB data source in the control plane, follow these steps:**
 
 1. Click the **NEW DATA SOURCE** button on the data source screen. The New Data Source panel will open on the right.
 2. In the **Name** field, enter the name of the new data source.

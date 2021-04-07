@@ -1,6 +1,8 @@
 # New PostgreSQL Data Source
 
-PostgreSQL is a widely used open source object-relational database system that can be connecting to build.security, to enable you can run anything from simple to complex queries \(authorization requests\) against the data in the PostreSQL database. Based on the policies defined in build.security and the information provided by the data source, the PDP can determine the authorization decision.
+PostgreSQL is a widely used relational database system that can be used as a data-source in _build.security._
+
+You may run any query, from within the policy, to extract any data that is required for making an authorization decision.
 
 **To create a PostgreSQL data source in the control plane:**
 
