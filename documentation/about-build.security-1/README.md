@@ -2,7 +2,7 @@
 
 [build.security](https://build.security/) provides developers with a new approach to simplify the development and management of the organization's authorization policy. Using the build.security control plane, you can easily configure and manage all of the necessary components to integrate the platform with your organization to apply and monitor how you want your users to access your resources.
 
-![Policy building in build.security](../../.gitbook/assets/image%20%281%29%20%281%29.png)
+![Policy building in build.security](../../.gitbook/assets/image%20%281%29%20%281%29%20%281%29.png)
 
 ## Developer to Developer, Lightweight, User-Friendly, and Scalable
 

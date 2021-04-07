@@ -2,7 +2,7 @@
 
 To view existing tests or create a new policy unit test, you can access the test screen by clicking on the test icon next to the policy name you wish to test.
 
-![Policy unit testing icon](../../.gitbook/assets/image%20%287%29.png)
+![Policy unit testing icon](../../.gitbook/assets/image%20%288%29.png)
 
 The list of tests offers two buttons: **Run Tests** and **New Test**. The table displays the following columns:
 
