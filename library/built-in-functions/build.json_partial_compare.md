@@ -78,7 +78,7 @@ actual := {
     "allow": true,
     "output": {
         "input": {
-            "foo": [1],
+            "foo": [1, 2],
             "role": "admin"
         }
     }
