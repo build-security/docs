@@ -68,16 +68,16 @@ build.json_partial_compare(expected, actual)
 
 
 
-#### Example \#2
+#### Example \#3
 
-Evaluates to `false` since `2 is not the second elemnt in not in [1, 1]`
+Evaluates to `false` since `2 is not the second elemnt in [1, 1]`
 
 ```scala
 actual := {
     "allow": true,
     "output": {
         "input": {
-            "foo": [1, 1],
+            "foo": [1, 1, 1],
             "role": "admin"
         }
     }
