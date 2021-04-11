@@ -70,7 +70,7 @@ build.json_partial_compare(expected, actual)
 
 #### Example \#3
 
-Evaluates to `false` since `[1, 2] != [1]`
+Evaluates to `false` since `[1, 2] != [1]`\
 Pay attention! Arrays are deeply compared and not partially compared.
 
 ```scala
