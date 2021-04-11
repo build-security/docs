@@ -100,6 +100,6 @@ build.json_partial_compare(expected, actual)
 
 **Supported PDP version** 
 
-This built-in function supported from version V0.3.0 and above 
+This built-in function supported from version V0.3.5 and above 
 {% endhint %}
 
