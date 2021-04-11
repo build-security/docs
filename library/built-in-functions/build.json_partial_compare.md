@@ -70,7 +70,7 @@ build.json_partial_compare(expected, actual)
 
 #### Example \#3
 
-Evaluates to `false` since `2 is not the second elemnt in [1, 1]`
+Evaluates to `false` since `2` is not the second elemnt in `[1, 1]`
 
 ```scala
 actual := {
