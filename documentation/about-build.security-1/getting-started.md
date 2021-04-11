@@ -2,10 +2,10 @@
 
 build.security’s architecture can be divided into four major components:
 
-* Policy Administration Point \(PAPs\)
-* Policy Decision Points \(PDPs\)
-* Policy Enforcement Points \(PEPs\)
-* Policy Information Points \(PIPs\)
+* [Policy Administration Point \(PAPs\)](getting-started.md#policy-administration-point-paps)
+* [Policy Decision Points \(PDPs\)](getting-started.md#policy-decision-points-pdp)
+* [Policy Enforcement Points \(PEPs\)](getting-started.md#policy-enforcement-points-pep)
+* [Policy Information Points \(PIPs\)](getting-started.md#policy-information-points-pip)
 
 ![build.security architecture](https://files.readme.io/4b01271-image.png)
 
@@ -13,11 +13,11 @@ build.security’s architecture can be divided into four major components:
 
 **The Policy Administration Point \(PAP\)** also known as the build.security control plane, is where the you can:
 
-* Author and publish new policies
+* Author and publish new policies \(leveraging git integration as source of truth for policies\)
 * Manage and view existing policies
 * Test policies with evaluation data
 * View decision logs
-* Configure system-wide and project-wide settings, integrations, and configuration
+* Configure system-wide and project-wide settings, integrations, and configurations
 * Manage PDPs at scale
 * Perform impact analysis on how policy items would impact the organization \(its identities, its resources, etc.\), if activated
 
@@ -42,4 +42,25 @@ The PDPs come with built-in connectors to a wide range of data sources, enabling
 **The Policy Enforcement Points \(PEP\)** are those who are responsible for enforcing the decision given by the PDPs. The[ enforcement points](../../pep-integrations.md) could be in the form of API gateways, reverse proxies, middlewares, SDKs, and more.
 
 ![Policy Enforcement Points integration options](https://files.readme.io/68ee5c3-pep.PNG)
+
+### Key Concepts
+
+* **Data Driven**
+  * PDPs are designed to be connected to any external data source, fetching real time information to make better authorization decisions. External datasource could be databases, HR applications, ticketing systems, billing applications and more
+  * Using build.security's `tagging` mechanism, data \(and policies\) can be segregated and partitioned into the relevant PDPs, providing the necessary information to the right places \(and only the necessary information\)
+* **Performance**
+  *  build.security's PDPs are built on top of OPA, the de-facto policy engine that is very lightweight and performant. Check out our [performance benchmark](https://build.security/whitepaper-performance/).
+  * The PDPs are stateless by design \(except for in-memory caching\) hence can be automatically scaled out as necessary.
+  * The PDPs are equipped with in-memory caching mechanism, further improving performance when interacting with external data sources.
+* **Policy-as-Code**
+  * The underlying authorization policies are "as code". Specifically - [rego](https://www.openpolicyagent.org/docs/latest/policy-language/). All policies can synchronized with a git repository allowing proper audit, review and approval before rolled out to production. Furthermore, policies can be unit-tested, just like code, making sure edge cases are taken care of.
+* **Decoupling policy from business logic**
+  * Access policies tend to start small but grow big very fast
+  * These policies are often "buried" within home-grown applications, right beside and in-between other business logic, making it hard to maintain and review when changes are needed.
+  * It's best to decouple access policies from business logic, manage it centrally, but enforce it in a distributed manner.
+* **Cloud native and open source**
+  * Built on top of OPA, build.security's PDP can integrate into many [cloud native applications](https://www.openpolicyagent.org/docs/latest/ecosystem/)
+  * All integrations can be managed and control from a single pane of glass.
+
+
 
