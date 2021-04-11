@@ -1,10 +1,10 @@
 # build.json\_partial\_compare
 
-### Function Description
+## Function Description
 
 Recursively compares two json objects and returns `true` if all of the fields in the `expectedJson` **Exist** and **match** the fields in `actualJson`, otherwise returns `false`
 
-### Function format
+## Function format
 
 `build.json_partial_compare(expectedJson, actualJson)`
 
@@ -13,9 +13,9 @@ Recursively compares two json objects and returns `true` if all of the fields in
 * `expectedJson` - JSON object that holds all keys and values to check in the `actualJson` object
 * `actualJson` - JSON object that holds an object to check fields in values in.
 
-### Function Usage Example
+## Function Usage Example
 
-#### Example \#1
+### Example \#1
 
 Evaluates to `false` since `"doctor" != "admin"`
 
@@ -37,9 +37,7 @@ expected := {
 build.json_partial_compare(expected, actual)
 ```
 
-
-
-#### Example \#2
+### Example \#2
 
 Evaluates to `false` since `"4" != 4`
 
@@ -66,12 +64,15 @@ expected := {
 build.json_partial_compare(expected, actual)
 ```
 
+### Example \#3
 
+Evaluates to `false` since `[1, 2] != [1]` 
 
-#### Example \#3
+{% hint style="warning" %}
+**Attention**
 
-Evaluates to `false` since `[1, 2] != [1]`\
-Pay attention! Arrays are deeply compared and not partially compared.
+Arrays are deeply compared and not partially compared.
+{% endhint %}
 
 ```scala
 actual := {
@@ -97,10 +98,8 @@ build.json_partial_compare(expected, actual)
 ```
 
 {% hint style="info" %}
+**Supported PDP version**
 
-
-**Supported PDP version** 
-
-This built-in function supported from version V0.3.5 and above 
+This built-in function supported from version V0.3.5 and above
 {% endhint %}
 
