@@ -70,14 +70,15 @@ build.json_partial_compare(expected, actual)
 
 #### Example \#3
 
-Evaluates to `false` since `2` is not the second elemnt in `[1, 1, 1]`
+Evaluates to `false` since `[1, 2] != [1]`
+Pay attention! Arrays are deeply compared and not partially compared.
 
 ```scala
 actual := {
     "allow": true,
     "output": {
         "input": {
-            "foo": [1, 1, 1],
+            "foo": [1],
             "role": "admin"
         }
     }
@@ -87,7 +88,7 @@ expected := {
     "allow": true,
     "output": {
         "input": {
-            "foo": [1, 2],
+            "foo": [1],
         }
     }
 }
