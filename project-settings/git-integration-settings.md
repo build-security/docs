@@ -31,13 +31,16 @@ After you complete the fields, or in the future if you change any values in thes
     </tr>
     <tr>
       <td style="text-align:left">Git repository</td>
-      <td style="text-align:left">The target git repository. Only http and https protocols are supported
-        at this point. SSH support is coming soon.</td>
+      <td style="text-align:left">
+        <p>The target git repository URL.</p>
+        <p>Only HTTP and HTTPS protocols are supported at this point. SSH support
+          is coming soon.</p>
+      </td>
     </tr>
   </tbody>
 </table>
 
-![git integration settings form](../.gitbook/assets/image%20%2811%29.png)
+![Git intgartion settings screen  ](../.gitbook/assets/image%20%2814%29.png)
 
 ### How to generate an access token @ GitHub
 
