@@ -66,6 +66,35 @@ expected := {
 build.json_partial_compare(expected, actual)
 ```
 
+
+
+#### Example \#2
+
+Evaluates to `false` since `2 is not the second elemnt in not in [1, 1]`
+
+```scala
+actual := {
+    "allow": true,
+    "output": {
+        "input": {
+            "foo": [1, 1],
+            "role": "admin"
+        }
+    }
+}
+
+expected := {
+    "allow": true,
+    "output": {
+        "input": {
+            "foo": [1, 2],
+        }
+    }
+}
+
+build.json_partial_compare(expected, actual)
+```
+
 {% hint style="info" %}
 
 
