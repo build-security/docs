@@ -44,7 +44,7 @@ After you complete the fields, or in the future if you change any values in thes
 1. Go to Profile Settings -&gt; Developer Settings -&gt; Personal Access Tokens \([https://github.com/settings/tokens](https://github.com/settings/tokens)\)
 2. Click the "Generate new token" button
 3. Give the new token a name and choose the "repo" scope, as shown in the image below.
-4. Copy the token and paste it in the build.security git integration settings form
+4. 1. Copy and paste the token into build.security git integration settings page
 
 ![Required scopes for access token \(GitHub\)](../.gitbook/assets/image%20%287%29.png)
 
@@ -58,7 +58,7 @@ After you complete the fields, or in the future if you change any values in thes
    2. Expression date \(optional\)
    3. Choose the "read\_repository" and "write\_repository" scopes, as shown in the image below.
 3. Click on "Create personal access token".
-4. Copy the token and paste it into build.security git integration settings form
+4. Copy and paste the token into build.security git integration settings page
 
 ![Personal acess token \(GitLab\)](../.gitbook/assets/image%20%2812%29.png)
 
