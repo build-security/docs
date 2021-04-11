@@ -50,7 +50,7 @@ After you complete the fields, or in the future if you change any values in thes
 
 
 
-##  How to generate an access token @ GitLab
+###  How to generate an access token @ GitLab
 
 1. Under the user avatar on the right upper side of the screen Go to Profile Settings -&gt; Access Tokens \([https://gitlab.com/-/profile/personal\_access\_tokens](https://gitlab.com/-/profile/personal_access_tokens)\)
 2. Set the access token:
