@@ -66,11 +66,41 @@ expected := {
 build.json_partial_compare(expected, actual)
 ```
 
+
+
+#### Example \#3
+
+Evaluates to `false` since `[1, 2] != [1]`\
+Pay attention! Arrays are deeply compared and not partially compared.
+
+```scala
+actual := {
+    "allow": true,
+    "output": {
+        "input": {
+            "foo": [1, 2],
+            "role": "admin"
+        }
+    }
+}
+
+expected := {
+    "allow": true,
+    "output": {
+        "input": {
+            "foo": [1],
+        }
+    }
+}
+
+build.json_partial_compare(expected, actual)
+```
+
 {% hint style="info" %}
 
 
 **Supported PDP version** 
 
-This built-in function supported from version V0.3.0 and above 
+This built-in function supported from version V0.3.5 and above 
 {% endhint %}
 
