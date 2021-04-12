@@ -2,7 +2,7 @@
 
 Elasticsearch is an open source solution built on Apache Lucene. By connecting the Elasticsearch data source to build.security, you can run anything from simple to complex queries against the data in Elasticsearch that will be used by the PDP to determine the authorization decision.
 
-**To create an Elasticsearch data source in the control plane:**
+**To create an Elasticsearch data source:**
 
 1. Click the **NEW DATA SOURCE** button on the data source screen. The New Data Source panel will open on the right.
 2. In the **Name** field, enter the name of the new data source.

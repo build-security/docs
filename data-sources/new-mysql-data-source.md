@@ -4,7 +4,7 @@ MySQL is a widely used open-source relational database system that can be used a
 
 You may run any query, from within the policy, to extract any data that is required for making an authorization decision.
 
-**To create a new MySQL data-source in the control plane, follow these steps:**
+**To create a new MySQL data source in the control plane:**
 
 1. Click the **NEW DATA SOURCE** button on the data-source screen. The New Data Source panel will open on the right.
 2. In the **Name** field, enter the name of the new data-source.
