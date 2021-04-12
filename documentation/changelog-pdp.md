@@ -2,6 +2,10 @@
 
 ## Version 0.3.5 - April 12, 2021
 
+* Fix parsing testing results that contain errors
+
+## Version 0.3.5 - April 12, 2021
+
 * Add support of comparing JSON files that include arrays in [`build.json_partial_compare(expectedJson, actualJson)`](https://docs.build.security/library/built-in-functions/build.json_partial_compare)\`\`
 
   \*\*\*\*
