@@ -16,19 +16,19 @@ In order for the decision engine to work, it is required:
 
 ### Environment Variables
 
-There's a list of an environment variables you can use in order to configure the PDP in runtime:
+Following is a list of environment variables that you can use to configure a PDP at runtime:
 
 | Environment variable name | description |
 | :--- | :--- |
-| API\_KEY | The API key to be used by the PDP to authenticate with the build.security control plane |
-| API\_SECRET | The API secret to be used by the PDP to authenticate with the build.security control plane |
-| CONTROL\_PLANE\_ADDRESS | The control plane address to be used by the PDP |
+| API\_KEY | API key used by the PDP to authenticate with the build.security control plane |
+| API\_SECRET | API secret used by the PDP to authenticate with the build.security control plane |
+| CONTROL\_PLANE\_ADDRESS | Control plane address used by the PDP |
 | PDP\_LOG_\__LEVEL | The PDP log level. `debug` / `error`. Default is `error`. |
-| BUNDLE\_COMMIT | The git commit SHA to be used for pulling specific policies. This feature assumes [git integration](../../project-settings/git-integration-settings.md) is enabled as the control needs the ability to pull and serve the specific policies and configurations to the PDP. |
+| BUNDLE\_COMMIT | The Git commit SHA used for pulling specific policies. This feature assumes [git integration](../../project-settings/git-integration-settings.md) is enabled as the control plane needs the ability to pull and serve the specific policies and configurations to the PDP. |
 
 ### Supported Environments
 
-To deploy your PDP correctly, use the relevant installation instructions for your environment.
+To deploy your PDP properly, use the relevant installation instructions for your environment.
 
 [Standalone Docker](standalone-docker-1.md)  
 [Kubernetes](kubernetes.md)
