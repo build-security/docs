@@ -1,6 +1,6 @@
 # Changelog - PDP
 
-## Version 0.3.5 - April 12, 2021
+## Version 0.3.6 - April 12, 2021
 
 * Fix parsing testing results that contain errors
 
