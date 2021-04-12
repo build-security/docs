@@ -1,5 +1,11 @@
 # Changelog - PDP
 
+## Version 0.3.5 - April 12, 2021
+
+* Add support of comparing JSON files that include arrays in [`build.json_partial_compare(expectedJson, actualJson)`](https://docs.build.security/library/built-in-functions/build.json_partial_compare)\`\`
+
+  \*\*\*\*
+
 ## Version 0.3.4 - March 25, 2021
 
 * Support usage of [BUNDLE\_COMMIT](../policy-decision-points-pdp/pdp-deployments/#supported-environments) using git commit SHA for pulling specific policies
