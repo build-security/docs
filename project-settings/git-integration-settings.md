@@ -36,7 +36,7 @@ After you complete the fields, or in the future if you change any values in thes
   </tbody>
 </table>
 
-![git integration settings form](../.gitbook/assets/image%20%288%29.png)
+![git integration settings form](../.gitbook/assets/image%20%288%29%20%282%29.png)
 
 ### How to generate an access token @ GitHub
 

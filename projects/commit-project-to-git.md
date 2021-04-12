@@ -1,8 +1,13 @@
 # Commit Project to Git
 
-The git integration feature allows an operator to truly treat all policies as code and reflect them in a designated git repository for proper review and approval workflow, complying with SDLC guidelines. In order to enable git integration, see the [git integration settings screen](../project-settings/git-integration-settings.md).
+The Git integration feature allows an operator to truly treat all policies as code and reflect them in a designated Git repository. This enables you to:
 
-At any point of time, an operator can choose to commit the project settings and policies to a designated git branch. build.security's control plane is acting as a "git client". When clicking the "commit" button, the following commands take place:
+* Perform a proper review and approval workflow
+* Comply with SDLC guidelines
+
+To enable Git integration, see the [git integration settings screen](../project-settings/git-integration-settings.md).
+
+At any time, an operator can choose to commit the project settings and policies to a designated Git branch. build.security's control plane acts as a "Git client". When clicking the "commit" button, the following commands take place:
 
 1. The operator is asked to provide the remote branch name
 2. If the branch exists in the remote repository, build.security's git client will `pull` latest and `commit` the changes.
