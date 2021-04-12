@@ -17,10 +17,6 @@ After you complete the fields, or in the future if you change any values in thes
       <td style="text-align:left">Enable / Disable toggle</td>
     </tr>
     <tr>
-      <td style="text-align:left">Git Username</td>
-      <td style="text-align:left">The git username or email</td>
-    </tr>
-    <tr>
       <td style="text-align:left">Git Access Token</td>
       <td style="text-align:left">
         <p>The git access token.</p>
@@ -40,7 +36,7 @@ After you complete the fields, or in the future if you change any values in thes
   </tbody>
 </table>
 
-![Git intgartion settings screen  ](../.gitbook/assets/image%20%2814%29.png)
+![git integration settings form](../.gitbook/assets/image%20%288%29.png)
 
 ### How to generate an access token @ GitHub
 
