@@ -1,7 +1,8 @@
 # Changelog - PDP
 
 ## Version 0.3.6 - April 12, 2021
-* Bug fix - fixed an issue in policy-tests where unmarshal of a response may fail if a runtime error occurred 
+
+* Fixed an issue in policy-tests where unmarshal of a response may fail if a runtime error occurred 
 
 ## Version 0.3.5 - April 12, 2021
 

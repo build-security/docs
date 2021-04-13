@@ -59,5 +59,5 @@ After you complete the fields, or in the future if you change any values in thes
 3. Click on "Create personal access token".
 4. Copy and paste the token into build.security git integration settings page
 
-![Personal acess token \(GitLab\)](../.gitbook/assets/image%20%2813%29.png)
+![Personal acess token \(GitLab\)](../.gitbook/assets/image%20%2813%29%20%281%29.png)
 
