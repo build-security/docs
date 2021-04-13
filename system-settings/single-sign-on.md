@@ -22,11 +22,16 @@ In Okta, you will create a new application, that will connect with build.securit
 
 * If your identity provider lets you choose application type, please choose `Single Page App (SPA)`
 * If your identity provider lets you choose `Allowed grant types`, please choose `Authorization Code`, `implicit`, `Allow ID Token with implicit grant type`
-* Please copy the `build.security Redirection URL` field and paste it in your identity provider, under `Login redirect URIs`.
 
-  This is the URL that your identity provider will redirect your users to after a successful authentication, so your identity provider must know that specific URL in advance.
+![](../.gitbook/assets/image%20%2824%29.png)
+
+* Please copy the `build.security Redirection URL` field and paste it in your identity provider, under `Login redirect URIs`.  This is the URL that your identity provider will redirect your users to after a successful authentication, so your identity provider must know that specific URL in advance.
+
+![Logout redirect URIs &amp; Initiate login URI are not relevant](../.gitbook/assets/image%20%2818%29.png)
 
 * Copy the Client ID from your identity provider and paste it in build.security's console.
+
+![](../.gitbook/assets/image%20%2819%29.png)
 
 In Okta, you will find these fields under your application that you want to connect with build.security.
 
@@ -41,9 +46,13 @@ Your identity provider should supply an `Authorize URL`. You should complete tha
 
   Paste that URL in build.security under `Redirection URL`
 
+* `state` - Please **remove** the state from the redirection url! We will generate this field. 
+
+![](../.gitbook/assets/image%20%2822%29.png)
+
 ### Discovery URL
 
 Also known as well-known URL. That is the URL that helps build.security to verify the authentication process against your identity provider. Some identity providers supply that URL for all customers under the same template. 
 
-For example, in okta, that URL is: `https://<YOUR_DOMAIN>okta.com/.well-known/openid-configuration`
+For example, in okta, that URL is: `https://<YOUR_DOMAIN>.okta.com/.well-known/openid-configuration`
 
