@@ -1,8 +1,8 @@
 # Git Integration Settings
 
-The [git integration](../projects/commit-project-to-git.md) feature allows an operator to truly treat all policies as code and reflect them in a designated git repository for proper review and approval workflow, complying with SDLC guidelines. In order to enable git integration, the following settings are to be properly filled.
+The [Git integration](../projects/commit-project-to-git.md) feature allows an operator to truly treat all policies as code and reflect them in a designated Git repository to create a proper review and approval workflow, complying with SDLC guidelines. To enable Git integration, the settings in the following table need to be completed.
 
-After you complete the fields, or in the future if you change any values in these fields, click **UPDATE** to save the new settings.
+After you complete the fields, or in the future if you change any values in these fields, click **UPDATE** to save the changes.
 
 <table>
   <thead>
@@ -19,7 +19,7 @@ After you complete the fields, or in the future if you change any values in thes
     <tr>
       <td style="text-align:left">Git Access Token</td>
       <td style="text-align:left">
-        <p>The git access token.</p>
+        <p>The Git access token.</p>
         <p>Like any other tokens and secrets in the build.security platform, this
           value is kept encrypted in our database with an AWS KMS key. See below
           for an example of how to generate an access token in your Git Hosting Service.</p>
@@ -28,7 +28,7 @@ After you complete the fields, or in the future if you change any values in thes
     <tr>
       <td style="text-align:left">Git repository</td>
       <td style="text-align:left">
-        <p>The target git repository URL.</p>
+        <p>The target Git repository URL.</p>
         <p>Only HTTP and HTTPS protocols are supported at this point. SSH support
           is coming soon.</p>
       </td>
@@ -36,7 +36,7 @@ After you complete the fields, or in the future if you change any values in thes
   </tbody>
 </table>
 
-![git integration settings form](../.gitbook/assets/image%20%288%29.png)
+![git integration settings form](../.gitbook/assets/image%20%2812%29.png)
 
 ### How to generate an access token @ GitHub
 

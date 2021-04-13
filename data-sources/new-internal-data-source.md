@@ -2,7 +2,7 @@
 
 When creating and viewing a local build.security internal repository, the JSON content will be displayed. When editing the JSON code, any errors detected in the code will trigger an error message \(in red\) below the JSON content text box.
 
-### Creating a New Internal Data Source
+**To create a new internal data source:**
 
 1. Click the **NEW DATA SOURCE** button on the Data Source screen. The New Data Source panel will open on the right.
 2. In the **Name** field, enter the name of the new Data Source.
