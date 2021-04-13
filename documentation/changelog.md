@@ -6,6 +6,24 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 0.3.7772 - April 13, 2021
+**Major Features**
+* [Git integration support](../projects/commit-project-to-git.md)
+* Support for social log-in
+
+**Minor Enhancements**
+* Improved decision-logs ingestion rate
+* Adding an indication of the contorl-plane version 
+* Allow filtering decision logs by the Result or Input fields
+
+**Fixes**
+* Supporting large message size in policy playground evaluation tasks
+* Sort PDP instances with Online instances on top of Offline instances
+* Fixed issue where inactive rules with syntax error are causing Rego compilation errors
+
+**Behavioural Changes**
+* Policies containing errors can no longer be published until all Rego compilation errors in the project are resolved
+
 ## Version 0.2.7751 - March 21, 2021
 
 **Major Features**
