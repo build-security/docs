@@ -24,10 +24,10 @@ In Okta, you will find that field under your application that you want to connec
 
 ## Redirection URL
 Your identity provider should supply an "Authorize URL". You should complete the URL as follows:
-* response type - "id_token"
-* response mode - "fragment"
-* scope - "openid%20email%20profile"
-* redirect uri - https%3A%2F%2Fconsole.poc.build.security
+* `response type` - "id_token"
+* `response mode` - "fragment"
+* `scope` - "openid%20email%20profile"
+* `redirect uri` - https%3A%2F%2Fconsole.poc.build.security
 Paste that URL in build.security under "Redirection URL"
 
 ## Discovery URL
