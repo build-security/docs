@@ -7,6 +7,10 @@ The Git integration feature allows an operator to truly treat all policies as co
 
 To enable Git integration, see the [git integration settings screen](../project-settings/git-integration-settings.md).
 
+{% hint style="success" %}
+Make sure to read our [guide](../working-with-envs.md#overview) around best practices for development and production environments.
+{% endhint %}
+
 At any time, an operator can choose to commit the project settings and policies to a designated Git branch. build.security's control plane acts as a "Git client". When clicking the "commit" button, the following commands take place:
 
 1. The operator is asked to provide the remote branch name
