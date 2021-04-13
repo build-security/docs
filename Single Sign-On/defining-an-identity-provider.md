@@ -10,7 +10,7 @@ Currently, we support only the OpenID Connect protocol for Single Sign-On.
 If you use other protocol (e.g, SAML), please contact support@build.security/
 {% endhint %}
 
-To define an identity provider, please click the "System Settings" button on the navigation menu, then click on the "Single Sign On" button.
+To define an identity provider, please click on the "System Settings" button on the navigation menu, then click on the "Single Sign On" button.
 (Add picture)
 
 ## Defining build.security at your identity provider
