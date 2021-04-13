@@ -12,6 +12,7 @@ description: >-
 
 * [Git integration support](../projects/commit-project-to-git.md)
 * Support for social log-in
+* Single Sign On support \(via OKTA\)
 
 **Minor Enhancements**
 
