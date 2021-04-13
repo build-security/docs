@@ -36,8 +36,8 @@ Your identity provider should supply an `Authorize URL`. You should complete tha
 
 * `response type` - id\_token
 * `response mode` - fragment
-* `scope` - openid%20email%20profile
-* `redirect uri` - https%3A%2F%2Fconsole.poc.build.security
+* `scope` - `openid` `email` `profile`
+* `redirect uri` - &lt;hostname of build.security&gt; \(eg. https://console.poc.build.security\)
 
   Paste that URL in build.security under `Redirection URL`
 
