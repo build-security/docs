@@ -23,10 +23,6 @@ If you do not know which option to use, contact your system administrator.
 
 ### Log in using Single Sign-On
 
-{% hint style="info" %}
-build.security Support Single-Sign-On using OKTA
-{% endhint %}
-
 1. On the login page, click **Continue with Single Sign-on**. The SSO login page appears.
 2. Enter your email address.
 3. Click **log in** to confirm your credentials. The page will re-direct for authentication and then you will enter the build.security platform.

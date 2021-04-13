@@ -23,6 +23,7 @@
   * [User API Key Management](system-settings/user-api-key-management.md)
   * [Internal Audit](system-settings/internal-audit.md)
   * [Log Shipping Integration](system-settings/log-shipping-integration.md)
+  * [Single Sign-On](system-settings/single-sign-on.md)
 * [Projects](projects/README.md)
   * [Project Selection Screen](projects/project-selection-screen.md)
   * [Creating a project](projects/creating-a-project.md)
