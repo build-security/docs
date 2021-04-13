@@ -14,9 +14,9 @@ Follow the steps in the [Git integration](project-settings/git-integration-setti
 
 ## Step \#2 - Developing the policy
 
-After we have configured the [Git integration](project-settings/git-integration-settings.md), authoring of the policy will take place and the initial [commit](projects/commit-project-to-git.md) to Git will be done.
+After we have configured the [Git integration](project-settings/git-integration-settings.md), authoring of the policy will take place and a [commit](projects/commit-project-to-git.md) to Git will be done.
 
-We would like to commit our policy in the development stage to a branch which is not `main` - let us call this development branch `development-branch` and make sure that we commit to that branch.
+We would like to commit our policy in the development stage to a branch which is not `main` - let us call this development branch `develop` and make sure that we commit to that branch.
 
 ![commit to development branch image](.gitbook/assets/commit-to-dev-branch.png)
 
@@ -38,7 +38,7 @@ We would then continue to iteratively author the policy, test it and Publish it 
 
 Now that we are satisfied with our policy, we would like to have our changes approved before rolling-out the policy to production - our integration with Git will allow us to do so.
 
-We would likely want to merge our policy to the `main` branch - we would therefore open a pull-request for our changes for merging the changes from branch `development-branch` to `main`. This will allow our peers to review the changes in the Rego files and approve them.
+We would likely want to merge our policy to the `main` branch - we would therefore open a pull-request for our changes for merging the changes from branch `develop` to `main`. This will allow our peers to review the changes in the Rego files and approve them.
 
 ![Pull request example for policy changes on Git](.gitbook/assets/policy-pull-request.png)
 
