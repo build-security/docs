@@ -11,7 +11,7 @@ build.security’s architecture can be divided into four major components:
 
 ### Policy Administration Point \(PAPs\)
 
-**The Policy Administration Point \(PAP\)** also known as the build.security control plane, is where the you can:
+**The Policy Administration Point \(PAP\)** also known as the build.security control plane, is where you can:
 
 * Author and publish new policies \(leveraging git integration as source of truth for policies\)
 * Manage and view existing policies

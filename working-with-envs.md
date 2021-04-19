@@ -46,7 +46,7 @@ Once the pull request has been approved, we can merge it to branch `main`.
 
 ## Step \#5 - Rolling-out the policy to production
 
-After the merge of the pull-request to branch `main`, we will have a new commit SHA that we can use for deploying the changes to production. 
+After the merge of the pull-request to branch `main`, we will have a new commit SHA that we can use for deploying the changes to production.
 
 ![Commit SHA in main](.gitbook/assets/policy-pr-commits.png)
 
@@ -54,7 +54,7 @@ We can configure our GitOps processes to take the latest commit SHA on branch `m
 
 We shall create a new PDP configuration and call it `Production PDP`.
 
-The deployment command for the PDP may look similarly to the following \(assuming it is deployed as a standalone PDP\): 
+The deployment command for the PDP may look similarly to the following \(assuming it is deployed as a standalone PDP\):
 
 ```bash
 docker pull buildsecurity/pdp;  

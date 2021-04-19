@@ -14,7 +14,7 @@ Currently, we support only the OpenID Connect protocol for Single Sign-On. If yo
 
 To define an identity provider, please click on the "System Settings" button on the navigation menu, then click on the "Single Sign On" button.
 
-![Single Sign-On menu](../.gitbook/assets/image%20%2817%29.png)
+![Single Sign-On menu](../.gitbook/assets/image%20%2817%29%20%281%29.png)
 
 ### Defining build.security in your chosen Identity Provider
 
@@ -23,7 +23,7 @@ In Okta, you will create a new application, that will connect with build.securit
 * If your identity provider lets you choose application type, please choose `Single Page App (SPA)`
 * If your identity provider lets you choose `Allowed grant types`, please choose `Authorization Code`, `implicit`, `Allow ID Token with implicit grant type`
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2824%29%20%282%29.png)
 
 * Please copy the `build.security Redirection URL` field and paste it in your identity provider, under `Login redirect URIs`.  This is the URL that your identity provider will redirect your users to after a successful authentication, so your identity provider must know that specific URL in advance.
 
