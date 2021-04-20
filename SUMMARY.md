@@ -15,7 +15,7 @@
 * [Changelog - PDP](documentation/changelog-pdp.md)
 * [Logging In](documentation/logging-in/README.md)
   * [With build.security Credentials](documentation/logging-in/logging-in-1.md)
-  * [Using Single Sign-On](documentation/logging-in/using-single-sign-on.md)
+  * [Using Single Sign On](documentation/logging-in/using-single-sign-on.md)
   * [Using Social Provider Authentication](documentation/logging-in/using-social-provider-authentication.md)
 
 ---
