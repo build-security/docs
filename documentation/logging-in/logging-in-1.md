@@ -11,19 +11,6 @@ You can log in to the build.security control plane in several ways. For more inf
 
 ![](../../.gitbook/assets/login.png)
 
-### Log in using Single Sign-On
-
-1. Below the social provider links, select **Log in with SSO**. The build.security credentials options will appear.
-
-   On the login page, click **Continue with Single Sign-on**. The SSO login page appears.
-
-2. Enter your email address.
-3. Click **log in** to confirm your credentials. The page will re-direct for authentication and then you will enter the build.security platform.
-
-Note: If your organization does not require SSO login and you still select this option, an error message will appear on the login page. Contact your system admin for further assistance.
-
-![SSO login screen](https://files.readme.io/97d4c2e-sso-login.PNG)
-
 {% hint style="danger" %}
 **Possible Errors**
 
