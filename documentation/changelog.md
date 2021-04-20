@@ -23,10 +23,10 @@ description: >-
 **Fixes**
 
 * Supporting large message size in policy playground evaluation tasks
-* Sort PDP instances with Online instances on top of Offline instances
+* Sort PDP instances with online instances on top of Offline instances
 * Fixed issue where inactive rules with syntax error are causing Rego compilation errors
 
-**Behavioural Changes**
+**Behavioral Changes**
 
 * Policies containing errors can no longer be published until all Rego compilation errors in the project are resolved
 
@@ -38,21 +38,21 @@ description: >-
 * Additional filters in the decision logs \(input / result\)
 * [MySQL support](../data-sources/new-mysql-data-source.md)
 * [Policy Authoring](../policies/policy-items/managing-policy-items.md)- new look and feel
-* [Log shipping](../system-settings/log-shipping-integration.md) support for datadog, Elasticsearch
+* [Log shipping](../system-settings/log-shipping-integration.md) support for Datadog, Elasticsearch
 
 **Minor Enhancements**
 
 * Supporting non-English characters in policy names
 * More debug logs in the PDP
 * Policy playground now auto-populates with the user's last input
-* ['Strict mode'](../policies/policy-evaluation-playground.md#strict-mode) is now turned on by default within the playground. Read more [here.](../policies/policy-evaluation-playground.md#strict-mode)
-* PDP version is now displayed in the PDP screen right beside each pdp instance
+* ['Strict mode'](../policies/policy-evaluation-playground.md#strict-mode) is now turned on by default within the playground. Read more [here](../policies/policy-evaluation-playground.md#strict-mode)
+* PDP version is now displayed in the PDP screen right beside each PDP instance
 * Text areas can now be copied via easy "copy to clipboard" button
 * Text areas can now be expandable
 * [Cache control](../policies/policy-evaluation-playground.md#use-cache-setting) in the policy playground
 * Ability to re-order policy rules within the policy tab
 * Support of [library rules](https://library.build.security/) + JIRA search library rule
-* New builtin functions
+* New built-in functions
   * [build.json\_partial\_compare](../library/built-in-functions/build.json_partial_compare.md)
   * [build.rate\_limit](../library/built-in-functions/build.rate_limit.md)
   * [cache.insert](../library/built-in-functions/cache.md)
@@ -68,7 +68,7 @@ description: >-
 * Minor fixes in the "View Schema" of the DynamoDB data source.
 * An audit log was missing when publishing to PDPs.
 
-**Behavioural Changes**
+**Behavioral Changes**
 
 * Removal of versioning per policy \(in favor of future Git integration\)
 
