@@ -1,5 +1,10 @@
 # Changelog - PDP
 
+## Version 0.3.8 - April 20, 2021
+
+* Allow dynamic labels from the discovery bundle
+* Update used libraries 
+
 ## Version 0.3.6 - April 12, 2021
 
 * Fixed an issue in policy-tests where unmarshal of a response may fail if a runtime error occurred 
