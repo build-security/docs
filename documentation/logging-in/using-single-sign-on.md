@@ -8,7 +8,9 @@ Users can log in with their email address alone, when configured as a single sig
 2. Enter your email address.
 3. Click **LOGIN** to confirm your credentials. The page will re-direct for authentication and then you will enter the build.security platform.
 
-‌Note: If your organization does not require SSO login and you still select this option, an error message will appear on the login page. Return to the log in page to login correctly or contact your system admin for further assistance.
+{% hint style="info" %}
+If your organization does not require SSO login and you still select this option, an error message will appear on the login page. Return to the log in page to login correctly or contact your system admin for further assistance.
+{% endhint %}
 
 ![SSO login](../../.gitbook/assets/withsso.png)
 
