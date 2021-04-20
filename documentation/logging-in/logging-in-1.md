@@ -9,7 +9,7 @@ You can log in to the build.security control plane in several ways. For more inf
 3. In the **Password** field, enter your password.
 4. Click **LOGIN**.
 
-![](../../.gitbook/assets/login.png)
+![Login with build.security credentials](../../.gitbook/assets/credentials.png)
 
 {% hint style="danger" %}
 **Possible Errors**
