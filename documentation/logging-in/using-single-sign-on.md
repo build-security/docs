@@ -2,7 +2,7 @@
 
 Users can log in with their email address alone, when configured as a single sign-on user. Below are details for signing in. For information on how to configure the system to use single sign on, see [Single Sign On](../../system-settings/single-sign-on.md). 
 
-‌**To log in using Single Sign-On:**
+‌**To log in using Single Sign On:**
 
 1. Below the social provider links, select **Log in with SSO**. The SSO login page appears.
 2. Enter your email address.
