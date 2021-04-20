@@ -1,29 +1,22 @@
-# Logging In
+# With build.security Credentials
 
+You can log in to the build.security control plane in several ways. For more information, see [Logging In](./).
 
+**To log in with build.security credentials:**
 
-Each time you enter the build.security platform, you will need to log in. There are two methods for logging into the system:
+1. Below the social provider links, select **Log in with Password**. The build.security credentials options will appear.
+2. In the **Email** field, enter your email address.
+3. In the **Password** field, enter your password.
+4. Click **LOGIN**.
 
-* logging in with email address and password \(your build.security credentials\).
-* [logging in with single sign-on \(SSO\)](../../system-settings/single-sign-on.md).
-
-{% hint style="info" %}
-**Note**
-
-If you do not know which option to use, contact your system administrator.
-{% endhint %}
-
-### Log in with build.security credentials
-
-1. In the **Email** field, enter your email address.
-2. In the **Password** field, enter your password.
-3. Click **log in**.
-
-![Login screen](https://files.readme.io/83e4f4d-login.PNG)
+![](../../.gitbook/assets/login.png)
 
 ### Log in using Single Sign-On
 
-1. On the login page, click **Continue with Single Sign-on**. The SSO login page appears.
+1. Below the social provider links, select **Log in with SSO**. The build.security credentials options will appear.
+
+   On the login page, click **Continue with Single Sign-on**. The SSO login page appears.
+
 2. Enter your email address.
 3. Click **log in** to confirm your credentials. The page will re-direct for authentication and then you will enter the build.security platform.
 

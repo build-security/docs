@@ -37,7 +37,7 @@ Below this information, you can click the **+ New** button to open the new user 
    * Select the projects in which this user can fulfill the selected role in the **Apply In** field. You can select All \(the default option\), or you can select specific projects by clicking in the projects field. When you click in the **Projects** field, a list of all currently defined projects is displayed. Click on as many as you the new user to have access to. Each time you click on a project, it is added to the list in the **Projects** field. To remove a project, click the **X** beside the project's name.
 4. Click **Save** to create the new user.
 
-After you create the new user, an email will be sent to the specified email address. This email will include a link to the build.security platform [login page](../../documentation/getting-started/logging-in-1.md). For users that are not required to log in with SSO, when they log in the first time, they will be required to change the password.
+After you create the new user, an email will be sent to the specified email address. This email will include a link to the build.security platform [login page](../../documentation/logging-in/logging-in-1.md). For users that are not required to log in with SSO, when they log in the first time, they will be required to change the password.
 
 ![New user screen](https://files.readme.io/c876bbb-newuser2.PNG)
 

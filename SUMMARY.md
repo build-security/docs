@@ -8,12 +8,15 @@
   * [Architecture](documentation/about-build.security-1/getting-started.md)
   * [Using OPA for Applications Authorization](documentation/about-build.security-1/using-opa-for-applications-authorization.md)
 * [Getting Started](documentation/getting-started/README.md)
-  * [Logging In](documentation/getting-started/logging-in-1.md)
   * [Control Plane Overview](documentation/getting-started/control-plane-overview.md)
   * [Main Toolbar](documentation/getting-started/main-toolbar.md)
   * [Navigation Panel Options](documentation/getting-started/navigation-panel-options.md)
 * [Changelog - Control Plane](documentation/changelog.md)
 * [Changelog - PDP](documentation/changelog-pdp.md)
+* [Logging In](documentation/logging-in/README.md)
+  * [With build.security Credentials](documentation/logging-in/logging-in-1.md)
+  * [Using Single Sign-On](documentation/logging-in/using-single-sign-on.md)
+  * [Using Social Provider Authentication](documentation/logging-in/using-social-provider-authentication.md)
 
 ---
 
