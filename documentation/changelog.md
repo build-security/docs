@@ -11,13 +11,13 @@ description: >-
 **Major Features**
 
 * [Git integration support](../projects/commit-project-to-git.md)
-* Support for social log-in
-* Single Sign On support \(via OKTA\)
+* [Support for social log-in](logging-in/using-social-provider-authentication.md)
+* [Single Sign On support \(via OKTA\)](logging-in/using-single-sign-on.md)
 
 **Minor Enhancements**
 
 * Improved decision-logs ingestion rate
-* Adding an indication of the contorl-plane version 
+* Adding an indication of the control plane version 
 * Allow filtering decision logs by the Result or Input fields
 
 **Fixes**
