@@ -39,7 +39,6 @@
   * [Log Shipping](project-settings/log-shipping.md)
   * [Git Integration Settings](project-settings/git-integration-settings.md)
 * [Policy Decision Points \(PDP\)](policy-decision-points-pdp/README.md)
-  * [Deploy PDP with Helm chat](policy-decision-points-pdp/deploy-pdp-with-helm-chat.md)
   * [Creating a New PDP Configuration](policy-decision-points-pdp/creating-a-new-pdp-configuration.md)
   * [Generating API Keys for a PDP](policy-decision-points-pdp/generating-api-keys-for-a-pdp.md)
   * [PDP Deployments](policy-decision-points-pdp/pdp-deployments/README.md)
