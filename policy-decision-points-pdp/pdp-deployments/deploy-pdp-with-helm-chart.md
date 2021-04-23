@@ -1,6 +1,6 @@
 # Kubernetes with Helm Chart
 
-### Deploying pdp as a standalone service via Helm
+### Option 1 - Deploying pdp as a standalone service via Helm
 
 1.Add the build security repo to your Helm repositories :
 
@@ -13,26 +13,26 @@ $ helm repo add build-security https://build-security.github.io/pdp-helm/
 3. Add your desired variables into the values template files as specified in the [README.md](https://github.com/build-security/pdp-helm/blob/master/README.md) file.
 
 {% hint style="info" %}
- You need to generate the api key & secret from the console before proceeding
+ You need to [generate the api key & secret](../generating-api-keys-for-a-pdp.md) from the console before proceeding. 
 {% endhint %}
 
-3.Deploy the chart using the following command:
+4. Deploy the chart using the following command:
 
 ```bash
 $ helm install --name-template build-security-pdp build-security/build-security-pdp -f values-tmpl.yaml
 ```
 
-4.Run kubectl to verify helm installed and the pods were started successfully:
+5. Run kubectl to verify helm installed and the pods were started successfully:
 
 ```bash
 kubectl get deploy | grep build-security-pdp 
 ```
 
-### Deploying PDP as a sidecar for your application / microservice
+### Option 2 - Deploying PDP as a sidecar for your application / microservice
 
 In order to deploy pdp as a sidecar we must specify an additional container in your deployment configuration template & add the necessary parameters to the relevant deployment's configmap, secret & service templates.
 
-1.Example of a deployment template:
+1. Example of a deployment template:
 
 ```bash
       containers:
@@ -67,7 +67,7 @@ In order to deploy pdp as a sidecar we must specify an additional container in y
           resources:
 ```
 
-2.Verify your application container can access the pdp via curl on port 8181:
+2. Verify your application container can access the pdp via curl on port 8181:
 
 ```bash
 curl http://<service-name>:8181/v1/data/
