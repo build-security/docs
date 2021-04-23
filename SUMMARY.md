@@ -43,6 +43,7 @@
   * [Generating API Keys for a PDP](policy-decision-points-pdp/generating-api-keys-for-a-pdp.md)
   * [PDP Deployments](policy-decision-points-pdp/pdp-deployments/README.md)
     * [Kubernetes](policy-decision-points-pdp/pdp-deployments/kubernetes.md)
+    * [Kubernetes with Helm Chart](policy-decision-points-pdp/pdp-deployments/deploy-pdp-with-helm-chart.md)
     * [Standalone Docker](policy-decision-points-pdp/pdp-deployments/standalone-docker-1.md)
   * [PDP Hardening](policy-decision-points-pdp/pdp-hardening.md)
   * [Editing a PDP Configuration](policy-decision-points-pdp/editing-a-pdp-configuration.md)
