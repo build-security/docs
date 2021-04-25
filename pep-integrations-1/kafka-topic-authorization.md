@@ -71,7 +71,7 @@ bin/kafka-server-start.sh config/server.properties
 Run the following command to create a topic named `topic1`
 
 ```bash
-bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+bin/kafka-topics.sh --create --topic topic1 --bootstrap-server localhost:9092
 ```
 
 ### 7. Watch decision logs
