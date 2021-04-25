@@ -51,7 +51,7 @@ This configuration will :
 
 ### 4. Run PDP with kafka policy enforced
 
-Follow the pdp deployment [instructions](../policy-decision-points-pdp/pdp-deployments/) and publish a simple kafka policy.
+Follow the pdp deployment [instructions](../policy-decision-points-pdp/pdp-deployments/) and **publish** a simple kafka policy.
 
 {% hint style="info" %}
 Make sure the policy package name is `kafka.authz`
