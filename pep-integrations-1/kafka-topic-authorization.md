@@ -88,3 +88,64 @@ On another terminal screen, start a kafka consumer:
 bin/kafka-console-consumer.sh --topic topic1 --bootstrap-server localhost:9092
 ```
 
+### Usage
+
+Example structure of input data provided from opa-kafka-plugin to Open Policy Agent.
+
+```javascript
+{
+    "action": {
+        "logIfAllowed": true,
+        "logIfDenied": true,
+        "operation": "DESCRIBE",
+        "resourcePattern": {
+            "name": "alice-topic",
+            "patternType": "LITERAL",
+            "resourceType": "TOPIC",
+            "unknown": false
+        },
+        "resourceReferenceCount": 1
+    },
+    "requestContext": {
+        "clientAddress": "192.168.64.1",
+        "clientInformation": {
+            "softwareName": "unknown",
+            "softwareVersion": "unknown"
+        },
+        "connectionId": "192.168.64.4:9092-192.168.64.1:58864-0",
+        "header": {
+            "data": {
+                "clientId": "rdkafka",
+                "correlationId": 5,
+                "requestApiKey": 3,
+                "requestApiVersion": 2
+            },
+            "headerVersion": 1
+        },
+        "listenerName": "SASL_PLAINTEXT",
+        "principal": {
+            "name": "alice-consumer",
+            "principalType": "User"
+        },
+        "securityProtocol": "SASL_PLAINTEXT"
+    }
+}
+```
+
+### More information
+
+The following table summarizes the supported resource types and operation names.
+
+| `input.action.resourcePattern.resourceType` | `input.action.operation` |
+| :--- | :--- |
+| `CLUSTER` | `CLUSTER_ACTION` |
+| `CLUSTER` | `CREATE` |
+| `CLUSTER` | `DESCRIBE` |
+| `GROUP` | `READ` |
+| `GROUP` | `DESCRIPTION` |
+| `TOPIC` | `ALTER` |
+| `TOPIC` | `DELETE` |
+| `TOPIC` | `DESCRIBE` |
+| `TOPIC` | `READ` |
+| `TOPIC` | `WRITE` |
+
