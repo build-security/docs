@@ -104,6 +104,7 @@
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 
 * [Envoy Proxy Integration](pep-integrations-1/envoy-proxy-plugin.md)
+* [Kafka Topic Authorization](pep-integrations-1/kafka-topic-authorization.md)
 
 ---
 
