@@ -6,6 +6,12 @@ Kafka streams can have many publishers and subscribers. OPA and build.security c
 
 Let's dive right into it.
 
+### Prerequisites
+
+{% hint style="info" %}
+**NOTE**: Your local environment must have Java 8+ installed.
+{% endhint %}
+
 ### 1. Get kafka
 
 [Download](https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz) the latest Kafka version and extract it:
@@ -16,10 +22,6 @@ cd kafka_2.13-2.8.0
 ```
 
 ### 2. Start the kafka environment
-
-{% hint style="info" %}
-**NOTE**: Your local environment must have Java 8+ installed.
-{% endhint %}
 
 Run the following commands in order to start all services in the correct order:
 
