@@ -53,6 +53,10 @@ This configuration will :
 
 Follow the pdp deployment [instructions](../policy-decision-points-pdp/pdp-deployments/) and publish a simple kafka policy.
 
+{% hint style="info" %}
+Make sure the policy package name is `kafka.authz`
+{% endhint %}
+
 ### 5. Start the kafka server
 
 Open another terminal session and run:
