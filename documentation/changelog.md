@@ -6,7 +6,21 @@ description: >-
 
 # Changelog - Control Plane
 
-## Version 0.3.7772 - April 13, 2021
+## Version 0.4 - April 25, 2021
+
+**Major Features**
+
+* Code editors now support keyboard shortcuts and general IDE-like experience
+
+**Minor Enhancements**
+
+* log ingestion performance improvements
+* Multiple UI enhancements and changes
+* Just-In-Time Compilation status indication
+* cURL button is now part of the playground; including the user input
+* A new option to remove all inactive PDPs from PDP screen
+
+## Version 0.3 - April 13, 2021
 
 **Major Features**
 
@@ -30,7 +44,7 @@ description: >-
 
 * Policies containing errors can no longer be published until all Rego compilation errors in the project are resolved
 
-## Version 0.2.7751 - March 21, 2021
+## Version 0.2 - March 21, 2021
 
 **Major Features**
 
