@@ -33,7 +33,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 ### 3. Plug the external authorization plugin into Kafka
 
-[download](https://github.com/Bisnode/opa-kafka-plugin/releases/download/v1.0.0/opa-authorizer-1.0.0-all.jar) the OPA authorizer and put it into the `libs` folder
+[Download](https://github.com/Bisnode/opa-kafka-plugin/releases/download/v1.0.0/opa-authorizer-1.0.0-all.jar) the OPA authorizer and put it into the `libs` folder
 
 edit `config/server.properties` and add the following lines:
 
