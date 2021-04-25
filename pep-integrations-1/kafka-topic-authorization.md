@@ -41,7 +41,17 @@ opa.authorizer.url=http://localhost:8181/v1/data/kafka/authz/allow
 opa.authorizer.cache.expire.after.seconds=1
 ```
 
-### 4. Start the kafka server
+This configuration will :
+
+* instruct the kafka server to use OPA as an external authorization service for all operations.
+* Provide the external authorization service endpoint address
+* Instruct the authorization plugin to cache the results for 1 second \(in production we shall increase this to a larger value\)
+
+### 4. Run PDP with kafka policy enforced
+
+Follow the pdp deployment [instructions](../policy-decision-points-pdp/pdp-deployments/) and publish a simple kafka policy.
+
+### 5. Start the kafka server
 
 Open another terminal session and run:
 
@@ -50,7 +60,7 @@ Open another terminal session and run:
 bin/kafka-server-start.sh config/server.properties
 ```
 
-### 5. Create a topic
+### 6. Create a topic
 
 Run the following command to create a topic named `topic1`
 
@@ -58,5 +68,23 @@ Run the following command to create a topic named `topic1`
 bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
 ```
 
+### 7. Watch decision logs
 
+Already you should be seeing decision logs in the project as the topic creation operation got authorized.
+
+### 8. Create a kafka producer and consumer
+
+Play with the policy by adding kafka producer and consumer, watch decision logs and add more rules to the policy.
+
+On another terminal screen, start a kafka producer:
+
+```bash
+bin/kafka-console-producer.sh --topic topic1 --bootstrap-server localhost:9092
+```
+
+On another terminal screen, start a kafka consumer:
+
+```bash
+bin/kafka-console-consumer.sh --topic topic1 --bootstrap-server localhost:9092
+```
 
