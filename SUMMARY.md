@@ -122,7 +122,6 @@
 ---
 
 * [RBAC Policy](full-rbac-policy.md)
-* [Docker Authorization Policy](docker-authorization-policy.md)
 * [Using Internal Data Source](internal-data-source.md)
 * [Working with Environments \(Dev vs. Production\)](working-with-envs.md)
 

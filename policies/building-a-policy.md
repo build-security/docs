@@ -117,7 +117,7 @@ When you have your authorization rules defined, you can start implanting the aut
 
 * [**API Authorization management** ](../policy-examples/full-api-authorization-policy.md)-Matching the Identity Role to a set of permission or entitlements and by that decide if the method trying to be executed on this API is allowed.
 * Traditional  [**RBAC policy** ](../full-rbac-policy.md)-Matching the Identity Role to set of permission or entitlements 
-* [**Docker Authriztion policy** ](../docker-authorization-policy.md)-Simply enforce the most common rules validating the docker image.
+* [**Docker Authriztion policy** ]()-Simply enforce the most common rules validating the docker image.
 * [**Compare the request to a JSON data file** ](../internal-data-source.md)-Comparison of attributes from the authorization request to a JSON file managed within a control plane.
 
 {% hint style="info" %}
