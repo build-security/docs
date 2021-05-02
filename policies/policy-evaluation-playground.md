@@ -8,9 +8,9 @@ build.security provides some easy-to-use features that enable you to streamline 
 The playground will use the PDPs running in your cluster in order to have access to the different data-sources, but will have _no effect_ on the deployed policies within those PDPs \(until explicitly published\).
 {% endhint %}
 
-The policy evaluation playground enables you to initiate a dry run authorization request to one of your PDPs to test the changes that you've made in the policy rule in real time, regardless of the policy status. This area, accessed by clicking the policy evaluation playground icon, will open on the right side of the policies screen. \(For more information, see [Dry Run Evaluation](../quickstarts/testing-your-policy/dry-run-evaluation.md).\)
+The policy evaluation playground enables you to initiate a dry run authorization request to one of your PDPs to test the changes that you've made in the policy rule in real time, regardless of the policy status. This area, accessed by clicking the policy evaluation playground icon, will open on the right side of the policies screen. \(For more information, see [Dry Run Evaluation](../quickstarts/testing-your-policy/dry-run-evaluation.md)\)
 
-![Policy evaluation playground icon](https://files.readme.io/b234d69-polevaluicon.PNG)
+![Policy Evaluator Playground](../.gitbook/assets/image%20%2816%29.png)
 
 After entering the code you wish to evaluate in the Input window, you can select the PDP that you'd like to use for this evaluation, and then click **EVALUATE**. 
 
@@ -35,8 +35,6 @@ The policy evaluation playground can help reduce the time it takes you to author
 
 If you do not have an active PDP instance configured, see [Deploying a PDP](../policy-decision-points-pdp/creating-a-new-pdp-configuration.md).
 {% endhint %}
-
-![Policy evaluation playground](https://files.readme.io/5a581d4-policyevalplayground.png)
 
 
 
