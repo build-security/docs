@@ -1,5 +1,9 @@
 # Changelog - PDP
 
+## Version 0.3.10 - May 9, 2021
+
+* Add cache warming
+
 ## Version 0.3.8 - April 20, 2021
 
 * Allow dynamic labels from the discovery bundle
