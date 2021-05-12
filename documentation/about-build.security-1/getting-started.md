@@ -39,7 +39,7 @@ The PDPs come with built-in connectors to a wide range of data sources, enabling
 
 ### Policy Enforcement Points \(PEP\)
 
-**The Policy Enforcement Points \(PEP\)** are those who are responsible for enforcing the decision given by the PDPs. The[ enforcement points](../../pep-integrations.md) could be in the form of API gateways, reverse proxies, middlewares, SDKs, and more.
+**The Policy Enforcement Points \(PEP\)** are those who are responsible for enforcing the decision given by the PDPs. The[ enforcement points]() could be in the form of API gateways, reverse proxies, middlewares, SDKs, and more.
 
 ![Policy Enforcement Points integration options](https://files.readme.io/68ee5c3-pep.PNG)
 

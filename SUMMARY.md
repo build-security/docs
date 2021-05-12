@@ -70,7 +70,6 @@
   * [Decision Log Masking](decision-logs/decision-log-masking.md)
 * [Impact Analysis](impact-analysis/README.md)
   * [Rule Tracing](impact-analysis/rule-tracing.md)
-* [PEP Integrations](pep-integrations.md)
 * [Policies](policies/README.md)
   * [Creating a New Policy](policies/creating-a-new-policy.md)
   * [Building a Policy](policies/building-a-policy.md)

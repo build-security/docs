@@ -15,7 +15,7 @@ The control plane is divided into the following areas:
 | Menu Option | Description |
 | :--- | :--- |
 | Dashboard | Currently under development. |
-| [Policy Enforcement Points](../../pep-integrations.md) | Collection of integration points for build.security's platform. The Policy Enforcement Points are tasked with enforcing the authorization decision. The Policy Enforcement Points screen contains links to all current options for integrating an enforcement point with build.security. |
+| [Policy Enforcement Points]() | Collection of integration points for build.security's platform. The Policy Enforcement Points are tasked with enforcing the authorization decision. The Policy Enforcement Points screen contains links to all current options for integrating an enforcement point with build.security. |
 | [Policy Decision Points \(PDPs\)](../../policy-decision-points-pdp/) | Policy Decision Points are defined in the build.security system by a unique name. On the Policy Decision Point screen, you can:  - View the existing details of each PDP - Edit the existing PDPs - Create new PDPs - Publish policy bundles to PDPs |
 | [Data Sources](../../data-sources/) | A data source is defined as a source for information that supplies the Policy Decision Points with the relevant data in real-time according to the defined policy rules. |
 | [Decision Logs](../../decision-logs/) | The decision logs screen enables you to view all decisions made by the PDPs managed in this project. |

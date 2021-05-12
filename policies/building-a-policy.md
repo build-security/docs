@@ -46,7 +46,7 @@ Now let's try to break this problem into smaller pieces and answer each part acc
 
 The authorization request is sent from the PEP \(Policy Enforcement Point\) to the PDP \(Policy Decision Point\). The request contains all the data that the PDP will use to make a decision or to retrieve additional data from other data sources.
 
-**Option 1:** build.security provides a variety of [middleware and SDK\`s](../pep-integrations.md) that you can simply integrate into your application and have it send the requests automatically and also enforce the decisions that are being made.
+**Option 1:** build.security provides a variety of [middleware and SDK\`s]() that you can simply integrate into your application and have it send the requests automatically and also enforce the decisions that are being made.
 
 **Option 2:** Alternatively - we also support the use of a reverse proxy such as Envoy [configuring](../pep-integrations-1/envoy-proxy-plugin.md).
 

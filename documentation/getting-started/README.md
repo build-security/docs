@@ -14,7 +14,7 @@ After you [log into the platform](../logging-in/logging-in-1.md), you will need 
 * [Defining one or more data sources](../../data-sources/)
 * [Defining one or more Policy Decision Points \(PDPs\)](../../policy-decision-points-pdp/creating-a-new-pdp-configuration.md)
 * Deploying a Decision engine 
-* [Integrating Policy Enforcement Points \(PEPs\)](../../pep-integrations.md)
+* [Integrating Policy Enforcement Points \(PEPs\)]()
 
 {% hint style="info" %}
 In certain scenarios, upon logging in, a user might automatically enter directly into the control plane of a specific project and not have an option to create. select or move between projects.

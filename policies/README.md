@@ -4,7 +4,7 @@ An organization's policies determine what permissions and restrictions it wants 
 
 Before creating a policy, it is helpful to configure some of the elements that are likely to be used in the policy. For example, you may want a policy to be applied to specific users. This could be all employees from a department within your organization, all visitors that try to access an organizational resource on specific days or during certain hours. Your policy could use IP addresses to determine access rights, or verify accessibility based on being part of a user list. In some cases, the policy will have to point to this information in your database. To enable build.security to do this, you will want to define at least one [data source](../data-sources/).
 
-Once the policy is defined, you will want build.security to connect to your organization's Policy Decision Points \(PDPs\) and Policy Enforcement Points \(PEPS\), so integration with these must be configured in build.security as well \(see [Creating a New PDP Configuration](../policy-decision-points-pdp/creating-a-new-pdp-configuration.md) and [PEP Integrations](../pep-integrations.md)\).
+Once the policy is defined, you will want build.security to connect to your organization's Policy Decision Points \(PDPs\) and Policy Enforcement Points \(PEPS\), so integration with these must be configured in build.security as well \(see [Creating a New PDP Configuration](../policy-decision-points-pdp/creating-a-new-pdp-configuration.md) and [PEP Integrations]()\).
 
 To help you quickly build your policies, each time you create a policy, you can use predefined common rules that can be included in a policy to define or customize what you wish to implement in your organization.
 
