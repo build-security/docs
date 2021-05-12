@@ -18,7 +18,7 @@ description: >-
 * Multiple UI enhancements and changes
 * Just-In-Time Compilation status indication
 * cURL button is now part of the playground; including the user input
-* A new option to remove all inactive PDPs from PDP screen
+* A new option to hide / remove all inactive PDPs from PDP screen
 
 ## Version 0.3 - April 13, 2021
 
