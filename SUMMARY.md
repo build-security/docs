@@ -2,6 +2,11 @@
 
 * [build.security's mission](README.md)
 
+## CHANGELOG
+
+* [Changelog - Control Plane](changelog/changelog.md)
+* [Changelog - PDP](changelog/changelog-pdp.md)
+
 ## Documentation
 
 * [About build.security](documentation/about-build.security-1/README.md)
@@ -11,8 +16,6 @@
   * [Control Plane Overview](documentation/getting-started/control-plane-overview.md)
   * [Main Toolbar](documentation/getting-started/main-toolbar.md)
   * [Navigation Panel Options](documentation/getting-started/navigation-panel-options.md)
-* [Changelog - Control Plane](documentation/changelog.md)
-* [Changelog - PDP](documentation/changelog-pdp.md)
 * [Logging In](documentation/logging-in/README.md)
   * [With build.security Credentials](documentation/logging-in/logging-in-1.md)
   * [Using Single Sign On](documentation/logging-in/using-single-sign-on.md)
