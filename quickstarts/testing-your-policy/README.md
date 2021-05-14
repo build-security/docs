@@ -12,7 +12,7 @@ The most useful and intuitive way is using the policy evaluation playground whic
 
 Your evaluation request will be done on the PDP you will select, in dry run mode, by that - you can test in the most efficient way that your policy works as you expect.
 
-For more information and instructions on how to use the feature - [click here](../../policies/policy-evaluation-playground.md) and if you are already familiar with that you can review our [quickstart](dry-run-evaluation.md) on evaluation playground usage.
+For more information and instructions on how to use the feature - [click here](../../documentation/policies/policy-evaluation-playground.md) and if you are already familiar with that you can review our [quickstart](dry-run-evaluation.md) on evaluation playground usage.
 
 {% hint style="info" %}
 #### We will be happy to assist your onboarding

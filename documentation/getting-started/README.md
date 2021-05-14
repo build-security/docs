@@ -10,9 +10,9 @@ The build.security workflow is based on a few basic steps including:
 
 After you [log into the platform](../logging-in/logging-in-1.md), you will need to configure some basic elements in the build.security interface, including:
 
-* [Selecting or creating a project](../../projects/project-selection-screen.md)
-* [Defining one or more data sources](../../data-sources/)
-* [Defining one or more Policy Decision Points \(PDPs\)](../../policy-decision-points-pdp/creating-a-new-pdp-configuration.md)
+* [Selecting or creating a project](../projects/project-selection-screen.md)
+* [Defining one or more data sources](../data-sources/)
+* [Defining one or more Policy Decision Points \(PDPs\)](../policy-decision-points-pdp/creating-a-new-pdp-configuration.md)
 * Deploying a Decision engine 
 * [Integrating Policy Enforcement Points \(PEPs\)]()
 
@@ -28,5 +28,5 @@ In certain scenarios, upon logging in, a user might automatically enter directly
 
 At any time, you may decide to add additional policies or change existing ones. Finally, build.security enables you to log authorization decisions, centrally collect them and then view / forward them.
 
-In addition, using the `Monitored` status option for a policy item, you can [analyze the impact](../../impact-analysis/) that a policy item would have on the authorization decision, without actually activating it.
+In addition, using the `Monitored` status option for a policy item, you can [analyze the impact](../impact-analysis/) that a policy item would have on the authorization decision, without actually activating it.
 

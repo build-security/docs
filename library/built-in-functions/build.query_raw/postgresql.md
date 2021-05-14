@@ -7,7 +7,7 @@ This is a short example of how to use your PostgreSQL data source as part of you
 {% hint style="warning" %}
 **Preconditions**
 
-The data-source is available and has been [created](../../../data-sources/new-postgresql-data-source.md) in the build.security control-plane, and you have passed all relevant environment variables \(such as the connection password\) during the PDP [deployment/setup](../../../policy-decision-points-pdp/pdp-deployments/).
+The data-source is available and has been [created](../../../documentation/data-sources/new-postgresql-data-source.md) in the build.security control-plane, and you have passed all relevant environment variables \(such as the connection password\) during the PDP [deployment/setup](../../../documentation/policy-decision-points-pdp/pdp-deployments/).
 {% endhint %}
 
 ### Build policy rules

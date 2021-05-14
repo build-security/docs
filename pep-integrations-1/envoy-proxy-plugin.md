@@ -22,11 +22,11 @@ This tutorial requires docker-compose \(tested on 1.27.4\)
 
 ### 1. Enable gRPC on the PDP settings
 
-In the [PDP settings screen](../project-settings/pdp-settings.md#envoy-integration-settings), make sure gRPC is enabled.
+In the [PDP settings screen](../documentation/project-settings/pdp-settings.md#envoy-integration-settings), make sure gRPC is enabled.
 
 ### 2. Grab API Key and Secret for your PDP
 
-In the Policy Decision Points screen, grab an [API and secret](../policy-decision-points-pdp/generating-api-keys-for-a-pdp.md).
+In the Policy Decision Points screen, grab an [API and secret](../documentation/policy-decision-points-pdp/generating-api-keys-for-a-pdp.md).
 
 ### 3. Create Envoy config file
 
@@ -155,9 +155,9 @@ In the build.security control plane:
 1. Observe your just new PDP in the Policy Decision Points screen
 2. Create a new Envoy policy
 3. Change the default behaviour of the policy to be `ALLOW`
-4. [Publish](../projects/publish-project-configuration.md) changes to the PDP
+4. [Publish](../documentation/projects/publish-project-configuration.md) changes to the PDP
 5. Open a browser and go to `localhost:10000`
-6. Observe the newly created [decision logs](../decision-logs/)
+6. Observe the newly created [decision logs](../documentation/decision-logs/)
 
 ![Envoy decision logs](../.gitbook/assets/image%20%283%29.png)
 

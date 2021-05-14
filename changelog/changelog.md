@@ -24,7 +24,7 @@ description: >-
 
 **Major Features**
 
-* [Git integration support](../projects/commit-project-to-git.md)
+* [Git integration support](../documentation/projects/commit-project-to-git.md)
 * [Support for social log-in](../documentation/logging-in/using-social-provider-authentication.md)
 * [Single Sign On support \(via OKTA\)](../documentation/logging-in/using-single-sign-on.md)
 
@@ -50,20 +50,20 @@ description: >-
 
 * [Policy Unit Testing](../quickstarts/testing-your-policy/policy-unit-testing.md)
 * Additional filters in the decision logs \(input / result\)
-* [MySQL support](../data-sources/new-mysql-data-source.md)
-* [Policy Authoring](../policies/policy-items/managing-policy-items.md)- new look and feel
-* [Log shipping](../system-settings/log-shipping-integration.md) support for Datadog, Elasticsearch
+* [MySQL support](../documentation/data-sources/new-mysql-data-source.md)
+* [Policy Authoring](../documentation/policies/policy-items/managing-policy-items.md)- new look and feel
+* [Log shipping](../documentation/system-settings/log-shipping-integration.md) support for Datadog, Elasticsearch
 
 **Minor Enhancements**
 
 * Supporting non-English characters in policy names
 * More debug logs in the PDP
 * Policy playground now auto-populates with the user's last input
-* ['Strict mode'](../policies/policy-evaluation-playground.md#strict-mode) is now turned on by default within the playground. Read more [here](../policies/policy-evaluation-playground.md#strict-mode)
+* ['Strict mode'](../documentation/policies/policy-evaluation-playground.md#strict-mode) is now turned on by default within the playground. Read more [here](../documentation/policies/policy-evaluation-playground.md#strict-mode)
 * PDP version is now displayed in the PDP screen right beside each PDP instance
 * Text areas can now be copied via easy "copy to clipboard" button
 * Text areas can now be expandable
-* [Cache control](../policies/policy-evaluation-playground.md#use-cache-setting) in the policy playground
+* [Cache control](../documentation/policies/policy-evaluation-playground.md#use-cache-setting) in the policy playground
 * Ability to re-order policy rules within the policy tab
 * Support of [library rules](https://library.build.security/) + JIRA search library rule
 * New built-in functions

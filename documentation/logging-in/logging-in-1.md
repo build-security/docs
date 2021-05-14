@@ -17,5 +17,5 @@ You can log in to the build.security control plane in several ways. For more inf
 If you are unable to log in, contact your administrator to reset your password or contact- [support@build.security](mailto:support@build.security).
 {% endhint %}
 
-More details on User Management can be found In [System Settings](../../system-settings/).
+More details on User Management can be found In [System Settings](../system-settings/).
 

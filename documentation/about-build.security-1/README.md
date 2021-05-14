@@ -28,12 +28,12 @@ Additional integrations are already planned for ticketing systems such as JIRA a
 
 The platform’s key features include:
 
-* A unified "single pane of glass" approach enables developers to easily [author](../../policies/policy-items/managing-policy-items.md), [evaluate](../../policies/policy-evaluation-playground.md), [distribute](../../projects/publish-project-configuration.md) and [monitor](../../impact-analysis/) policies at scale.
+* A unified "single pane of glass" approach enables developers to easily [author](../policies/policy-items/managing-policy-items.md), [evaluate](../policies/policy-evaluation-playground.md), [distribute](../projects/publish-project-configuration.md) and [monitor](../impact-analysis/) policies at scale.
 * Policy-as-code, allowing developers to express authorization policies with a no-code policy building process or through a low-code declarative language.
-* Seamless [integrations](../../data-sources/) with identity providers, databases and other API-based services.
-* [Automatic policy suggestions ](../../policies/creating-a-new-policy.md)based on runtime interactions between services.
-* [Pre-defined, common rules](../../policies/policy-items/predefined-rules-templates.md) built into the platform enables quick customization and implementation of organization's authorization policy.
+* Seamless [integrations](../data-sources/) with identity providers, databases and other API-based services.
+* [Automatic policy suggestions ](../policies/creating-a-new-policy.md)based on runtime interactions between services.
+* [Pre-defined, common rules](../policies/policy-items/predefined-rules-templates.md) built into the platform enables quick customization and implementation of organization's authorization policy.
 * Lightweight and performance-optimized hybrid cloud / on-prem [architecture](getting-started.md).
-* [Detailed decision logs](../../decision-logs/) table enables you to view all decisions made by the Policy Decision Points PDP managed in the project.
-* [Log shipping integration](../../system-settings/log-shipping-integration.md) enables you to easily send decision log backups from the control plane to one or more databases within your organization.
+* [Detailed decision logs](../decision-logs/) table enables you to view all decisions made by the Policy Decision Points PDP managed in the project.
+* [Log shipping integration](../system-settings/log-shipping-integration.md) enables you to easily send decision log backups from the control plane to one or more databases within your organization.
 

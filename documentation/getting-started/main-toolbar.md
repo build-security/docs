@@ -20,7 +20,7 @@ The following table details each of the items in the main toolbar.
       <td style="text-align:left">Hamburger (three horizonal lines) icon</td>
       <td style="text-align:left">Expands/collapses the control plane navigation panel. You can set the
         navigation panel to be visible at all times (or hidden at all times) by
-        clicking on the pin/unpin icon on the <a href="../../system-settings/">system settings</a> button.</td>
+        clicking on the pin/unpin icon on the <a href="../system-settings/">system settings</a> button.</td>
     </tr>
     <tr>
       <td style="text-align:left">Project/switch project</td>
@@ -29,13 +29,13 @@ The following table details each of the items in the main toolbar.
         If you don&apos;t see the project you want, click <b>Browse all Projects</b>.
         <br
         />
-        <br />This will open the <a href="../../projects/project-selection-screen.md">project selection screen</a> where
+        <br />This will open the <a href="../projects/project-selection-screen.md">project selection screen</a> where
         you can either select an existing project or create a new one.</td>
     </tr>
     <tr>
       <td style="text-align:left">Publish</td>
       <td style="text-align:left">Publishes the latest configurations and policy versions to the PDP. For
-        more information, see <a href="../../projects/publish-project-configuration.md">Publish Project Configuration</a>.</td>
+        more information, see <a href="../projects/publish-project-configuration.md">Publish Project Configuration</a>.</td>
     </tr>
     <tr>
       <td style="text-align:left">User avatar icon</td>
