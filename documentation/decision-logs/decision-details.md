@@ -24,7 +24,7 @@ The rule evaluation section will only be displayed when a rule's status is "moni
 
 Under the headings of ALLOW or DENY, relevant rules of the policy are listed and the decision for each policy item appears to the right. Each of the listed items are color-coded based on their status \(blue=active; orange-monitored; gray=inactive\). Finally, at the bottom of the Rule Evaluation is the authorization decisions that were reached by the PDP \(the Decision and the Monitored Decision\).
 
-![Decision details](https://files.readme.io/e0869bd-expandmetricsdecisionlog.PNG)
+![Decision log details](../../.gitbook/assets/image%20%2817%29.png)
 
 
 
