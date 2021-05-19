@@ -7,7 +7,7 @@ The policy testing truly considers your policy-as-code and enables you to write 
 **So let's get started...**
 
 {% hint style="warning" %}
-The tests evaluation is done on an active real PDP instance. You can [verify](doc:policy-decision-points) that you have an active instance, if not simply [deploy](doc:pdp-implementation) a new Policy Decision Point.
+The tests evaluation is done on an active real PDP instance. You can [verify](../../documentation/policy-decision-points-pdp/#pdp-expanded-view) that you have an active instance, if not simply [deploy](../../documentation/policy-decision-points-pdp/creating-a-new-pdp-configuration.md) a new Policy Decision Point.
 {% endhint %}
 
 ## Our Policy
