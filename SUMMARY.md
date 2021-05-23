@@ -100,6 +100,10 @@
     * [PostgreSQL](library/built-in-functions/build.query_raw/postgresql.md)
 * [Library Rules](https://library.build.security)
 
+## Middlewares
+
+* [Middlewares Integration](middlewares/integrating-with-build-middlewares.md)
+
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 
 * [Envoy Proxy Integration](pep-integrations-1/envoy-proxy-plugin.md)
@@ -110,6 +114,10 @@
 * [JAVA](https://github.com/build-security/opa-java-client)
 * [JAVA-Spring](https://github.com/build-security/opa-java-spring-client)
 * [AWS API Gateway](https://github.com/build-security/aws-api-gateway-authz)
+
+## WHITE PAPERS <a id="whitepapers"></a>
+
+* [Performance Benchmark](https://build.security/whitepaper-performance/)
 
 ## TUTORIALS <a id="policy-examples"></a>
 
@@ -123,8 +131,4 @@
 * [Testing Your Policy](quickstarts/testing-your-policy/README.md)
   * [Policy Unit Testing](quickstarts/testing-your-policy/policy-unit-testing.md)
   * [Dry Run Evaluation](quickstarts/testing-your-policy/dry-run-evaluation.md)
-
-## WHITE PAPERS <a id="whitepapers"></a>
-
-* [Performance Benchmark](https://build.security/whitepaper-performance/)
 
