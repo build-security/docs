@@ -4,7 +4,7 @@ Although most of the features and commands in build.security are easily accessed
 
 The main build.security toolbar is located at the top of the control plane window and contains the following icons:
 
-![Main toolbar](https://files.readme.io/4c9dda3-toolbar.PNG)
+![](../../.gitbook/assets/toolbar-main%20%281%29.png)
 
 The following table details each of the items in the main toolbar.
 
@@ -33,6 +33,13 @@ The following table details each of the items in the main toolbar.
         you can either select an existing project or create a new one.</td>
     </tr>
     <tr>
+      <td style="text-align:left">Commit</td>
+      <td style="text-align:left">When Git integration is enabled, you can use the Commit button to commit
+        changes to the Git repository. For more information, see<a href="../project-settings/git-integration-settings.md"> Git integration settings</a> and
+        <a
+        href="../projects/commit-project-to-git.md">Commit project to Git</a>.</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Publish</td>
       <td style="text-align:left">Publishes the latest configurations and policy versions to the PDP. For
         more information, see <a href="../projects/publish-project-configuration.md">Publish Project Configuration</a>.</td>
@@ -44,8 +51,12 @@ The following table details each of the items in the main toolbar.
           build.security version you are using.
           <br />
           <br /><b>Change Theme: </b>Toggles the current theme display between day (light
-          background) and night (dark background).
-          <br />
+          background) and night (dark background).</p>
+        <p></p>
+        <p><b>System settings: </b>Offers access to system-related configuration
+          options. For more information, see <a href="../system-settings/">System Settings</a>.
+          <br
+          />
           <br /><b>Documentation: </b>Provides a link to build.security&apos;s online
           documentation.</p>
         <p></p>
@@ -60,6 +71,4 @@ The following table details each of the items in the main toolbar.
     </tr>
   </tbody>
 </table>
-
-
 

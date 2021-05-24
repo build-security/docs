@@ -2,7 +2,7 @@
 
 [build.security](https://build.security/) provides developers with a new approach to simplify the development and management of the organization's authorization policy. Using the build.security control plane, you can easily configure and manage all of the necessary components to integrate the platform with your organization to apply and monitor how you want your users to access your resources.
 
-![Policy building in build.security](../../.gitbook/assets/image%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![build.security control plane](../../.gitbook/assets/buildsecuritymain.png)
 
 ## Developer to Developer, Lightweight, User-Friendly, and Scalable
 
@@ -22,7 +22,7 @@ build.security allows organizations to bring information from external data sour
 
 Additional integrations are already planned for ticketing systems such as JIRA and ServiceNow, and source code repositories such as git and Bitbucket, and more. This means that developers can now leverage information from all the above-mentioned data sources in their policy decisions with just a few clicks.
 
-![Data sources](../../.gitbook/assets/image%20%282%29.png)
+![Data sources](../../.gitbook/assets/datasource.png)
 
 ## Key Features
 
@@ -36,4 +36,8 @@ The platform’s key features include:
 * Lightweight and performance-optimized hybrid cloud / on-prem [architecture](getting-started.md).
 * [Detailed decision logs](../decision-logs/) table enables you to view all decisions made by the Policy Decision Points PDP managed in the project.
 * [Log shipping integration](../system-settings/log-shipping-integration.md) enables you to easily send decision log backups from the control plane to one or more databases within your organization.
+* The ability to [integrate build.security with your Git repository](../project-settings/git-integration-settings.md) to enable you to treat all policies as code and reflect them in a designated Git repository to crate a proper review and approval workflow. 
+* Flexibility in managing how your users login to build.security, using [build.security credentials](../logging-in/logging-in-1.md), [single sign on](../system-settings/single-sign-on.md), or [social provider authentication](../logging-in/using-social-provider-authentication.md).
+
+
 

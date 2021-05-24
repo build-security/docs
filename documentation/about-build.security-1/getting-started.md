@@ -4,7 +4,6 @@ build.security’s architecture can be divided into four major components:
 
 * [Policy Administration Point \(PAPs\)](getting-started.md#policy-administration-point-paps)
 * [Policy Decision Points \(PDPs\)](getting-started.md#policy-decision-points-pdp)
-* [Policy Enforcement Points \(PEPs\)](getting-started.md#policy-enforcement-points-pep)
 * [Policy Information Points \(PIPs\)](getting-started.md#policy-information-points-pip)
 
 ![build.security architecture](https://files.readme.io/4b01271-image.png)

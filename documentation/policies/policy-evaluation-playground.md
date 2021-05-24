@@ -10,9 +10,15 @@ The playground will use the PDPs running in your cluster in order to have access
 
 The policy evaluation playground enables you to initiate a dry run authorization request to one of your PDPs to test the changes that you've made in the policy rule in real time, regardless of the policy status. This area, accessed by clicking the policy evaluation playground icon, will open on the right side of the policies screen. \(For more information, see [Dry Run Evaluation](../../quickstarts/testing-your-policy/dry-run-evaluation.md)\)
 
-![Policy Evaluator Playground](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/policypg.png)
 
-After entering the code you wish to evaluate in the Input window, you can select the PDP that you'd like to use for this evaluation, and then click **EVALUATE**. 
+After entering the code you wish to evaluate in the **Input** window, you can select the PDP that you'd like to use for this evaluation, and then click **EVALUATE**. 
+
+{% hint style="info" %}
+You can display the code in JSON or Tree format and for large amounts of code, you can use the collapse/expand options.
+
+You can also use the **Copy as cURL** button to copy the cURL to the clipboard to paste into your terminal to validate the configuration. For more information, see [Validation using cURL](../policy-decision-points-pdp/tls-configuration.md#validation-using-curl).
+{% endhint %}
 
 The authorization decision that would be returned if an authorization request using this policy were initiated, will be displayed in the results area. In the policy evaluation playground you enter the input and see what the output \(result\) will be.
 
@@ -24,7 +30,7 @@ The "_Use Cache_" checkbox specifies whether the data-source's cache option shou
 
 ## Strict mode
 
-As of OPA version 0.25.0 - builtin functions that encounter errors are "silently" evaluate to false, instead of halting the policy evaluation process. Release notes about this change can be found [here](https://github.com/open-policy-agent/opa/releases/tag/v0.25.0). In build.security's playground, "strict mode" is turned ON in order to identify and "throw" possible errors as soon as possible, much before these policies get deployed to production.
+As of OPA version 0.25.0 - built-in functions that encounter errors are "silently" evaluate to false, instead of halting the policy evaluation process. Release notes about this change can be found [here](https://github.com/open-policy-agent/opa/releases/tag/v0.25.0). In build.security's playground, "strict mode" is turned **ON** to identify and "throw" possible errors as soon as possible, usually before these policies get deployed to production.
 
 ## Benefits
 

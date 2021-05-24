@@ -1,7 +1,7 @@
-# Middlewares Integration
+# Middleware Integration
 
-In order to ease your integration with build.security, we've created a list of out of the box middlewares. Each of these middlewares will allow you to perform authorizing requests against your PDP.   
-In case you don't find the middleware that suits your ecosystem please [contact us](https://build.security/contact-us/).
+To ease your integration with build.security, we've created a list of out-of-the-box middlewares. Each of these middlewares will allow you to perform authorizing requests against your PDP.   
+If you don't find the middleware that suits your ecosystem, please [contact us](https://build.security/contact-us/).
 
 #### Available Middlewares
 
@@ -12,22 +12,20 @@ In case you don't find the middleware that suits your ecosystem please [contact 
 * PHP - [https://github.com/build-security/opa-symfony-middleware](https://github.com/build-security/opa-symfony-middleware)
 * Python - [https://github.com/build-security/opa-python-client](https://github.com/build-security/opa-python-client)
 
-#### How does it work ?
+#### How does it work?
 
-First, make sure you have a policy defined in the system. These policy rules will be used to asses each and every client request to your system.
+First, make sure you have a policy defined in the system. These policy rules are used to assess each client request to your system. For every client request to your service/resource, a middleware will pre-assess if the client\user is authorized to access this endpoints/resource.
 
-For every client request to your service/resource, a middleware will pre-assess if the client\user is authorized to access this endpoints/resource.
+The client request will be first evaluated against your PDP, and will continue to the relevant endpoint only if the PDP decided to allow it. Otherwise, the request will be rejected with an 403 FORBIDDEN http response.
 
-The client request will be first evaluated against your PDP, and will continue to the relevant endpoint only if the PDP decided to allow it . Otherwise the request will be rejected with an 403 FORBIDDEN http response.
-
-This functionality can be achieved easily and it requires no maintenance and almost no code changes. Most of the middlewares would only require you to add a decorator\attribute in your relevant endpoints code.
+This functionality can be achieved easily and requires no maintenance and almost no code changes. Most of the middlewares would only require you to add a decorator\attribute in your relevant endpoints code.
 
 ![](../.gitbook/assets/data-flow.png)
 
 #### 
 
 {% hint style="info" %}
-Please make sure that you have run a build.security Pdp with allow rule in the relevant path.
+Please make sure that you have run a build.security PDP with an allow rule in the relevant path.
 {% endhint %}
 
 

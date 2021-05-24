@@ -34,12 +34,12 @@ Below this information, you can click the **+ New** button to open the new user 
    * In the **Password** field \(assuming **Require SSO** is not enabled\), you can enter a new password for the user. When creating the password, it must contain a combination of at least one number, one capital letter, one lower case letter, and one special character.
 3. In the user permissions section:
    * Set the new user's permission level by selecting one of the roles in the list. For more information, see [build.security Roles](roles.md).
-   * Select the projects in which this user can fulfill the selected role in the **Apply In** field. You can select All \(the default option\), or you can select specific projects by clicking in the projects field. When you click in the **Projects** field, a list of all currently defined projects is displayed. Click on as many as you the new user to have access to. Each time you click on a project, it is added to the list in the **Projects** field. To remove a project, click the **X** beside the project's name.
+   * Select the projects in which this user can fulfill the selected role in the **Apply In** field. You can enable the user to have **Access to All Projects** \(the default option\), or disable this option to select specific projects. Use the down arrow to access a list of currently defined projects. Each time you select a project, it is added to the list in the **Projects** field. To remove a project, click the **X** beside the project's name.
 4. Click **Save** to create the new user.
 
 After you create the new user, an email will be sent to the specified email address. This email will include a link to the build.security platform [login page](../../logging-in/logging-in-1.md). For users that are not required to log in with SSO, when they log in the first time, they will be required to change the password.
 
-![New user screen](https://files.readme.io/c876bbb-newuser2.PNG)
+![New user screen](../../../.gitbook/assets/newuser.png)
 
 ### Editing a User
 

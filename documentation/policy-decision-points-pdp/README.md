@@ -80,14 +80,17 @@ Use the **copy** icon to copy the deployment instructions and then paste them in
 
 #### PDP Instances Section
 
-* IP address \(the internal IP address of the machine running the configuration\).
-* Status of the connection between the PDP and the build.security control plane \(green confirms communication between the two; red indicates build.security is currently not in communication with the PDP\).
-* Last seen \(UTC time\).
-* Policies: a list of policies that have been published to the PDP for evaluation of authorization requests.
-* Version number of the PDP instance.
-* Remove from list option: deletes old records that are inactive. A new record will be added when the PDP authenticates with the control plane.
+* **Show Inactive Instances:** Use the toggle switch to toggle between showing or hiding inactive instances.
+* **Clear &lt;\#&gt; inactive:** When you click the track icon, all inactive instances will be removed from the list. If you prefer, you can can individually delete instances using the trash icon located next to each PDP instance.
+* **IP address**: the internal IP address of the machine running the configuration 
+* **Hostname:** name where the PDP is hosted
+* **Status:** of the connection between the PDP and the build.security control plane \(green confirms communication between the two; red indicates build.security is currently not in communication with the PDP\).
+* **PDP version:** version number of the PDP instance
+* **Revision:** the active bundle revision number
+* **Last seen \(UTC\):** date and time build.security last connected with the PDP.
+* **Remove from list:** deletes old records that are inactive. A new record will be added when the PDP authenticates with the control plane.
 
-![Expanded area for an existing PDP](../../.gitbook/assets/expandedpdp.png)
+![](../../.gitbook/assets/pdpinstances-h.png)
 
 ### PDP Use Case Example
 

@@ -12,7 +12,7 @@ Let's dive right into it.
 **NOTE**: Your local environment must have Java 8+ installed.
 {% endhint %}
 
-### 1. Get kafka
+### 1. Download Kafka.
 
 [Download](https://www.apache.org/dyn/closer.cgi?path=/kafka/2.8.0/kafka_2.13-2.8.0.tgz) the latest Kafka version and extract it:
 
@@ -21,9 +21,9 @@ tar -xzf kafka_2.13-2.8.0.tgz
 cd kafka_2.13-2.8.0
 ```
 
-### 2. Start the kafka environment
+### 2. Start the Kafka environment.
 
-Run the following commands in order to start all services in the correct order:
+Run the following commands to start all services in the proper order:
 
 ```bash
 # Start the ZooKeeper service
@@ -31,11 +31,11 @@ Run the following commands in order to start all services in the correct order:
 bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 
-### 3. Plug the external authorization plugin into Kafka
+### 3. Plug the external authorization plugin into Kafka.
 
-[Download](https://github.com/Bisnode/opa-kafka-plugin/releases/download/v1.0.0/opa-authorizer-1.0.0-all.jar) the OPA authorizer and put it into the `libs` folder
+[Download](https://github.com/Bisnode/opa-kafka-plugin/releases/download/v1.0.0/opa-authorizer-1.0.0-all.jar) the OPA authorizer and put it into the `libs` folder.
 
-edit `config/server.properties` and add the following lines:
+Edit `config/server.properties` and add the following lines:
 
 ```bash
 authorizer.class.name=com.bisnode.kafka.authorization.OpaAuthorizer
@@ -45,19 +45,19 @@ opa.authorizer.cache.expire.after.seconds=1
 
 This configuration will :
 
-* instruct the kafka server to use OPA as an external authorization service for all operations.
+* instruct the Kafka server to use OPA as an external authorization service for all operations.
 * Provide the external authorization service endpoint address
 * Instruct the authorization plugin to cache the results for 1 second \(in production we shall increase this to a larger value\)
 
-### 4. Run PDP with kafka policy enforced
+### 4. Run PDP with Kafka policy enforced.
 
-Follow the pdp deployment [instructions](../documentation/policy-decision-points-pdp/pdp-deployments/) and **publish** a simple kafka policy.
+Follow the PDP deployment [instructions](../documentation/policy-decision-points-pdp/pdp-deployments/) and **publish** a simple Kafka policy.
 
 {% hint style="info" %}
 Make sure the policy package name is `kafka.authz`
 {% endhint %}
 
-### 5. Start the kafka server
+### 5. Start the Kafka server.
 
 Open another terminal session and run:
 
@@ -66,7 +66,7 @@ Open another terminal session and run:
 bin/kafka-server-start.sh config/server.properties
 ```
 
-### 6. Create a topic
+### 6. Create a topic.
 
 Run the following command to create a topic named `topic1`
 
@@ -74,21 +74,21 @@ Run the following command to create a topic named `topic1`
 bin/kafka-topics.sh --create --topic topic1 --bootstrap-server localhost:9092
 ```
 
-### 7. Watch decision logs
+### 7. Watch the decision logs.
 
-Already you should be seeing decision logs in the project as the topic creation operation got authorized.
+Already, you should be seeing decision logs in the project as the topic creation operation was authorized.
 
-### 8. Create a kafka producer and consumer
+### 8. Create a Kafka producer and consumer.
 
-Play with the policy by adding kafka producer and consumer, watch decision logs and add more rules to the policy.
+Play with the policy by adding Kafka producer and consumer, watch the decision logs and add more rules to the policy.
 
-On another terminal screen, start a kafka producer:
+On another terminal screen, start a Kafka producer:
 
 ```bash
 bin/kafka-console-producer.sh --topic topic1 --bootstrap-server localhost:9092
 ```
 
-On another terminal screen, start a kafka consumer:
+On another terminal screen, start a Kafka consumer:
 
 ```bash
 bin/kafka-console-consumer.sh --topic topic1 --bootstrap-server localhost:9092
@@ -138,7 +138,7 @@ Example structure of input data provided from opa-kafka-plugin to Open Policy Ag
 }
 ```
 
-### More information
+### More Information
 
 The following table summarizes the supported resource types and operation names.
 

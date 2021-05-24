@@ -8,7 +8,7 @@ When you click on the expand icon, the Policy Code panel opens on the right side
 
 You can use the scroll bar on the right to scroll to text that is not currently visible, and you can use the Copy icon to copy all of the code to the clipboard.
 
-![Policy code panel](https://files.readme.io/267d95a-policy_code_panel.png)
+![](../../.gitbook/assets/policycode.png)
 
 ### Code Error Alerts in Policy Items
 

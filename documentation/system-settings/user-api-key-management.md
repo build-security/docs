@@ -12,8 +12,6 @@ Click the expand arrow to the left of the user for whom you wish to generate the
 
 ![Generate API Key](https://files.readme.io/2772593-needAPI.PNG)
 
-
-
 Click the **Generate API Key +** button. The build.security system will generate the key and display the following:
 
 ![API Key and Secret](https://files.readme.io/0f8c38d-yourapikey.png)

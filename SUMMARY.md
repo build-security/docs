@@ -68,13 +68,14 @@
 * [Impact Analysis](documentation/impact-analysis/README.md)
   * [Rule Tracing](documentation/impact-analysis/rule-tracing.md)
 * [Policies](documentation/policies/README.md)
+  * [Policies Screen](documentation/policies/policies-screen/README.md)
+    * [Policy Toolbar](documentation/policies/policies-screen/policy-toolbar.md)
   * [Creating a New Policy](documentation/policies/creating-a-new-policy.md)
   * [Building a Policy](documentation/policies/building-a-policy.md)
+  * [Policy Compilation Status](documentation/policies/policy-compilation-status.md)
   * [Policy Testing](documentation/policies/policy-testing/README.md)
     * [Creating a Policy Unit Test](documentation/policies/policy-testing/creating-and-running-tests.md)
     * [Running a Policy Unit Test](documentation/policies/policy-testing/running-a-policy-unit-test.md)
-  * [Policies Screen](documentation/policies/policies-screen/README.md)
-    * [Policy Toolbar](documentation/policies/policies-screen/policy-toolbar.md)
   * [Policy Evaluation Playground](documentation/policies/policy-evaluation-playground.md)
   * [Policy Code Panel](documentation/policies/policy-code-panel.md)
   * [Deleting a Policy](documentation/policies/deleting-a-policy.md)
@@ -102,7 +103,7 @@
 
 ## Middlewares
 
-* [Middlewares Integration](middlewares/integrating-with-build-middlewares.md)
+* [Middleware Integration](middlewares/integrating-with-build-middlewares.md)
 
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 

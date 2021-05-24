@@ -6,7 +6,7 @@ Within build.security, a project can be considered your workspace. Within this w
 
 After logging in and entering the control plane, all that you see when clicking one of the options in the top part of the navigation panel is related to a single project that you have just entered.
 
-![Control plane offers access to all elements of the project](https://files.readme.io/228d37d-policy.PNG)
+![build.security control plane displaying policies screen](../../.gitbook/assets/buildsecuritymain.png)
 
 ### Project Contents
 

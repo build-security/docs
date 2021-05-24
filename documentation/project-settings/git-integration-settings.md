@@ -2,7 +2,7 @@
 
 The [Git integration](../projects/commit-project-to-git.md) feature allows an operator to truly treat all policies as code and reflect them in a designated Git repository to create a proper review and approval workflow, complying with SDLC guidelines. To enable Git integration, the settings in the following table need to be completed.
 
-After you complete the fields, or in the future if you change any values in these fields, click **UPDATE** to save the changes.
+After you complete the fields, or in the future if you change any values in these fields, click **UPDATE** to save the changes. If build.security is unable to connect to your Git repository, you will receive a message saying "Unavailable: Check Git availability". Check your credentials and then update build.security.
 
 <table>
   <thead>
@@ -26,7 +26,7 @@ After you complete the fields, or in the future if you change any values in thes
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Git repository</td>
+      <td style="text-align:left">Git Repository</td>
       <td style="text-align:left">
         <p>The target Git repository URL.</p>
         <p>Only HTTP and HTTPS protocols are supported at this point. SSH support
@@ -36,28 +36,26 @@ After you complete the fields, or in the future if you change any values in thes
   </tbody>
 </table>
 
-![git integration settings form](../../.gitbook/assets/image%20%2812%29.png)
+![Git integration settings form](../../.gitbook/assets/image%20%2812%29.png)
 
 ### How to generate an access token @ GitHub
 
-1. Go to Profile Settings -&gt; Developer Settings -&gt; Personal Access Tokens \([https://github.com/settings/tokens](https://github.com/settings/tokens)\)
-2. Click the "Generate new token" button
-3. Give the new token a name and choose the "repo" scope, as shown in the image below.
-4. 1. Copy and paste the token into build.security git integration settings page
+1. Go to **Profile Settings -&gt; Developer Settings -&gt; Personal Access Tokens** \([https://github.com/settings/tokens](https://github.com/settings/tokens)\)
+2. Click the **Generate new token** button
+3. Give the new token a name and select the "**repo**" scope, as shown below.
+4. Copy and paste the token into build.security Git integration settings page.
 
 ![Required scopes for access token \(GitHub\)](../../.gitbook/assets/image%20%287%29.png)
 
-
-
-###  How to generate an access token @ GitLab
+### How to generate an access token @ GitLab
 
 1. Under the user avatar on the right upper side of the screen Go to Profile Settings -&gt; Access Tokens \([https://gitlab.com/-/profile/personal\_access\_tokens](https://gitlab.com/-/profile/personal_access_tokens)\)
 2. Set the access token:
    1. Token name 
    2. Expression date \(optional\)
    3. Choose the "read\_repository" and "write\_repository" scopes, as shown in the image below.
-3. Click on "Create personal access token".
-4. Copy and paste the token into build.security git integration settings page
+3. Click on "**Create personal access token**".
+4. Copy and paste the token into build.security Git integration settings page.
 
 ![Personal acess token \(GitLab\)](../../.gitbook/assets/image%20%2813%29%20%281%29.png)
 

@@ -20,17 +20,17 @@ For more information on external authorization filter - [click here](https://www
 
 This tutorial requires docker-compose \(tested on 1.27.4\)
 
-### 1. Enable gRPC on the PDP settings
+### 1. Enable gRPC on the PDP settings.
 
 In the [PDP settings screen](../documentation/project-settings/pdp-settings.md#envoy-integration-settings), make sure gRPC is enabled.
 
-### 2. Grab API Key and Secret for your PDP
+### 2. Grab the API Key and Secret for your PDP.
 
 In the Policy Decision Points screen, grab an [API and secret](../documentation/policy-decision-points-pdp/generating-api-keys-for-a-pdp.md).
 
-### 3. Create Envoy config file
+### 3. Create an Envoy config file.
 
-Create the following `config.yaml` file. The configuration instructs the proxy to listen on port `10000` and to behave as a reverse proxy to `google.com`. Envoy would also delegate all incoming requests to the sidecar PDP in order to allow / deny the access
+Create the following `config.yaml` file. The configuration instructs the proxy to listen on port `10000` and to behave as a reverse proxy to `google.com`. Envoy will also delegate all incoming requests to the sidecar PDP in order to allow / deny the access.
 
 ```yaml
 admin:
@@ -102,9 +102,9 @@ static_resources:
         sni: www.google.com
 ```
 
-### 4. Create docker-compose file
+### 4. Create docker-compose file.
 
-In order to quickly spin up the Envoy and the PDP dockers and their common network, create the following docker-compose file, **while using the API key and secret from step 1**:
+To quickly spin up the Envoy and the PDP dockers and their common network, create the following docker-compose file, **while using the API key and secret from step 1**:
 
 ```yaml
 version: "3.8"
@@ -139,12 +139,12 @@ networks:
 {% hint style="warning" %}
 **Remember**
 
-Do not forget to to replace **API\_KEY** and **API\_SECRET** with your own
+Do not forget to to replace **API\_KEY** and **API\_SECRET** with your own.
 {% endhint %}
 
-### 5. Start the proxy and the PDP
+### 5. Start the proxy and the PDP.
 
-execute `docker-compose up` , output shall be:
+Execute `docker-compose up`. The output should be:
 
 ![docker-compose for envoy + pdp](../.gitbook/assets/image%20%284%29.png)
 
@@ -152,26 +152,26 @@ execute `docker-compose up` , output shall be:
 
 In the build.security control plane:
 
-1. Observe your just new PDP in the Policy Decision Points screen
-2. Create a new Envoy policy
-3. Change the default behaviour of the policy to be `ALLOW`
-4. [Publish](../documentation/projects/publish-project-configuration.md) changes to the PDP
+1. Observe your new PDP in the Policy Decision Points screen.
+2. Create a new Envoy policy.
+3. Change the default behavior of the policy to be `ALLOW`
+4. [Publish](../documentation/projects/publish-project-configuration.md) changes to the PDP.
 5. Open a browser and go to `localhost:10000`
-6. Observe the newly created [decision logs](../documentation/decision-logs/)
+6. Observe the newly created [decision logs](../documentation/decision-logs/).
 
 ![Envoy decision logs](../.gitbook/assets/image%20%283%29.png)
 
 ### 7. Change the default policy and test again...
 
-1. Change the default behaviour of the policy to `DENY`
-2. Browse again
-3. This time - the access shall be denied
+1. Change the default behavior of the policy to `DENY`
+2. Browse again.
+3. This time, the access will be denied.
 
 
 
 {% hint style="info" %}
 #### Additional information
 
-For more information on Envoy - [click here](https://www.envoyproxy.io/) or contact us-[support@build.security](mailto:support@build.security)
+For more information on Envoy - [click here](https://www.envoyproxy.io/) or contact us at: [support@build.security](mailto:support@build.security)
 {% endhint %}
 

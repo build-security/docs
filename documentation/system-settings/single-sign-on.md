@@ -14,7 +14,7 @@ Currently, we support only the OpenID Connect protocol for Single Sign-On. If yo
 
 To define an identity provider, select the **System Settings** option located at the bottom of the navigation panel. In the system screen, select **Single Sign On**.
 
-![Single Sign-On menu](../../.gitbook/assets/image%20%2817%29%20%281%29%20%281%29%20%281%29.png)
+![Single Sign On screen](../../.gitbook/assets/sso-screen.png)
 
 ### Defining build.security in your chosen Identity Provider
 

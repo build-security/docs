@@ -17,18 +17,22 @@ Once you select an integration, you cannot edit this value. You can delete the c
 
 ![New policy panel](https://files.readme.io/68688e1-policy_wizard_panel.png)
 
-In the **Integration Instructions** area, you can click to go to build.security GitHub repository and download the relevant middleware for your integration or to the build.security documentation for more information on how to integrate build.security middlewares with your application.
+In the **Integration Instructions** area, you can click to go to build.security GitHub repository and download the relevant middleware for your integration or to the build.security documentation for more information on how to integrate build.security middleware with your application.
 
 1. Click **Next** to advance to the next screen in the new policy wizard. The Policy Settings area opens.
 2. In the **Policy Name** field, enter the name of the policy.
 3. In the **Policy Description** field, enter text that will describe this policy \(optional\).
-4. In the Advanced area \(accessed by clicking the **&gt;** arrow\), you can set the following:
+4. In the Advanced area \(accessed by clicking the **&gt;** arrow\), you can set the following:   **Decision Path**: this field determines the JSON path where the policy file is stored within the PDP. When you set up your integration, you define this location so that when the PDP evaluates an authorization request, it will be evaluated against the policy located in the location defined by the Decision Path field.  **Package Name**: this is the name that identifies which policy is run when querying the PDP. For example, if the package name is **authz**, the query path for this policy might be: `http://localhost:8181/v1/data/authz`  This value set in this field must be unique within the project. 
+5. In the lower area of the panel, you can enable \(default\) or disable the **Start with best practice rules \(recommended\)** field. This is recommended, as build.security has already created the most common rules that are likely to be used for each integration.
+6. Click **SAVE** to create the new policy. Once created, the policy will appear in the list of policies on the control plane. The next step will be to add [Policy Items](https://docs.build.security/docs/policy-items).
 
-* **Decision Path**: this field determines the JSON path where the policy file is stored within the PDP. When you set up your integration, you define this location so that when the PDP evaluates an authorization request, it will be evaluated against the policy located in the location defined by the Decision Path field.
-* **Package Name**: this is the name that identifies which policy is run when querying the PDP. For example, if the package name is **authz**, the query path for this policy might be: `http://localhost:8181/v1/data/authz` This value set in this field must be unique within the project.
+{% hint style="info" %}
+On the Policy toolbar, when you successfully publish your new policy, a green checkmark and the words **Compilation Success** will appear.
+{% endhint %}
 
-1. In the lower area of the panel, you can enable \(default\) or disable the **Start with best practice rules \(recommended\)** field. This is recommended, as build.security has already created the most common rules that are likely to be used for each integration.
-2. Click **SAVE** to create the new policy.
+![Policy compilation status indicator](../../.gitbook/assets/compilationsuccess.png)
 
-Once created, the policy will appear in the list of policies on the control plane. The next step will be to add [Policy Items](https://docs.build.security/docs/policy-items).
+For more information on the success or failure to compile a policy, see [Policy Compilation Status](policy-compilation-status.md). 
+
+
 

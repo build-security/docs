@@ -11,11 +11,12 @@ Once you have created the integration, you can then assign whether or not log sh
 **To create a log shipping integration:**
 
 1. On the System Settings option, select **Log Shipping**.
-2. Click **NEW INTEGRATION**. The New Log Shipping panel will open.
+2. Click **NEW INTEGRATION**. The New Log Shipping panel opens.
 3. In the **Name** field, enter the name of the new integration.
 4. In the **Description** field, enter a description \(optional\).
-5. In the **API Key field**, enter the API key that will enable communication between build.security and the Datadog implementation in your organization.
-6. Click **Save** to create the integration.
+5. In the **Type** field, select whether you wish to integrate with Datadog or Elasticsearch. 
+6. If you selected Datadog, in the **API Key field**, enter the API key that will enable communication between build.security and the Datadog implementation in your organization; if you selected Elasticsearch enter the host address.
+7. Click **Save** to create the integration.
 
 {% hint style="info" %}
 **Note**
@@ -23,7 +24,7 @@ Once you have created the integration, you can then assign whether or not log sh
 Once you have created at least one log shipping integration, you can apply log shipping to your project in the [Project Settings screen](../projects/project-selection-screen.md).
 {% endhint %}
 
-![New log shipping integration](https://files.readme.io/7104a4f-new_log_shipping_integration.PNG)
+![New log shipping integration panel](../../.gitbook/assets/new-logshipping.png)
 
 ### Deleting a Log Shipping Integration
 
