@@ -1,6 +1,6 @@
 # Using Single Sign On
 
-Users can log in with their email address alone, when configured as a single sign-on user. Below are details for signing in. For information on how to configure the system to use single sign on, see [Single Sign On](../system-settings/single-sign-on.md). 
+Users can log in with their email address alone, when configured as a single sign on user. Below are details for signing in. For information on how to configure the system to use single sign on, see [Single Sign On](../system-settings/single-sign-on.md). 
 
 ‌**To log in using Single Sign On:**
 
