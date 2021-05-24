@@ -1,13 +1,6 @@
 # System Settings
 
-The System Settings option enables you to configure system-wide settings. Located at the bottom of the navigation panel, you can perform the following:
-
-* Access to the Systems screen
-* The pin/unpin icon that toggles between having the navigation panel visible at all times or hiding it. If you do not see the navigation panel, click the hamburger icon located on the [toolbar](../getting-started/control-plane-overview.md#main-toolbar). 
-
-![System Settings option](../../.gitbook/assets/sysset.png)
-
-The System screen, offers you access to the following: 
+The System Settings option enables you to configure system-wide settings. Accessed by clicking the user avatar on the build.security toolbar, the system settings option opens the system screen and menu options. By default, when opening the systems settings screen the General, which include: 
 
 * [User Management](managing-users/)
 * [Internal Audit](internal-audit.md)
