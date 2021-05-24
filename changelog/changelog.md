@@ -6,6 +6,17 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 0.5 - May 23, 2021
+
+**Major Features**
+
+* Onboarding - guiding the user to create a policy, publish it to a cloud PDP and test it. 
+
+**Minor Enhancements**
+
+* Cache improvements 
+* Multiple UI enhancements and bug fixes
+
 ## Version 0.4 - April 25, 2021
 
 **Major Features**
