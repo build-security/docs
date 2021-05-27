@@ -13,6 +13,7 @@
   * [Architecture](documentation/about-build.security-1/getting-started.md)
   * [Using OPA for Applications Authorization](documentation/about-build.security-1/using-opa-for-applications-authorization.md)
 * [Getting Started](documentation/getting-started/README.md)
+  * [Onboarding](documentation/getting-started/onboarding.md)
   * [Control Plane Overview](documentation/getting-started/control-plane-overview.md)
   * [Main Toolbar](documentation/getting-started/main-toolbar.md)
   * [Navigation Panel Options](documentation/getting-started/navigation-panel-options.md)
