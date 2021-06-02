@@ -6,11 +6,21 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 0.6 - June 2, 2021
+
+**Major Features**
+
+* Roles and Permissions table - defining your organization's RBAC model with an easy and simple UI
+
+**Minor Enhancements**
+
+* Onboarding enhancements 
+
 ## Version 0.5 - May 23, 2021
 
 **Major Features**
 
-* Onboarding - guiding the user to create a policy, publish it to a cloud PDP and test it. 
+* [Onboarding](https://docs.build.security/documentation/getting-started/onboarding) - guiding the user to create a policy, publish it to a cloud PDP and test it. 
 
 **Minor Enhancements**
 
