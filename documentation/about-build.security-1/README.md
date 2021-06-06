@@ -36,7 +36,7 @@ The platform’s key features include:
 * Lightweight and performance-optimized hybrid cloud / on-prem [architecture](getting-started.md).
 * [Detailed decision logs](../decision-logs/) table enables you to view all decisions made by the Policy Decision Points PDP managed in the project.
 * [Log shipping integration](../system-settings/log-shipping-integration.md) enables you to easily send decision log backups from the control plane to one or more databases within your organization.
-* The ability to [integrate build.security with your Git repository](../project-settings/git-integration-settings.md) to enable you to treat all policies as code and reflect them in a designated Git repository to crate a proper review and approval workflow. 
+* The ability to [integrate build.security with your Git repository](../project-settings/git-integration-settings.md), enables you to treat all policies as code and reflect them in a designated Git repository, allowing a proper review and approval workflow. 
 * Flexibility in managing how your users login to build.security, using [build.security credentials](../logging-in/logging-in-1.md), [single sign on](../system-settings/single-sign-on.md), or [social provider authentication](../logging-in/using-social-provider-authentication.md).
 
 
