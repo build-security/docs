@@ -1,5 +1,13 @@
 # Changelog - PDP
 
+## Version 0.4.1 - June 14, 2021
+
+* Report cache metrics
+
+## Version 0.4.0 - May 27, 2021
+
+* Add kill functionality
+
 ## Version 0.3.10 - May 9, 2021
 
 * Add cache warming
