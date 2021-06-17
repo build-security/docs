@@ -62,6 +62,12 @@ Each line of the table includes the following information for each authorization
         is evaluated.</td>
     </tr>
     <tr>
+      <td style="text-align:left">Cache Hit Ratio</td>
+      <td style="text-align:left">For policies that include calls to external data sources (eg. databases),
+        the <em>Cache hit Ratio</em> indicates the amount of cache hits out of the
+        total requests made during the evaluation of this policy.</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Duration (msec)</td>
       <td style="text-align:left">The duration of the decision process as calculated from the request arrival
         time to the time that the PDP sends the decision result to the PEP (in

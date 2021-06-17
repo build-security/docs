@@ -23,7 +23,7 @@ In Okta, you will create a new application, that will connect with build.securit
 * If your identity provider lets you choose application type, choose `Single Page App (SPA)`
 * If your identity provider lets you choose `allowed grant types,`choose `Authorization Code`, `implicit`, `Allow ID Token with implicit grant type`
 
-![](../../.gitbook/assets/image%20%2824%29%20%282%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%2824%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 * Please copy the `build.security Redirection URL` field and paste it in your identity provider, under `Login redirect URIs`.  This is the URL that your identity provider will use to redirect your users  after a successful authentication, so your identity provider must know this specific URL in advance.
 
