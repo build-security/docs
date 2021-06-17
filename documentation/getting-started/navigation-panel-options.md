@@ -11,10 +11,17 @@ The navigation panel offers you quick access to each of the main components of t
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>Home</b>
-      </td>
+      <td style="text-align:left">Home</td>
       <td style="text-align:left">Returns you to the Home screen, which provides quick access to build.security
         documentation, contact support, and our weekly blog.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../environments.md">Environments</a>
+      </td>
+      <td style="text-align:left">Policy Decision Points that share common characteristics (eg. dev / staging
+        / production) can be clustered together into &quot;Environments&quot;.
+        Environments provides the ability to control the policies <a href="../environments.md#publishing-methods">publishing methods</a> (direct
+        / git).</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="../policy-decision-points-pdp/">Policy Decision Points (PDPs)</a>
@@ -26,14 +33,6 @@ The navigation panel offers you quick access to each of the main components of t
         <br />- Edit the existing PDPs
         <br />- Create new PDPs
         <br />- Publish policy bundles to PDPs</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../environments.md">Environments</a>
-      </td>
-      <td style="text-align:left">Policy Decision Points that share common characteristics (eg. dev / staging
-        / production) can be clustered together into &quot;Environments&quot;.
-        Environments provides the ability to control the policies <a href="../environments.md#publishing-methods">publishing methods</a> (direct
-        / git).</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="../data-sources/">Data Sources</a>
