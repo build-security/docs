@@ -32,8 +32,8 @@ The navigation panel offers you quick access to each of the main components of t
       </td>
       <td style="text-align:left">Policy Decision Points that share common characteristics (eg. dev / staging
         / production) can be clustered together into &quot;Environments&quot;.
-        Environments provides the ability to control the policies publishing methods
-        (direct / git).</td>
+        Environments provides the ability to control the policies <a href="../environments.md#publishing-methods">publishing methods</a> (direct
+        / git).</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="../data-sources/">Data Sources</a>
