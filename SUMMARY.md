@@ -106,18 +106,17 @@
 
 ## Middlewares
 
-* [Middleware Integration](middlewares/integrating-with-build-middlewares.md)
-
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 
 * [Envoy Proxy Integration](pep-integrations-1/envoy-proxy-plugin.md)
 * [Kafka Topic Authorization](pep-integrations-1/kafka-topic-authorization.md)
-* [Node.js](https://github.com/build-security/opa-express-middleware)
-* [PHP Symfony](https://github.com/build-security/opa-symfony-middleware)
-* [ASP.Net](https://github.com/build-security/OPA-AspDotNetCore-Middleware)
-* [JAVA](https://github.com/build-security/opa-java-client)
-* [JAVA-Spring](https://github.com/build-security/opa-java-spring-client)
 * [AWS API Gateway](https://github.com/build-security/aws-api-gateway-authz)
+* [Middleware Integration](pep-integrations-1/integrating-with-build-middlewares/README.md)
+  * [JAVA-Spring](https://github.com/build-security/opa-java-spring-client)
+  * [JAVA](https://github.com/build-security/opa-java-client)
+  * [ASP.Net](https://github.com/build-security/OPA-AspDotNetCore-Middleware)
+  * [PHP Symfony](https://github.com/build-security/opa-symfony-middleware)
+  * [Node.js](https://github.com/build-security/opa-express-middleware)
 
 ## WHITE PAPERS <a id="whitepapers"></a>
 

@@ -20,7 +20,7 @@ The client request will be first evaluated against your PDP, and will continue t
 
 This functionality can be achieved easily and requires no maintenance and almost no code changes. Most of the middlewares would only require you to add a decorator\attribute in your relevant endpoints code.
 
-![](../.gitbook/assets/data-flow.png)
+![](../../.gitbook/assets/data-flow.png)
 
 #### 
 
