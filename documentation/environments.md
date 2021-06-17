@@ -1,6 +1,6 @@
 # Environments
 
-Environments are a logic entity of multiple Policy Decision Points that share certain characteristics. There is no limitation of how many environments a projects can hold, nor the amount of PDPs in a certain environment.
+An environments is a logic entity of multiple Policy Decision Points that share certain characteristics. There is no limitation of how many environments a projects can hold, nor the amount of PDPs in a certain environment.
 
 Common use case is to divide the project's PDPs into 3 environments:
 
@@ -25,4 +25,6 @@ The following illustrates a common use case where `Development` environment rece
 When creating or editing a new environment, the operator can choose the policies publishing method:
 
 ![New environment settings](../.gitbook/assets/image%20%2825%29.png)
+
+
 
