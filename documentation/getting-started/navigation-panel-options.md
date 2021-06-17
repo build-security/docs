@@ -82,7 +82,5 @@ The navigation panel offers you quick access to each of the main components of t
   </tbody>
 </table>
 
-![](../../.gitbook/assets/navigationpanel.png)
-
-### 
+![Navigation panel](../../.gitbook/assets/image%20%2825%29.png)
 

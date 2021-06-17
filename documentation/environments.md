@@ -20,11 +20,11 @@ Each environment provides the operator with the ability to decide how policies w
 
 The following illustrates a common use case where `Development` environment receives policies directly from the control plane, while`Staging` and `Production` are integrated with their appropriate branches within git:
 
-![Environments screen](../.gitbook/assets/image%20%2826%29.png)
+![Environments screen](../.gitbook/assets/image%20%2828%29.png)
 
 When creating or editing a new environment, the operator can choose the policies publishing method:
 
-![New environment settings](../.gitbook/assets/image%20%2825%29.png)
+![New environment settings](../.gitbook/assets/image%20%2826%29.png)
 
 
 
