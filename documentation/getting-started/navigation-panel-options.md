@@ -49,6 +49,22 @@ The navigation panel offers you quick access to each of the main components of t
         PDPs managed in this project.</td>
     </tr>
     <tr>
+      <td style="text-align:left">Roles &amp; Permissions</td>
+      <td style="text-align:left">Mapping between roles and permissions, to be used as an input for policies
+        in the project</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../policies/">Policies</a>
+      </td>
+      <td style="text-align:left">From the policies option, you can create, modify, or view the project&apos;s
+        authorization policies. These represent your organization&apos;s authorization
+        policy for accessing any (or all) of the services or resources within the
+        organization.
+        <br />
+        <br />In this area, you can define policy items that together determine what
+        the policy will be.</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><a href="../project-settings/">Project settings</a>
       </td>
       <td style="text-align:left">
@@ -67,17 +83,6 @@ The navigation panel offers you quick access to each of the main components of t
           </li>
         </ul>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../policies/">Policies</a>
-      </td>
-      <td style="text-align:left">From the policies option, you can create, modify, or view the project&apos;s
-        authorization policies. These represent your organization&apos;s authorization
-        policy for accessing any (or all) of the services or resources within the
-        organization.
-        <br />
-        <br />In this area, you can define policy items that together determine what
-        the policy will be.</td>
     </tr>
   </tbody>
 </table>
