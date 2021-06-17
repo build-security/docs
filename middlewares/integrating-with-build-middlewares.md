@@ -24,9 +24,5 @@ This functionality can be achieved easily and requires no maintenance and almost
 
 #### 
 
-{% hint style="info" %}
-Please make sure that you have run a build.security PDP with an allow rule in the relevant path.
-{% endhint %}
-
 
 
