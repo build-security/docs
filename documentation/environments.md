@@ -8,7 +8,7 @@ Common use case is to divide the project's PDPs into 3 environments:
 2. staging - PDPs that are used to mimic production deployments
 3. production - production PDPs
 
-### Environment settings
+### Publishing methods
 
 Each environment provides the operator with the ability to decide how policies will get served to the PDPs in that environment. The possible publishing methods are:
 
