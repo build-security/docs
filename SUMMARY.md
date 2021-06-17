@@ -104,8 +104,6 @@
     * [PostgreSQL](library/built-in-functions/build.query_raw/postgresql.md)
 * [Library Rules](https://library.build.security)
 
-## Middlewares
-
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 
 * [Envoy Proxy Integration](pep-integrations-1/envoy-proxy-plugin.md)
