@@ -24,3 +24,7 @@ In order to reference a datasource of a shared library project, the syntax is:
 data.shared_project_slug.datasources.postgresql
 ```
 
+### Bundle implications
+
+Shared projects\` policies and datasource definitions will be included in all the bundles generates by all projects in the tenant.
+
