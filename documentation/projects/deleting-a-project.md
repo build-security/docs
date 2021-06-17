@@ -1,4 +1,4 @@
-# Deleting a project
+# Deleting a Project
 
 You can delete a project from the [Project Settings](../project-settings/) screen.
 
