@@ -6,7 +6,7 @@ A common requirement is the ability to share policies and datasources with other
 
 In order to mark a project as "shareable", toggle the library setting in the project [General Settings](../project-settings/general-settings.md) screen and publish the project.
 
-from this point forward, other projects in the same tenant can reference policies and datasources of this "shared library project".
+From this point forward, other projects in the same tenant can reference policies and datasources of this "shared library project".
 
 ### Referencing a shared project
 
