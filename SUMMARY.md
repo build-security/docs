@@ -54,6 +54,7 @@
   * [Caching Mechanism](documentation/policy-decision-points-pdp/caching-mechanism.md)
   * [TLS Configuration](documentation/policy-decision-points-pdp/tls-configuration.md)
   * [PDP debugging](documentation/policy-decision-points-pdp/pdp-debugging.md)
+* [Environments](documentation/environments.md)
 * [Data Sources](documentation/data-sources/README.md)
   * [Defining a New Data Source](documentation/data-sources/defining-a-new-data-source.md)
   * [New Internal Data Source](documentation/data-sources/new-internal-data-source.md)
