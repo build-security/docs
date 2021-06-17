@@ -10,5 +10,5 @@ The project settings option enables you configure parameters related to your pro
 | Log Shipping | Enable or disable an existing log shipping integration. | [Log Shipping](log-shipping.md) |
 | Git Integration | Enable build.security's Git integration, to reflect all project configurations and policies in Git. | [Git Integration Settings](git-integration-settings.md) |
 
-![Project Setting Screen](../../.gitbook/assets/image%20%2824%29.png)
+![Project Settings Screen](../../.gitbook/assets/image%20%2824%29.png)
 
