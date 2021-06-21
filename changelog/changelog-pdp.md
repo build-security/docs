@@ -3,6 +3,7 @@
 ## Version 0.4.1 - June 14, 2021
 
 * Report cache metrics
+* Upgrade OPA to v0.28.0
 
 ## Version 0.4.0 - May 27, 2021
 
