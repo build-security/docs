@@ -6,6 +6,18 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 0.7 - June 21, 2021
+
+**Major Features**
+
+* [Shared projects](https://docs.build.security/documentation/projects/sharing-a-project) 
+* [Environments](https://docs.build.security/documentation/environments)
+
+**Minor Enhancements** 
+
+* Add cache hit ratio to decision logs 
+* Multiple UI enhancements and bug fixes
+
 ## Version 0.6 - June 2, 2021
 
 **Major Features**
