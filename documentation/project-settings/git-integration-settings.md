@@ -41,9 +41,10 @@ After you complete the fields, or in the future if you change any values in thes
 ### How to generate an access token @ GitHub
 
 1. Go to **Profile Settings -&gt; Developer Settings -&gt; Personal Access Tokens** \([https://github.com/settings/tokens](https://github.com/settings/tokens)\)
-2. Click the **Generate new token** button
+2. Click the **Generate new token** button.
 3. Give the new token a name and select the "**repo**" scope, as shown below.
-4. Copy and paste the token into build.security Git integration settings page.
+4. Click the **Generate token** button at the bottom.
+5. Copy and paste the token into build.security Git integration settings page.
 
 ![Required scopes for access token \(GitHub\)](../../.gitbook/assets/image%20%287%29.png)
 
