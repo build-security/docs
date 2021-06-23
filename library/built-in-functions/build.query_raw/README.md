@@ -38,13 +38,5 @@ In the following section you will be able to find useful examples around how to 
 3. [Elasticsearch](elasticsearch.md)
 4. [PostgreSQL](postgresql.md)
 
-{% hint style="info" %}
-
-
-**Supported PDP version** 
-
-This built-in function supported from version V0.0.1 and above 
-{% endhint %}
-
 
 
