@@ -65,5 +65,5 @@ final_rule {
 }
 ```
 
-The evaluation output of `check_1`, `check_2` and `check_3` will now be accessible on your build.security console.
+The evaluation output of `check_1`, `check_2` and `check_3` will now be accessible on your build.security console's playground.
 
