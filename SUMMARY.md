@@ -94,6 +94,7 @@
 ## LIBRARY
 
 * [Built-In Functions](library/built-in-functions/README.md)
+  * [log](library/built-in-functions/log.md)
   * [cache](library/built-in-functions/cache.md)
   * [build.json\_partial\_compare](library/built-in-functions/build.json_partial_compare.md)
   * [build.geo\_from\_ip](library/built-in-functions/build.geo_from_ip.md)
