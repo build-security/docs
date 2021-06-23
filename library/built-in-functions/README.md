@@ -17,6 +17,7 @@ In addition, build.security's PDP also supports built-in functions that are not 
 * [cache.insert](cache.md)
 * [cache.get](cache.md)
 * [cache.delete](cache.md)
+* [log](log.md)
 
 {% hint style="info" %}
 **Need more help?**
