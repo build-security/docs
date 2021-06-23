@@ -31,6 +31,8 @@ This not only affects performance, it also means that if there is a evaluation c
 
 As such, using `log` is encouraged only for development and debugging.
 
+#### An alternative approach
+
 The recommended way to record useful information in production is by restructuring policy: move statements out from inside rules to new rules in the global scope. This way, their evaluation will be recorded in the result.
 
 Example, change the following rule:
