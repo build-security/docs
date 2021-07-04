@@ -6,6 +6,18 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 0.8 - July 1st, 2021
+
+**Major Features**
+
+* Policy page new layout 
+
+**Minor Enhancements** 
+
+* Shared project enhancements
+* Improve login mechanism 
+* Multiple UI enhancements and bug fixes
+
 ## Version 0.7 - June 21, 2021
 
 **Major Features**
