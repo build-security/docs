@@ -7,6 +7,13 @@
 * [Changelog - Control Plane](changelog/changelog.md)
 * [Changelog - PDP](changelog/changelog-pdp.md)
 
+## TUTORIALS <a id="policy-examples"></a>
+
+* [Full API Authorization Policy](policy-examples/full-api-authorization-policy.md)
+* [RBAC Policy](policy-examples/full-rbac-policy.md)
+* [Using Internal Data Source](policy-examples/internal-data-source.md)
+* [Working with Environments \(Dev vs. Production\)](policy-examples/working-with-envs.md)
+
 ## Documentation
 
 * [About build.security](documentation/about-build.security-1/README.md)
@@ -121,13 +128,6 @@
 ## WHITE PAPERS <a id="whitepapers"></a>
 
 * [Performance Benchmark](https://build.security/whitepaper-performance/)
-
-## TUTORIALS <a id="policy-examples"></a>
-
-* [Full API Authorization Policy](policy-examples/full-api-authorization-policy.md)
-* [RBAC Policy](policy-examples/full-rbac-policy.md)
-* [Using Internal Data Source](policy-examples/internal-data-source.md)
-* [Working with Environments \(Dev vs. Production\)](policy-examples/working-with-envs.md)
 
 ## QUICKSTARTS
 
