@@ -4,7 +4,7 @@ The project settings option enables you configure parameters related to your pro
 
 | Option | Explanation | For more information, see: |
 | :--- | :--- | :--- |
-| General | Enables you to view or change general settings of the project. Also allows to [delete](../projects/deleting-a-project.md) the project. | [General Settings](general-settings.md) |
+| General | Enables you to view or change general settings of the project. Also allows you to [delete](../projects/deleting-a-project.md) the project. | [General Settings](general-settings.md) |
 | PDP | Enables you to configure, view, or change settings for the bundle polling and Envoy integration and test mode. | [PDP Settings](pdp-settings.md) |
 | Decision Log | Enables you to configure whether the control plane will collect and store decision logs. | [Decision Log Settings](decision-log-settings.md) |
 | Log Shipping | Enable or disable an existing log shipping integration. | [Log Shipping](log-shipping.md) |
