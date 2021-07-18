@@ -62,8 +62,6 @@ spec:
                 secretKeyRef:
                   name: pdp-secret
                   key: <API_KEY>
-            - name: PDP_LOG_LEVEL
-              value: error
           startupProbe:
             httpGet:
               path: /health
