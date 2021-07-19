@@ -1,5 +1,16 @@
 # Changelog - PDP
 
+
+## Version 0.4.3 - July 18, 2021
+
+* Dataextractor warm cache huristics
+* Crash fix on dataextractor failure
+* Upgrade OPA to v0.30.1
+
+## Version 0.4.2 - June 28, 2021
+
+* Add process metrics on status report
+
 ## Version 0.4.1 - June 14, 2021
 
 * Report cache metrics
