@@ -3,7 +3,7 @@
 
 ## Version 0.4.3 - July 18, 2021
 
-* Dataextractor warm cache huristics
+* Dataextractor warm cache entry once
 * Crash fix on dataextractor failure
 * Upgrade OPA to v0.30.1
 
