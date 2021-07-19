@@ -1,7 +1,5 @@
 # TLS Configuration
 
-
-
 Any PDP instance can receive HTTPS requests if given a certificate and a private key. If you have a certificate and a private key that you would like the PDP to use:
 
 1. Assign the following names to the certificate and key: `public.crt` and `private.key`
@@ -19,7 +17,7 @@ docker run \
   buildsecurity/pdp sh -c "./opa_plus run --server --log-level error --skip-version-check --config-file config.yaml --tls-cert-file https/public.crt --tls-private-key-file https/private.key"
 ```
 
-### Using Insecure HTTP Connections with TLS Enabled
+## Using Insecure HTTP Connections with TLS Enabled
 
 By default, OPA ignores insecure HTTP connections when TLS is enabled. To allow insecure HTTP connections, in addition to HTTPS connections, run the PDP deployment command from the server in the following form:
 
@@ -37,7 +35,7 @@ docker run \
 
 This will cause the PDP to listen to HTTP traffic on port `8282`, and to HTTPS traffic on port `8181`.
 
-### Validation using cURL
+## Validation using cURL
 
 To validate that everything works as expected, you can use cURL:
 

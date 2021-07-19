@@ -4,7 +4,7 @@ In order to have more visibility into the decision making process within the PDP
 
 Debug logs are sent to the standard output \(stdout\) and can be viewed through the `docker logs` command.
 
-In order to turn on the debug logs, just append to the command the flag `--log-level` with value `debug`. 
+In order to turn on the debug logs, just append to the command the flag `--log-level` with value `debug`.
 
 Example command for standalone docker:
 

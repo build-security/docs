@@ -1,6 +1,6 @@
 # Kubernetes
 
-### Getting started
+## Getting started
 
 To deploy a new PDP with Kubernetes, the first step is to create the PDP within build.security - see [Creating a new PDP](../creating-a-new-pdp-configuration.md).
 
@@ -17,9 +17,7 @@ Once this has been created, you can:
 1.14 or higher
 {% endhint %}
 
-
-
-### Define the Environment Variables
+## Define the Environment Variables
 
 ```bash
 kubectl create secret generic pdp-secret --from-literal=<API_KEY>='<API_SECRET>'
@@ -88,15 +86,13 @@ spec:
 **All of those provided to you in build.security control plane when** [**creating keys to your PDP**](../generating-api-keys-for-a-pdp.md) **configuration.**
 {% endhint %}
 
-
-
-### Create the pod
+## Create the pod
 
 ```bash
 kubectl apply -f pdp-deployment.yaml
 ```
 
-### Create Service Specification
+## Create Service Specification
 
 Create a file named `pdp-service.yaml` with the content:
 

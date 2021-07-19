@@ -6,6 +6,18 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 0.9 - July 18, 2021
+
+**Major Features**
+
+* New pricing model - 3 PDPs instances on the Freemium plan 
+
+**Minor Enhancements** 
+
+* Support signup on mobile 
+* Managed \(cloud\) PDP enhancements
+* Multiple UI enhancements and bug fixes
+
 ## Version 0.8 - July 1st, 2021
 
 **Major Features**
