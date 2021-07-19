@@ -10,7 +10,7 @@ description: >-
 
 **Major Features**
 
-* New pricing model - 3 PDPs instances on the Freemium plan 
+* Freemium plan support 
 
 **Minor Enhancements** 
 
