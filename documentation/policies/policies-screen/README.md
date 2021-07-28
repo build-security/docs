@@ -1,11 +1,23 @@
 # Policies Screen
 
-When you add a policy or click on an existing policy, the policies screen opens with an [additional toolbar](policy-toolbar.md) just below the main toolbar. Following is a quick introduction to the various parts of the policies screen.
+When you add a policy or click on an existing policy, the policies screen displays three tabs \(Rules, Testing, Setting\) with a [toolbar](policy-toolbar.md) for each tab appearing just below the tab names. 
+
+### Rules Tab
+
+The Rules tab displays all currently defined rules for the current policy. Click &gt; beside a rule to expand it. The following information for each rule appears in the expanded line:
+
+| Information | Details |
+| :--- | :--- |
+| Type | For predefined rules and empty rules; the rule type can be **Allow** or **Deny**. When you expand the line, you can use the drop-down arrow to change the current setting.   When creating a custom block, the type will be **Custom**. |
+| Name | The name of the rule. This can be edited when the line is expanded. |
+| Creation Date | The amount of time that has elapsed since the rule was created \(for example, 3 days, 3 months, etc.\). To find the exact date and time, hover over this field. |
+| Last Update | The amount of time that has elapsed since the rule was last updated \(for example, 3 days, 3 months, etc.\). To find the exact date and time, hover over this field. |
+| Status | Current status of the rule or custom block. This can be Active, Monitored, or Inactive. For more information, see [Rule Statuses](../policy-items/policy-item-status.md). |
+
+To view a rule, expand the rule
 
 {% hint style="info" %}
-**Note**
-
-To the right of the list of rules are two icons that open up the [Policy Code panel](../policy-code-panel.md) and the [Policy Evaluation Playground panel](../policy-evaluation-playground.md).
+**Note:** To the right of the list of rules are two icons that open up the [Policy Code panel](../policy-code-panel.md) and the [Policy Evaluation Playground panel](../policy-evaluation-playground.md).
 {% endhint %}
 
 ![](../../../.gitbook/assets/new-policy.png)

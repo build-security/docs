@@ -1,10 +1,10 @@
-# Policy Item Status
+# Rule or Custom Block Status
 
 
 
 Each policy item is assigned a status that identifies what affect it should have within the PDP's evaluation process. build.security's predefined rules and empty rules that you create can have one of three statuses at any given time.
 
-![Policy item statuses](https://files.readme.io/af8f045-rule_statuses2.PNG)
+![Statuses](https://files.readme.io/af8f045-rule_statuses2.PNG)
 
 Custom blocks can have a status of **Active** or **Inactive** only.
 

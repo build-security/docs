@@ -12,8 +12,8 @@ Common use case is to divide the project's PDPs into 3 environments:
 
 Each environment provides the organization with the ability to decide how policies will get served to the PDPs in that environment. Possible publishing methods include:
 
-* Direct: Policies are sent directly from the control plane and into the PDPs in real-time.
-* Git: \(requires [Git integration](project-settings/git-integration-settings.md) to be enabled\)
+* **Direct:** Policies are sent directly from the control plane and into the PDPs in real-time.
+* **Git:** \(requires [Git integration](project-settings/git-integration-settings.md) to be enabled\)
   * branch - policies are served according to the tip of a specific Git branch
   * commit SHA - policies are served according to a specific Git commit SHA
   * tag - policies are served according to a specific Git tag 

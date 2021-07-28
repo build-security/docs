@@ -6,7 +6,7 @@ Policies are listed in the lower part of the navigation panel. You can create as
 
 **To create a new policy:**
 
-1. In the Policies area, click the plus sign \(**+**\). The Create a New Policy panel will open on the right.
+1. In the Policies area, click the plus sign \(**+**\). The **Create a New Policy** panel will open on the right.
 2. Begin by selecting the integration for which you wish to create a policy. Options include: Envoy, Docker, Java Spring, ASP.NET, Node Express, SymfonyPHP, or Custom. Using the Custom option enables you to begin with a blank policy and customize it yourself.
 
 {% hint style="info" %}
