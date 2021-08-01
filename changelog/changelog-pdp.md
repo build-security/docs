@@ -1,4 +1,7 @@
 # Changelog - PDP
+## Version 0.4.4 - Augost 1, 2021
+
+* Run docker as non root user (for k8s integration)
 
 ## Version 0.4.3 - July 18, 2021
 
