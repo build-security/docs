@@ -5,7 +5,7 @@
 
 ## Version 0.4.4 - July 25, 2021
 
-* Remove sensitive data from logs
+* Stdout logs enhancements
 * Improve testing coverage
 * Add data-ex endpoint as v0
 
