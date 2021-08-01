@@ -1,7 +1,13 @@
 # Changelog - PDP
-## Version 0.4.4 - Augost 1, 2021
+## Version 0.4.5 - Augost 1, 2021
 
 * Run docker as non root user (for k8s integration)
+
+## Version 0.4.4 - July 25, 2021
+
+* Remove sensitive data from logs
+* Improve testing coverage
+* Add data-ex endpoint as v0
 
 ## Version 0.4.3 - July 18, 2021
 
