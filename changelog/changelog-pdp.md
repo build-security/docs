@@ -1,4 +1,13 @@
 # Changelog - PDP
+## Version 0.4.5 - August 1, 2021
+
+* K8s integration enhancements
+
+## Version 0.4.4 - July 25, 2021
+
+* Stdout logs enhancements
+* Improve testing coverage
+* Add data-ex endpoint as v0
 
 ## Version 0.4.3 - July 18, 2021
 
