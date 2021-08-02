@@ -6,6 +6,19 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 1.0.0 - July 25, 2021
+
+**Major Features**
+
+* K8s admission control webhook enhancements 
+
+**Minor Enhancements** 
+
+* Managed \(cloud\) PDP optimization 
+* Multiple UI enhancements and bug fixes
+
+
+
 ## Version 0.9 - July 18, 2021
 
 **Major Features**
