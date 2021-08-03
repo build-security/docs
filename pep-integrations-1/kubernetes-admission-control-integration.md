@@ -202,7 +202,7 @@ generate the manifest that will be used to register PDP as an admission controll
 ```text
 cat > webhook-configuration.yaml <<EOF
 kind: ValidatingWebhookConfiguration
-apiVersion: admissionregistration.k8s.io/v1beta1
+apiVersion: admissionregistration.k8s.io/v1
 metadata:
   name: pdp-validating-webhook
 webhooks:
@@ -218,12 +218,16 @@ webhooks:
         apiGroups: ["*"]
         apiVersions: ["*"]
         resources: ["*"]
+    sideEffects: None
+    failurePolicy: Ignore # Change to Fail - to strict on webhook failure and fail the action
     clientConfig:
       caBundle: $(cat ca.crt | base64 | tr -d '\n')
       service:
         namespace: buildsecurity
         name: pdp
         path: /v0/data-ex/kubernetes/admission/response
+    admissionReviewVersions: ["v1", "v1beta1"]
+    timeoutSeconds: 5
 EOF
 ```
 
