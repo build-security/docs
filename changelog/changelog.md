@@ -10,7 +10,7 @@ description: >-
 
 **Major Features**
 
-* K8s admission control webhook enhancements 
+* [K8s admission control](https://docs.build.security/pep-integrations-1/kubernetes-admission-control-integration) webhook enhancements 
 
 **Minor Enhancements** 
 
