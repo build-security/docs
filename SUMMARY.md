@@ -117,6 +117,7 @@
 ## PEP INTEGRATIONS <a id="pep-integrations-1"></a>
 
 * [Envoy Proxy Integration](pep-integrations-1/envoy-proxy-plugin.md)
+* [Kubernetes Admission Control Integration](pep-integrations-1/kubernetes-admission-control-integration.md)
 * [Kafka Topic Authorization](pep-integrations-1/kafka-topic-authorization.md)
 * [AWS API Gateway](https://github.com/build-security/aws-api-gateway-authz)
 * [Middleware Integration](pep-integrations-1/integrating-with-build-middlewares/README.md)
