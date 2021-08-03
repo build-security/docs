@@ -305,7 +305,7 @@ Lets now change some of the rules that could have denied the request and publish
 
 ![Publish our changes so it would take effect](../.gitbook/assets/screen-shot-2021-08-03-at-14.22.45.png)
 
-Now lets recreate our nginx
+Now, let’s try and recreate nginx. Remember that we expect this operation to fail since the relevant rule is now active
 
 ```text
 kubectl delete -f nginx.yaml -n default
