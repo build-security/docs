@@ -30,21 +30,21 @@ To use admission control rules that validate Kubernetes resources during create,
 
 ## Steps
 
-#### 1. Create PDP using the control plane  <a id="4-define-a-policy-and-load-it-into-opa-via-kubernetes"></a>
+#### 1. Create a PDP using the control plane  <a id="4-define-a-policy-and-load-it-into-opa-via-kubernetes"></a>
 
-If you are not familiar how to create a PDP follow this [guide](https://docs.build.security/documentation/policy-decision-points-pdp/creating-a-new-pdp-configuration), later [generate api key and secret](https://docs.build.security/documentation/policy-decision-points-pdp/generating-api-keys-for-a-pdp).
+If you are not familiar with how to create a PDP follow this [guide](https://docs.build.security/documentation/policy-decision-points-pdp/creating-a-new-pdp-configuration), then [generate an api key and secret](https://docs.build.security/documentation/policy-decision-points-pdp/generating-api-keys-for-a-pdp).
 
-#### 2. Create Kubernetes a policy and publish it into PDP <a id="4-define-a-policy-and-load-it-into-opa-via-kubernetes"></a>
+#### 2. Create a Kubernetes policy and publish it to a PDP <a id="4-define-a-policy-and-load-it-into-opa-via-kubernetes"></a>
 
 [Create a new policy in the control plane](https://docs.build.security/documentation/policies/creating-a-new-policy). Make sure you pick Kubernetes integration.
 
 ![](../.gitbook/assets/screen-shot-2021-08-03-at-13.53.22.png)
 
-You can notice that the default policy comes with a set of rules that are all set to Monitored. By default we set the policy to allow all requests, so at first we won't enforce any of the rules.
+Notice that the default policy comes with a set of rules that are all set as Monitored. By default we set the policy to allow all requests, so at first we won't enforce any of the rules.
 
-Now we lets publish the new policy so it would be served to the PDP once it is deployed.
+Now let's publish the new policy so it would be served to the PDP once it is deployed.
 
-![](../.gitbook/assets/screen-shot-2021-08-03-at-13.59.04.png)
+![Publish the changes so they&apos;ll take effect](../.gitbook/assets/kubernetes-policy-creation.png)
 
 #### 3. Create a new Namespace to deploy PDP into <a id="1-start-kubernetes-recommended-admisson-controllers-enabled"></a>
 
@@ -191,13 +191,13 @@ And run the following:
 kubectl apply -f admission-controller.yaml
 ```
 
-You can now check the PDP is online on the control plane.
+You can now check that the PDP is online in the control plane.
 
 ![In this example we set our replicas to 4](../.gitbook/assets/screen-shot-2021-08-03-at-11.39.07.png)
 
 #### 5. Register PDP as an admission controller:
 
-generate the manifest that will be used to register PDP as an admission controller. This webhook will ignore any namespace with the label `build.security/webhook=ignore`.
+Generate the manifest that will be used to register PDP as an admission controller. This webhook will ignore any namespace with the label `build.security/webhook=ignore`.
 
 ```text
 cat > webhook-configuration.yaml <<EOF
@@ -240,7 +240,7 @@ kubectl label ns kube-system build.security/webhook=ignore
 kubectl label ns buildsecurity build.security/webhook=ignore
 ```
 
-Finally, register PDP as an admission controller:
+Finally, register the PDP as an admission controller:
 
 ```text
 kubectl apply -f webhook-configuration.yaml
@@ -297,13 +297,13 @@ kubectl create -f nginx.yaml -n default
 
 Use Decision Logs filters to find the relevant events to nginx:
 
-![Here you could see that if the policy was enforcing the request would have been denied](../.gitbook/assets/screen-shot-2021-08-03-at-14.19.15.png)
+![Here you can see that if the policy was enforcing, the request would have been denied](../.gitbook/assets/screen-shot-2021-08-03-at-14.19.15.png)
 
-Lets now change some of the rules that could have denied the request and publish our changes
+Now let's change some of the rules that could have denied the request and publish our changes
 
 ![Changing K.SEC 06 to Active](../.gitbook/assets/screen-shot-2021-08-03-at-14.22.08.png)
 
-![Publish our changes so it would take effect](../.gitbook/assets/screen-shot-2021-08-03-at-14.22.45.png)
+![Publish the changes so they&apos;ll take effect](../.gitbook/assets/publish-changes.png)
 
 Now, let’s try and recreate nginx. Remember that we expect this operation to fail since the relevant rule is now active
 
