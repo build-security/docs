@@ -21,7 +21,7 @@ This tutorial requires Kubernetes 1.13 or later. To run the tutorial locally ens
 Start minikube:
 
 ```
-$ minikube start
+minikube start
 ```
 
 {% hint style="info" %}
