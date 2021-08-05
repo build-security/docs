@@ -50,13 +50,13 @@ Now let's publish the new policy so it would be served to the PDP once it is dep
 
 When PDP is deployed on top of Kubernetes, policies are automatically loaded whenever you publish a policy using the control plane.
 
-```text
+```bash
 kubectl create namespace buildsecurity
 ```
 
 Configure `kubectl` to use this namespace:
 
-```text
+```bash
 kubectl config set-context pdp-tutorial --user minikube --cluster minikube --namespace buildsecurity
 kubectl config use-context pdp-tutorial
 ```
@@ -65,14 +65,14 @@ kubectl config use-context pdp-tutorial
 
 Communication between Kubernetes and PDP must be secured using TLS. To configure TLS, use `openssl` to create a certificate authority \(CA\) and certificate/key pair for PDP:
 
-```text
+```bash
 openssl genrsa -out ca.key 2048
 openssl req -x509 -new -nodes -key ca.key -days 100000 -out ca.crt -subj "/CN=admission_ca"
 ```
 
 Generate the TLS key and certificate for PDP:
 
-```text
+```bash
 cat >server.conf <<EOF
 [req]
 req_extensions = v3_req
@@ -90,7 +90,7 @@ DNS.1 = pdp.buildsecurity.svc
 EOF
 ```
 
-```text
+```bash
 openssl genrsa -out server.key 2048
 openssl req -new -key server.key -out server.csr -config server.conf
 openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 100000 -extensions v3_req -extfile server.conf
@@ -100,7 +100,7 @@ openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out s
 
 Create a Secret to store the TLS credentials for PDP:
 
-```text
+```bash
 kubectl create secret tls pdp-server --cert=server.crt --key=server.key
 ```
 
@@ -112,7 +112,7 @@ Pay attention to fill your own PDP api key and api secret \(Lines 44 & 46 admiss
 
 **`admission-controller.yaml`**:
 
-```text
+```yaml
 kind: Service
 apiVersion: v1
 metadata:
@@ -187,7 +187,7 @@ spec:
 
 And run the following:
 
-```text
+```bash
 kubectl apply -f admission-controller.yaml
 ```
 
@@ -199,7 +199,7 @@ You can now check that the PDP is online in the control plane.
 
 Generate the manifest that will be used to register PDP as an admission controller. This webhook will ignore any namespace with the label `build.security/webhook=ignore`.
 
-```text
+```bash
 cat > webhook-configuration.yaml <<EOF
 kind: ValidatingWebhookConfiguration
 apiVersion: admissionregistration.k8s.io/v1
@@ -235,20 +235,20 @@ The generated configuration file includes a base64 encoded representation of the
 
 Next label `kube-system` and the `buildsecurity` namespace so that PDP does not control the resources in those namespaces.
 
-```text
+```bash
 kubectl label ns kube-system build.security/webhook=ignore
 kubectl label ns buildsecurity build.security/webhook=ignore
 ```
 
 Finally, register the PDP as an admission controller:
 
-```text
+```bash
 kubectl apply -f webhook-configuration.yaml
 ```
 
 You can follow the PDP logs to see the webhook requests being issued by the Kubernetes API server:
 
-```text
+```bash
 # ctrl-c to exit
 kubectl logs -l app=pdp -c pdp -f
 ```
@@ -263,7 +263,7 @@ Go to Decision Logs to see the requests being made and being sent to the control
 
 `nginx.yaml`
 
-```text
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -291,7 +291,7 @@ spec:
 
 Now lets create the nginx and see the results:
 
-```text
+```bash
 kubectl create -f nginx.yaml -n default
 ```
 
@@ -307,7 +307,7 @@ Now let's change some of the rules that could have denied the request and publis
 
 Now, let’s try and recreate nginx. Remember that we expect this operation to fail since the relevant rule is now active
 
-```text
+```bash
 kubectl delete -f nginx.yaml -n default
 kubectl create -f nginx.yaml -n default
 
