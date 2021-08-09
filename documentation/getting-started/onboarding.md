@@ -2,6 +2,12 @@
 
 Before you begin this tutorial, sign up for build.security for free. This guide will help you set up your first policy, publish it and test it.
 
+## 
+
+{% embed url="https://youtu.be/l9gfm1helLE" %}
+
+
+
 ## Step 1 - Build Your First Policy
 
 A [Policy](../policies/) defines your authorization requirements for allowing or denying users access resources. You can build, modify or view the project's authorization policies at any point.
