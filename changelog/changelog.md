@@ -6,6 +6,16 @@ description: >-
 
 # Changelog - Control Plane
 
+## Version 1.0.1 - August 15, 2021
+
+**Minor Enhancements** 
+
+* [Onboarding video](https://www.youtube.com/watch?v=l9gfm1helLE) 
+* Improve k8s admission control flow 
+* Add data source usage example 
+* Add project id to url 
+* Multiple UI enhancements and bug fixes
+
 ## Version 1.0.0 - July 25, 2021
 
 **Major Features**
