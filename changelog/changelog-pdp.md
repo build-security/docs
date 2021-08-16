@@ -1,5 +1,9 @@
 # Changelog - PDP
 
+## Version 0.4.6 - August 10, 2021
+
+* Version API returns opa-plus version
+
 ## Version 0.4.5 - August 1, 2021
 
 * K8s integration enhancements
